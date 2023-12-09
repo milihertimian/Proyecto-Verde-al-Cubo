@@ -1,0 +1,402 @@
+@font-face {
+    font-family: Gascognebold;
+    src: url(../Fuente/gascogne-bold.ttf);
+}
+
+@font-face {
+    font-family: GascogneSemibold;
+    src: url(../Fuente/Gascogne-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: GascogneMedium;
+    src: url(../Fuente/gascogne-medium.otf);
+}
+
+@font-face {
+    font-family: GascogneRegular;
+    src: url(../Fuente/gascogne-medium.otf);
+}
+
+
+/* ESTILOS GLOBALES */
+
+A {
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+
+/* cursos, sobre nosotros, artículos...*/
+
+header nav ul {
+    list-style-type: none;
+    background-color: #F2EFE3;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 500;
+    padding-left: 0px;
+
+}
+
+/* Logo y cursos, sobre nosotros, artículos...*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2EFE3;
+    position: fixed;
+    border-radius: 15px;
+    height: 31px;
+    width: 1240px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 34px;
+    padding-bottom: 35px;
+    margin: 27px 32px 0px 32px;
+    position: absolute;
+}
+
+/* Cursos solo*/
+
+.cursos {
+    padding-right: 80px;
+    color: #585858;
+}
+
+/* Sobrenosotros solo*/
+
+.sobrenosotros {
+    padding-right: 80px;
+    color: #585858;
+}
+
+/* Artículos solo*/
+
+.artículos {
+    padding-right: 80px;
+    color: #585858;
+}
+
+/* Contacto solo*/
+
+.contacto {
+    padding-right: 80px;
+    color: #585858;
+}
+
+.aulavirtual {
+    color: #585858;
+}
+
+
+
+/* FOOTER */
+
+
+/* Icono de facebook */
+
+.iconofacebook {
+    margin-left: 590px;
+    margin-right: 16px;
+    padding: 4px 4px 4px 4px;
+}
+
+/* Icono de instagram */
+
+.iconoinstagram {
+    margin-right: 16px;
+    padding: 4px 4px 4px 4px;
+}
+
+/* Icono de twitter */
+
+.iconotwitter {
+    margin-right: 16px;
+    padding: 4px 4px 4px 4px;
+}
+
+
+/* Icono de pinterest */
+
+.iconopinterest {
+    margin-right: 16px;
+    padding: 4px 4px 4px 4px;
+}
+
+/* Icono de linkedin */
+
+.iconolinkedin {
+    padding: 4px 4px 4px 4px;
+
+}
+
+footer {
+    background-color: #f2efe3;
+}
+
+footer ul a {
+    color: #585858;
+}
+
+.funcionamiento {
+    background-color: #f2efe3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+/* PORTADA */
+
+/* Toda la portada de inicio */
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* titulo subtitulo y botón */
+
+.container section {
+    width: 720px;
+    height: 700px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 248px;
+    padding-left: 102px;
+    padding-right: 64px;
+    padding-bottom: 123px;
+}
+
+
+/* título: Academia verde al cubo */
+
+.container section h1 {
+    font-family: GascogneSemibold;
+    font-size: 48px;
+    color: #303030;
+    width: 554px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+/* Subtítulo: Descubrí... */
+
+.container section p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 64px;
+    margin-top: 0px;
+    width: 519px;
+    height: 148px;
+}
+
+
+/* botón */
+
+.container section a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FDFDFD;
+    font-family: raleway;
+    padding: 24px 40px 24px 40px;
+    border-radius: 100px;
+    width: 180px;
+    height: 66px;
+    background-color: #266F39;
+}
+
+
+/* CÓMO FUNCIONAN LOS CURSOS */
+
+
+/* cuadrado beige */
+
+.caja2 {
+    width: 818px;
+    height: 640px;
+    border-radius: 12px;
+    background-color: #F2EFE3;
+    padding-left: 91px;
+    padding-right: 92px;
+    padding-bottom: 71px;
+    margin-top: 91px;
+    margin-bottom: 92px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+/* título "¿Cómo funcionan nuestros cursos?" */
+
+section h2 {
+    color: #303030;
+    font-size: 40px;
+    font-family: GascogneMedium;
+    padding: 72px 92px 4px 91px;
+    margin: 0px 0px;
+}
+
+
+/* subtítulos en negrita */
+
+.caja2 h3 {
+    color: #303030;
+    font-size: 20px;
+    font-family: GascogneMedium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 51px 0px 16px 211px;
+}
+
+/* subtítulos en regular */
+
+.caja2 p {
+    color: #585858;
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 211px;
+    margin: 0px;
+    width: 432px;
+    height: 35px;
+
+}
+
+
+/* A QUIENES ESTÁN DIRIGIDOS */
+
+section h4 {
+    font-size: 40px;
+    font-family: GascogneMedium;
+    color: #303030;
+}
+
+section p {
+    color: #585858;
+}
+
+
+section h4 {
+    font-family: GascogneMedium;
+    color: #303030;
+}
+
+
+
+/* VERDE AL CUBO TE GARANTIZA */
+
+
+
+/* CURSOS ONLINE */
+
+/* títulos de cursos */
+
+.caja3 h3 {
+    font-size: 20px;
+    font-family: GascogneMedium;
+    color: #303030;
+
+}
+
+/* Cards de cursos */
+
+.caja3 {
+    width: 292px;
+    height: 439px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+}
+
+
+/* SOBRE NOSOTROS */
+
+
+
+
+
+
+
+
+
+
+
+/* PANTALLA DE CURSOS */
+
+/* Toda la portada de cursos */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* titulo subtitulo y botón */
+
+.container1 section {
+    width: 720px;
+    height: 700px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 210px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 84px;
+}
+
+/* título: Curso de frutos secos... */
+
+.container1 section h2 {
+    font-family: GascogneSemibold;
+    font-size: 40px;
+    color: #303030;
+    width: 519px;
+    line-height: 78px;
+    padding: 0px;
+    margin-bottom: 40px;
+    line-height: 49px;
+
+}
+
+/* Subtítulo: En cultivos con cosechas... */
+
+.container1 section p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 64px;
+    margin-top: 0px;
+    width: 480px;
+}
+
+
+/* botón "inscribirme ahora" */
+
+.container1 section a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FDFDFD;
+    font-family: raleway;
+    padding: 24px 40px 24px 40px;
+    border-radius: 100px;
+    background-color: #266F39;
+}
