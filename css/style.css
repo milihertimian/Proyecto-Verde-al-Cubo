@@ -235,20 +235,21 @@ ul {
     height: 640px;
     border-radius: 12px;
     background-color: #F2EFE3;
-    padding-left: 91px;
-    padding-right: 92px;
-    padding-bottom: 71px;
+    padding-bottom: 106px;
     margin-top: 91px;
-    margin-bottom: 92px;
-    margin-left: 200px;
-    margin-right: 200px;
-
-
+    margin-bottom: 91px;
+    margin-left: 311px;
+    margin-right: 311px;
 }
 
-/* título "¿Cómo funcionan nuestros cursos?" */
 
-section h2 {
+/* título principal "¿Cómo funcionan nuestros cursos?" */
+
+#función {
+    width: 635px;
+}
+
+.caja2 h2 {
     color: #303030;
     font-size: 40px;
     font-family: GascogneMedium;
@@ -256,6 +257,31 @@ section h2 {
     margin: 0px 0px;
 }
 
+
+/* títulos "Aprendé, conectá, contá, participá" */
+
+#aprendé {
+    width: 324px;
+    padding-right: 283px;
+
+}
+
+#conectá {
+    width: 384px;
+    padding-right: 223px;
+
+}
+
+#contá {
+    width: 285px;
+    padding-right: 322px;
+
+}
+
+#participá {
+    width: 334px;
+    padding-right: 273px;
+}
 
 /* subtítulos en negrita */
 
@@ -266,6 +292,10 @@ section h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 51px 0px 16px 211px;
+}
+
+#intercambiá {
+    padding-bottom: 71px;
 }
 
 /* subtítulos en regular */
@@ -285,25 +315,255 @@ section h2 {
 
 /* A QUIENES ESTÁN DIRIGIDOS */
 
-section h4 {
+/* toda la sección: título, subtitulo e imagen */
+
+.dirigidos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* título y subtítulo */
+.dirigidos section h2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 138px;
+    padding-bottom: 0px;
+    width: 458px;
+}
+
+/* contenedor de titulo y subtitulo */
+.ellos {
+    background-color: #CAD3B7;
+    width: 720px;
+    height: 700px;
+}
+
+/*  título "a quienes estan dirigidos" */
+.dirigidos h2 {
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family: GascogneMedium;
     font-size: 40px;
-    font-family: GascogneMedium;
     color: #303030;
 }
 
-section p {
+/*  subtítulo "ingenireros, etc" */
+
+.dirigidos section p {
     color: #585858;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    width: 520px;
+    height: 355px;
+    margin: 0px;
+    line-height: 45px;
+    padding-left: 100px;
 }
 
 
-section h4 {
-    font-family: GascogneMedium;
-    color: #303030;
-}
+
+
+
+
 
 
 
 /* VERDE AL CUBO TE GARANTIZA */
+
+/*  Caja o contenedor beige */
+
+.contener {
+    background-color: #F2EFE3;
+    width: 1440px;
+}
+
+/*  título "Verde al Cubo te garantiza" */
+
+.titulo h2 {
+    color: #303030;
+    font-size: 40px;
+    font-family: GascogneMedium;
+    padding-left: 453px;
+    padding-right: 488px;
+    padding-top: 100px;
+    padding-bottom: 66px;
+    width: 499px;
+    margin: 0px;
+
+}
+
+/* toda la sección: títulos y subtitulos*/
+
+.garantizar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: baseline;
+}
+
+.aprendizaje {
+    text-align: center;
+}
+
+
+
+/* icono de pala*/
+.enfoque img {
+    padding-left: 222px;
+}
+
+/* icono de aprendizaje*/
+
+.aprendizaje img {
+    padding-right: 270px;
+}
+
+/* icono de expertos*/
+
+.expertos img {
+    padding-right: 266px;
+}
+
+
+/* icono de certificado*/
+
+.certificado img {
+    padding-right: 222px;
+}
+
+/* título "enfoque práctico"*/
+.enfoque h3 {
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    padding-left: 167px;
+    padding-right: 137px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin: 0px;
+    width: 158px;
+
+}
+
+/* título "aprendizaje dinámico"*/
+
+.aprendizaje h3 {
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin: 0px;
+    width: 200px;
+
+}
+
+
+/* título "expertos en la industria"*/
+
+.expertos h3 {
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    padding-left: 0px;
+    padding-right: 154px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin: 0px;
+    width: 219px;
+
+}
+
+
+
+/* título "certificado"*/
+
+.certificado h3 {
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    padding-left: 0px;
+    padding-right: 196px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin: 0px;
+    width: 101px;
+
+}
+
+/* subtítulo "diseñamos modalidades"*/
+
+.enfoque p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #585858;
+    width: 265px;
+    margin: 0px;
+    padding-left: 113px;
+    padding-right: 51px;
+    padding-bottom: 123px;
+}
+
+/* subtítulo "brindamos variedad"*/
+
+.aprendizaje p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #585858;
+    width: 265px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 51px;
+    padding-bottom: 123px;
+
+}
+
+
+/* subtítulo "contamos con"*/
+
+.expertos p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #585858;
+    width: 265px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 51px;
+    padding-bottom: 123px;
+
+}
+
+
+
+/* subtítulo "entregamos un"*/
+
+.certificado p {
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #585858;
+    width: 265px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 114px;
+    padding-bottom: 123px;
+
+
+}
 
 
 
