@@ -482,7 +482,6 @@ ul {
 }
 
 
-
 /* título "certificado"*/
 
 .certificado h3 {
@@ -569,13 +568,35 @@ ul {
 
 /* CURSOS ONLINE */
 
-/* títulos de cursos */
 
-.caja3 h3 {
-    font-size: 20px;
+/* fondo de cursos */
+
+.cards {
+
+    width: 1440px;
+    height: 717px;
+}
+
+/* todas las cards */
+
+.todas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* título de cursos "cursos online" */
+
+.cards span h2 {
+    font-size: 40px;
     font-family: GascogneMedium;
     color: #303030;
-
+    margin: 0px;
+    padding-left: 595px;
+    padding-right: 594px;
+    padding-bottom: 63px;
+    width: 251px;
 }
 
 /* Cards de cursos */
@@ -585,6 +606,15 @@ ul {
     height: 439px;
     background-color: #F2EFE3;
     border-radius: 12px;
+}
+
+/* Imágenes de cursos */
+
+.cards div img {
+    padding-top: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 16px;
 }
 
 
