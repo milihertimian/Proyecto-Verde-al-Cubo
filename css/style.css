@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: GascogneMedium;
-    src: url(../Fuente/gascogne-medium.otf);
+    src: url(../Fuente/Gascogne-Medium.ttf);
 }
 
 @font-face {
@@ -26,6 +26,7 @@ A {
 }
 
 
+/*1 PANTALLA DE INICIO */
 
 /* HEADER */
 
@@ -152,12 +153,6 @@ footer ul a {
 ul {
     list-style-type: none;
 }
-
-
-
-
-
-
 
 
 /* PORTADA */
@@ -596,6 +591,7 @@ ul {
     padding-left: 595px;
     padding-right: 594px;
     padding-bottom: 63px;
+    padding-top: 96px;
     width: 251px;
 }
 
@@ -608,29 +604,185 @@ ul {
     border-radius: 12px;
 }
 
+/* Títulos de cards */
+.caja3 h3 {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0px;
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    line-height: 26px;
+    letter-spacing: 2%;
+    height: 40px;
+}
+
+/* Subtítulos de cards */
+
+.caja3 p {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    margin: 0px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    color: #585858;
+    line-height: 20px;
+    letter-spacing: 5%;
+    width: 256px;
+    height: 95px;
+}
+
+
 /* Imágenes de cursos */
 
 .cards div img {
     padding-top: 24px;
     padding-left: 18px;
     padding-right: 18px;
-    padding-bottom: 16px;
+    padding-bottom: 0px;
 }
 
 
 /* SOBRE NOSOTROS */
 
+/* toda la sección */
+
+.sobre-nosotros {
+    display: flex;
+    flex-direction: row;
+}
+
+/* título subtítulo y botón */
+
+.sobre-nosotros section {
+    width: 720px;
+    height: 700px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 108px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 109px;
+}
+
+/* título "Sobre Nosotros" */
+
+.sobre-nosotros section h2 {
+    font-family: GascogneMedium;
+    font-size: 40px;
+    color: #303030;
+    width: 274px;
+    height: 72px;
+    line-height: 72px;
+    margin-bottom: 19px;
+    margin-top: 0px;
+
+}
+
+/* subtítulo "Somos una comunidad" */
+
+.sobre-nosotros section p {
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33.5px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    width: 520px;
+    height: 316px;
+    color: #585858;
+}
+
+/* botón */
+
+.sobre-nosotros section a {
+    font-family: raleway;
+    font-size: 20px;
+    color: #FDFDFD;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+/* FOOTER */
+
+/* los dos listados de academia y comunidad */
+.academia-comunidad {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Título "La academia */
+.academia-comunidad div h3 {
+font-family: Gascognemedium;
+font-size: 20px;
+font-weight: normal;
+color: #303030;
+}
+
+/* Título "Comunidad" */
 
 
 
 
+/* Imagen de la planta " */
+.planta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Logo " */
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Los tres botones de privacidad " */
+.seguridad {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* texto "Politica de privacidad" */
+.privacidad {
+    margin-left: 409px;
+    margin-right: 46px;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 16px;
+    color: #585858;
+}
+
+/* texto "Términos y condiciones" */
+.términos {
+    margin-left: 46px;
+    margin-right: 46px;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 16px;
+    color: #585858;
+}
+
+/* texto "Botón de arrepentimiento" */
+.arrepentimiento {
+    margin-left: 46px;
+    margin-right: 410px;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 16px;
+    color: #585858;
+}
 
 
 
-
-
-
-/* PANTALLA DE CURSOS */
+/*2 PANTALLA DE CURSOS */
 
 /* Toda la portada de cursos */
 
