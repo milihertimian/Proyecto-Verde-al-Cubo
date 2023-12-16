@@ -98,6 +98,8 @@ header {
 
 
 
+
+
 /* PORTADA */
 
 /* Toda la portada de inicio */
@@ -199,26 +201,35 @@ header {
 /* títulos "Aprendé, conectá, contá, participá" */
 
 #aprendé {
-    width: 324px;
+    width: 364px;
     padding-right: 283px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #conectá {
-    width: 384px;
+    width: 424px;
     padding-right: 223px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #contá {
-    width: 285px;
+    width: 325px;
     padding-right: 322px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #participá {
-    width: 334px;
+    width: 374px;
     padding-right: 273px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* subtítulos en negrita */
@@ -229,7 +240,7 @@ header {
     font-family: GascogneMedium;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 51px 0px 16px 211px;
+    padding: 51px 0px 16px 171px;
 }
 
 #intercambiá {
@@ -251,6 +262,9 @@ header {
 }
 
 
+
+
+
 /* A QUIENES ESTÁN DIRIGIDOS */
 
 /* toda la sección: título, subtitulo e imagen */
@@ -259,8 +273,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+    align-items: flex-start;
 
+}
 
 /* título y subtítulo */
 .dirigidos section h2 {
@@ -303,7 +318,9 @@ header {
     padding-left: 100px;
 }
 
-
+#negrita {
+    font-weight: 400;
+}
 
 
 
@@ -338,33 +355,29 @@ header {
 /* toda la sección: títulos y subtitulos*/
 
 .garantizar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-items: baseline;
+    display: grid;
+    grid-template-columns: 403px 316px 316px 403px;
 }
-
-.aprendizaje {
-    text-align: center;
-}
-
 
 
 /* icono de pala*/
 .enfoque img {
-    padding-left: 222px;
+    padding-left: 209px;
+    padding-right: 146px;
 }
 
 /* icono de aprendizaje*/
 
 .aprendizaje img {
-    padding-right: 270px;
+    padding-right: 135px;
+    padding-left: 133px;
 }
 
 /* icono de expertos*/
 
 .expertos img {
-    padding-right: 266px;
+    padding-right: 131px;
+    padding-left: 137px;
 }
 
 
@@ -372,6 +385,7 @@ header {
 
 .certificado img {
     padding-right: 222px;
+    padding-left: 135px;
 }
 
 /* título "enfoque práctico"*/
@@ -379,8 +393,8 @@ header {
     font-family: GascogneMedium;
     font-size: 20px;
     color: #303030;
-    padding-left: 167px;
-    padding-right: 137px;
+    padding-left: 154px;
+    padding-right: 91px;
     padding-bottom: 16px;
     padding-top: 12px;
     margin: 0px;
@@ -394,8 +408,8 @@ header {
     font-family: GascogneMedium;
     font-size: 20px;
     color: #303030;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 57px;
+    padding-right: 59px;
     padding-bottom: 16px;
     padding-top: 12px;
     margin: 0px;
@@ -410,8 +424,8 @@ header {
     font-family: GascogneMedium;
     font-size: 20px;
     color: #303030;
-    padding-left: 0px;
-    padding-right: 154px;
+    padding-left: 51px;
+    padding-right: 46px;
     padding-bottom: 16px;
     padding-top: 12px;
     margin: 0px;
@@ -426,7 +440,7 @@ header {
     font-family: GascogneMedium;
     font-size: 20px;
     color: #303030;
-    padding-left: 0px;
+    padding-left: 108px;
     padding-right: 196px;
     padding-bottom: 16px;
     padding-top: 12px;
@@ -445,8 +459,8 @@ header {
     color: #585858;
     width: 265px;
     margin: 0px;
-    padding-left: 113px;
-    padding-right: 51px;
+    padding-left: 100px;
+    padding-right: 38px;
     padding-bottom: 123px;
 }
 
@@ -460,8 +474,8 @@ header {
     color: #585858;
     width: 265px;
     margin: 0px;
-    padding-left: 0px;
-    padding-right: 51px;
+    padding-left: 24px;
+    padding-right: 27px;
     padding-bottom: 123px;
 
 }
@@ -477,8 +491,8 @@ header {
     color: #585858;
     width: 265px;
     margin: 0px;
-    padding-left: 0px;
-    padding-right: 51px;
+    padding-left: 26px;
+    padding-right: 25px;
     padding-bottom: 123px;
 
 }
@@ -495,12 +509,15 @@ header {
     color: #585858;
     width: 265px;
     margin: 0px;
-    padding-left: 0px;
+    padding-left: 26px;
     padding-right: 114px;
     padding-bottom: 123px;
 
 
 }
+
+
+
 
 
 
@@ -520,7 +537,6 @@ header {
 .todas {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 
@@ -540,18 +556,52 @@ header {
 
 /* Cards de cursos */
 
-.caja3 {
+
+.card-uno {
     width: 292px;
     height: 439px;
     background-color: #F2EFE3;
     border-radius: 12px;
+    margin: 0px;
+    margin-left: 100px;
 }
 
+.card-dos {
+    width: 292px;
+    height: 439px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card-tres {
+    width: 292px;
+    height: 439px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin: 0px;
+    margin-right: 24px;
+}
+
+
+
+.card-cuatro {
+    width: 292px;
+    height: 439px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin: 0px;
+    margin-right: 100px;
+}
+
+
 /* Títulos de cards */
-.caja3 h3 {
+.todas h3 {
     padding-left: 18px;
     padding-right: 18px;
-    padding-top: 16px;
+    padding-top: 8px;
     padding-bottom: 16px;
     margin: 0px;
     font-family: GascogneMedium;
@@ -559,12 +609,13 @@ header {
     color: #303030;
     line-height: 26px;
     letter-spacing: 2%;
-    height: 40px;
+    height: 45px;
+
 }
 
 /* Subtítulos de cards */
 
-.caja3 p {
+.todas p {
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 0px;
@@ -574,12 +625,20 @@ header {
     font-size: 16px;
     font-weight: normal;
     color: #585858;
-    line-height: 20px;
-    letter-spacing: 5%;
     width: 256px;
     height: 95px;
+    text-align: left;
 }
 
+#obtené {
+    line-height: 21px;
+    letter-spacing: 5%;
+}
+
+#otros {
+    line-height: 20px;
+    letter-spacing: 5%;
+}
 
 /* Imágenes de cursos */
 
@@ -587,8 +646,16 @@ header {
     padding-top: 24px;
     padding-left: 18px;
     padding-right: 18px;
-    padding-bottom: 0px;
+
 }
+
+
+
+/* Conocé a tu docente */
+
+.conocé {}
+
+
 
 
 /* SOBRE NOSOTROS */
@@ -607,7 +674,7 @@ header {
     height: 700px;
     background-color: #CAD3B7;
     box-sizing: border-box;
-    padding-top: 108px;
+    padding-top: 90px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 109px;
@@ -622,7 +689,7 @@ header {
     width: 274px;
     height: 72px;
     line-height: 72px;
-    margin-bottom: 19px;
+    margin-bottom: 4px;
     margin-top: 0px;
 
 }
@@ -649,16 +716,15 @@ header {
     color: #FDFDFD;
     font-weight: bold;
     border-radius: 100px;
+    background-color: #266F39;
+
 }
 
 
 
 
 
-
-
-
-
+/* FOOTER */
 
 /* tamaño de fondo */
 
@@ -676,18 +742,18 @@ header {
 
 /* Títulos "Academia y Comunidad */
 .academia-comunidad div h3 {
-font-family: Gascognemedium;
-font-size: 20px;
-font-weight: normal;
-color: #303030;
+    font-family: Gascognemedium;
+    font-size: 20px;
+    font-weight: normal;
+    color: #303030;
 }
 
 /* Título "Academia" */
 .academia {
-padding-left: 154px;
-padding-bottom: 24px;
-padding-top: 50px;
-margin: 0px;
+    padding-left: 154px;
+    padding-bottom: 24px;
+    padding-top: 50px;
+    margin: 0px;
 }
 
 /* Título "Comunidad" */
@@ -702,10 +768,10 @@ margin: 0px;
 /* Subítulos de academia y comunidad */
 
 .academia-comunidad div ul li {
-font-family: Raleway;
-font-size: 16px;
-font-weight: 500;
-padding-bottom: 24px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 24px;
 }
 
 footer ul a {
@@ -717,7 +783,7 @@ ul {
 }
 
 
- /* Subítulos de academia */
+/* Subítulos de academia */
 
 .academia-uno {
     padding-left: 154px;
@@ -725,7 +791,7 @@ ul {
 }
 
 
-  /* Subítulos de comunidad */
+/* Subítulos de comunidad */
 
 .comunidad-uno {
 
@@ -905,22 +971,267 @@ ul {
 
 
 
-/*2 ESTE CURSO INCLUYE */
+/* Este curso incluye / requisito */
 
-.incluye {
-    width: 1440px;
-    height: 822px;
-}
-
+/* fondo beige*/
 .incluye-uno {
     background-color: #F2EFE3;
     width: 1440px;
     height: 480px;
     margin-top: 171px;
     margin-bottom: 171px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* títulos "este curso incluye"*/
+
+.curso {
+    font-family: GascogneMedium;
+    font-size: 40px;
+    font-weight: 400;
+    color: #303030;
+    padding-top: 77px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 380px;
+    margin: 0px;
+    width: 340px;
+}
+
+/* títulos "requisitos"*/
+
+.requisitos {
+    font-family: GascogneMedium;
+    font-size: 40px;
+    font-weight: 400;
+    color: #303030;
+    padding-top: 77px;
+    padding-bottom: 40px;
+    margin-left: 423px;
+    padding-right: 380px;
+    margin: 0px;
+    width: 197px;
+}
+
+/* subtítulos "6 meses"*/
+
+.meses {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+/* subtítulos "10 articulos"*/
+.articulos {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 114px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+/* los otros subtítulos */
+
+#check {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+/* subtitulo de requisito */
+.experiencia {
+    width: 520px;
+    height: 256px;
+    margin: 0px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.6;
+    padding-bottom: 78px;
+
+}
+
+/* conocé a tu docente */
+
+.conocé {
+    display: flex;
+    flex-direction: row;
+}
+
+/* título subtítulo y botón */
+.conocé section {
+    width: 1440px;
+    height: 822px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/* título "Conocé a tu docente" */
+
+.conocé section h2 {
+
+    font-family: GascogneMedium;
+    font-size: 40px;
+    color: #303030;
+    margin-bottom: 40px;
+}
+
+/* subtítulo "Yanina Guzmán..." */
+.conocé section p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    margin: 0px;
+    width: 520px;
+    height: 440px;
+    color: #585858;
+}
+
+/* botón "Ver linkedin" */
+.conocé section a {
+    width: 177px;
+    height: 58;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #266F39;
+    stroke: #266F39;
+    border-radius: 100%;
+}
+
+/* Seccion de Testimonios de estudiantes  */
+
+
+/* caja blanca */
+
+.testimonios {
+    width: 1440px;
+    height: 822px;
+}
+
+/* caja beige */
+#grid {
+    width: 823px;
+    height: 480px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-left: 309px;
+    margin-right: 308px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 317px 508px ;
+grid-template-rows: 480px ;
+}
+
+/* título "testimonios de estudiantes" */
+
+.testimonios {
+    font-size: 40px;
+    font-family: GascogneMedium;
+    color: #303030;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 63px;
+    padding-left: 100px;
+    width: 504px;
+    height: 40px;
+
+}
+
+/* título "Juan Manuel Mazza" */
+.juan {
+    margin: 0px;
+    font-family: GascogneMedium;
+    font-size: 20px;
+    color: #303030;
+    width: 183px;
+    padding-top: 100px;
+    padding-left: 20px;
+    
+
+}
+
+/* Imagen de "Juan Manuel Mazza" */
+
+.foto-juan {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 189px;
 }
 
 
+
+
+/* subtítulo "muy contento por lo aprendido..." */
+
+.testi {
+width: 384px;
+height: 144px;
+padding-left: 20px;
+font-family: Raleway;
+font-weight: 400;
+font-size: 20px;
+color: #585858;
+line-height: 1.5;
+margin-top: 32px;
+margin-bottom: 34px;
+
+}
+
+/* botón "Ver linkedin" */
+.boton-ver {
+color: #266F39;
+font-family: raleway;
+font-weight: bold;
+font-size: 20px;
+background-color: #F2EFE3;
+margin-left: 250px;
+cursor: pointer;
+width: 110px;
+}
+
+/* radio icono */
+
+.radio {
+padding-top: 42px;
+margin-bottom: 31.8px;
+padding-left: 100px;
+}
 
 
 
@@ -979,5 +1290,3 @@ ul {
     color: #585858;
 
 }
-
-
