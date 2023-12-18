@@ -107,6 +107,8 @@ header {
 .container {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 700px;
 }
 
 
@@ -274,6 +276,8 @@ header {
     flex-direction: row;
     align-items: center;
     align-items: flex-start;
+    width: 1440px;
+    height: 700px;
 
 }
 
@@ -462,6 +466,7 @@ header {
     padding-left: 100px;
     padding-right: 38px;
     padding-bottom: 123px;
+    text-align: center;
 }
 
 /* subtítulo "brindamos variedad"*/
@@ -477,6 +482,7 @@ header {
     padding-left: 24px;
     padding-right: 27px;
     padding-bottom: 123px;
+    text-align: center;
 
 }
 
@@ -489,11 +495,12 @@ header {
     font-size: 16px;
     text-align: center;
     color: #585858;
-    width: 265px;
+    width: 250px;
     margin: 0px;
-    padding-left: 26px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 15px;
     padding-bottom: 123px;
+    text-align: center;
 
 }
 
@@ -665,6 +672,8 @@ header {
 .sobre-nosotros {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 700px;
 }
 
 /* título subtítulo y botón */
@@ -717,6 +726,7 @@ header {
     font-weight: bold;
     border-radius: 100px;
     background-color: #266F39;
+    padding: 20px 32px 20px 32px;
 
 }
 
@@ -734,7 +744,7 @@ header {
     background-color: #f2efe3;
 }
 
-/* los dos listados de academia y comunidad */
+/* lista de academia y comunidad + logo + planta */
 .academia-comunidad {
     display: flex;
     flex-direction: row;
@@ -788,6 +798,7 @@ ul {
 .academia-uno {
     padding-left: 154px;
     margin: 0px;
+    width: 114px;
 }
 
 
@@ -797,6 +808,7 @@ ul {
 
     padding-left: 100px;
     margin: 0px;
+    width: 210px;
 }
 
 
@@ -822,39 +834,39 @@ ul {
 .seguridad {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
 /* texto "Politica de privacidad" */
 .privacidad {
-    margin-left: 409px;
-    margin-right: 46px;
-    margin-top: 24px;
-    margin-bottom: 50px;
     font-family: Raleway;
     font-weight: normal;
     font-size: 16px;
     color: #585858;
+    margin: 0px;
+
 }
 
 /* texto "Términos y condiciones" */
 .términos {
-    margin-left: 46px;
-    margin-right: 46px;
     font-family: Raleway;
     font-weight: normal;
     font-size: 16px;
     color: #585858;
+    margin: 0px;
+    padding-left: 46px;
+
 }
 
 /* texto "Botón de arrepentimiento" */
 .arrepentimiento {
-    margin-left: 46px;
-    margin-right: 410px;
     font-family: Raleway;
     font-weight: normal;
     font-size: 16px;
     color: #585858;
+    margin: 0px;
+    padding-left: 46px;
 }
 
 
@@ -865,12 +877,15 @@ ul {
     margin-right: 16px;
     margin-top: 32px;
     padding: 4px 4px 4px 4px;
+    margin-bottom: 24px;
 }
 
 /* Icono de instagram */
 
 .iconoinstagram {
     margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
 
@@ -878,6 +893,8 @@ ul {
 
 .iconotwitter {
     margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
 
@@ -886,12 +903,16 @@ ul {
 
 .iconopinterest {
     margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
 
 /* Icono de linkedin */
 
 .iconolinkedin {
+    margin-top: 32px;
+    margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 
 }
@@ -910,6 +931,8 @@ ul {
 .container-uno {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 700px;
 }
 
 /* titulo subtitulo y botón */
@@ -1084,6 +1107,8 @@ ul {
 .conocé {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 700px;
 }
 
 /* título subtítulo y botón */
@@ -1114,8 +1139,8 @@ ul {
     font-weight: 400;
     font-size: 19px;
     line-height: 1.8;
-    margin-bottom: 40px;
-    margin: 0px;
+    margin-bottom: 60px;
+    margin-top: 0px;
     width: 520px;
     height: 440px;
     color: #585858;
@@ -1131,6 +1156,7 @@ ul {
     color: #266F39;
     stroke: #266F39;
     border-radius: 100%;
+    padding: 20px 32px 20px 32px;
 }
 
 /* Seccion de Testimonios de estudiantes  */
@@ -1153,8 +1179,8 @@ ul {
     margin-right: 308px;
     margin-bottom: 150px;
     display: grid;
-    grid-template-columns: 317px 508px ;
-grid-template-rows: 480px ;
+    grid-template-columns: 317px 508px;
+    grid-template-rows: 480px;
 }
 
 /* título "testimonios de estudiantes" */
@@ -1182,7 +1208,7 @@ grid-template-rows: 480px ;
     width: 183px;
     padding-top: 100px;
     padding-left: 20px;
-    
+
 
 }
 
@@ -1200,37 +1226,37 @@ grid-template-rows: 480px ;
 /* subtítulo "muy contento por lo aprendido..." */
 
 .testi {
-width: 384px;
-height: 144px;
-padding-left: 20px;
-font-family: Raleway;
-font-weight: 400;
-font-size: 20px;
-color: #585858;
-line-height: 1.5;
-margin-top: 32px;
-margin-bottom: 34px;
+    width: 384px;
+    height: 144px;
+    padding-left: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.5;
+    margin-top: 32px;
+    margin-bottom: 34px;
 
 }
 
 /* botón "Ver linkedin" */
 .boton-ver {
-color: #266F39;
-font-family: raleway;
-font-weight: bold;
-font-size: 20px;
-background-color: #F2EFE3;
-margin-left: 250px;
-cursor: pointer;
-width: 110px;
+    color: #266F39;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #F2EFE3;
+    margin-left: 250px;
+    cursor: pointer;
+    width: 110px;
 }
 
 /* radio icono */
 
 .radio {
-padding-top: 42px;
-margin-bottom: 31.8px;
-padding-left: 100px;
+    padding-top: 42px;
+    margin-bottom: 31.8px;
+    padding-left: 100px;
 }
 
 
@@ -1244,6 +1270,8 @@ padding-left: 100px;
 .container-dos {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 700px;
 }
 
 /* titulo subtitulo y botón */
