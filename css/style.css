@@ -203,14 +203,20 @@ header {
 /* títulos "Aprendé, conectá, contá, participá" */
 
 #aprendé {
+    color: #303030;
+    font-size: 20px;
     width: 364px;
     padding-right: 283px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: GascogneMedium;
 }
 
 #conectá {
+    color: #303030;
+    font-size: 20px;
+    font-family: GascogneMedium;
     width: 424px;
     padding-right: 223px;
     display: flex;
@@ -219,6 +225,9 @@ header {
 }
 
 #contá {
+    color: #303030;
+    font-size: 20px;
+    font-family: GascogneMedium;
     width: 325px;
     padding-right: 322px;
     display: flex;
@@ -227,6 +236,9 @@ header {
 }
 
 #participá {
+    color: #303030;
+    font-size: 20px;
+    font-family: GascogneMedium;
     width: 374px;
     padding-right: 273px;
     display: flex;
@@ -1108,7 +1120,7 @@ ul {
     display: flex;
     flex-direction: row;
     width: 1440px;
-    height: 700px;
+    height: 822px;
 }
 
 /* título subtítulo y botón */
@@ -1157,6 +1169,8 @@ ul {
     stroke: #266F39;
     border-radius: 100%;
     padding: 20px 32px 20px 32px;
+    border: solid;
+    border-radius: 100px;
 }
 
 /* Seccion de Testimonios de estudiantes  */
@@ -1246,16 +1260,20 @@ ul {
     font-weight: bold;
     font-size: 20px;
     background-color: #F2EFE3;
-    margin-left: 250px;
+    margin-left: 225px;
     cursor: pointer;
     width: 110px;
+    border: solid;
+    border-radius: 100px;
+    padding: 20px 32px 20px 32px;
+
 }
 
 /* radio icono */
 
 .radio {
     padding-top: 42px;
-    margin-bottom: 31.8px;
+    margin-bottom:0px;
     padding-left: 100px;
 }
 
