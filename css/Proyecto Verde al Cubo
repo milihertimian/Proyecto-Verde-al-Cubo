@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: GascogneMedium ;
-    src: url(../Fuente/gascogne-medium.otf);
+    font-family: gascognemedium ;
+    src: url(../Fuente/gascogne-medium.ttf);
 }
 
 @font-face {

@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     src: url(../fuente/gascogne-medium.ttf);
 }
 
@@ -194,7 +194,7 @@ header {
 .caja2 h2 {
     color: #303030;
     font-size: 40px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     padding: 72px 92px 4px 91px;
     margin: 0px 0px;
 }
@@ -210,13 +210,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
 }
 
 #conectá {
     color: #303030;
     font-size: 20px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     width: 424px;
     padding-right: 223px;
     display: flex;
@@ -227,7 +227,7 @@ header {
 #contá {
     color: #303030;
     font-size: 20px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     width: 325px;
     padding-right: 322px;
     display: flex;
@@ -238,7 +238,7 @@ header {
 #participá {
     color: #303030;
     font-size: 20px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     width: 374px;
     padding-right: 273px;
     display: flex;
@@ -251,7 +251,7 @@ header {
 .caja2 h3 {
     color: #303030;
     font-size: 20px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 51px 0px 16px 171px;
@@ -315,7 +315,7 @@ header {
     margin-bottom: 40px;
     margin-right: 0px;
     margin-top: 0px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 40px;
     color: #303030;
 }
@@ -358,7 +358,7 @@ header {
 .titulo h2 {
     color: #303030;
     font-size: 40px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     padding-left: 453px;
     padding-right: 488px;
     padding-top: 100px;
@@ -406,7 +406,7 @@ header {
 
 /* título "enfoque práctico"*/
 .enfoque h3 {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     padding-left: 154px;
@@ -421,7 +421,7 @@ header {
 /* título "aprendizaje dinámico"*/
 
 .aprendizaje h3 {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     padding-left: 57px;
@@ -437,7 +437,7 @@ header {
 /* título "expertos en la industria"*/
 
 .expertos h3 {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     padding-left: 51px;
@@ -453,7 +453,7 @@ header {
 /* título "certificado"*/
 
 .certificado h3 {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     padding-left: 108px;
@@ -563,7 +563,7 @@ header {
 
 .cards span h2 {
     font-size: 40px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     color: #303030;
     margin: 0px;
     padding-left: 595px;
@@ -623,7 +623,7 @@ header {
     padding-top: 8px;
     padding-bottom: 16px;
     margin: 0px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     line-height: 26px;
@@ -704,7 +704,7 @@ header {
 /* título "Sobre Nosotros" */
 
 .sobre-nosotros section h2 {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 40px;
     color: #303030;
     width: 274px;
@@ -764,7 +764,7 @@ header {
 
 /* Títulos "Academia y Comunidad */
 .academia-comunidad div h3 {
-    font-family: Gascognemedium;
+    font-family: gascognemedium;
     font-size: 20px;
     font-weight: normal;
     color: #303030;
@@ -1023,7 +1023,7 @@ ul {
 /* títulos "este curso incluye"*/
 
 .curso {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 40px;
     font-weight: 400;
     color: #303030;
@@ -1038,7 +1038,7 @@ ul {
 /* títulos "requisitos"*/
 
 .requisitos {
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 40px;
     font-weight: 400;
     color: #303030;
@@ -1139,7 +1139,7 @@ ul {
 
 .conocé section h2 {
 
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 40px;
     color: #303030;
     margin-bottom: 40px;
@@ -1201,7 +1201,7 @@ ul {
 
 .testimonios {
     font-size: 40px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     color: #303030;
     font-weight: 400;
     margin: 0px;
@@ -1216,7 +1216,7 @@ ul {
 /* título "Juan Manuel Mazza" */
 .juan {
     margin: 0px;
-    font-family: GascogneMedium;
+    font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
     width: 183px;
