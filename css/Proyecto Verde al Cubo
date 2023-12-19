@@ -1,22 +1,22 @@
 
 @font-face {
     font-family: Gascognebold ;
-    src: url(../Fuente/gascogne-bold.ttf);
+    src: url(../fuente/gascogne-bold.ttf);
 }
 
 @font-face {
     font-family: GascogneSemibold ;
-    src: url(../Fuente/Gascogne-DemiBold.ttf);
+    src: url(../fuente/gascogne-\ semibold.ttf);
 }
 
 @font-face {
     font-family: gascognemedium ;
-    src: url(../Fuente/gascogne-medium.ttf);
+    src: url(../fuente/gascogne-medium.ttf);
 }
 
 @font-face {
     font-family: GascogneRegular ;
-    src: url(../Fuente/gascogne-medium.otf);
+    src: url(../fuente/gascogne-regular.ttf);
 }
 
 
