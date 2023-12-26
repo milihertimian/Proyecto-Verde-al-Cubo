@@ -25,11 +25,13 @@ A {
     text-decoration: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: auto; /* Cambiado de 'hidden' a 'auto' */
+    overflow: auto;
+    /* Cambiado de 'hidden' a 'auto' */
 }
 
 /*1 PANTALLA DE INICIO */
@@ -187,8 +189,8 @@ header {
     padding-bottom: 106px;
     margin-top: 91px;
     margin-bottom: 91px;
-    margin-left: 311px;
-    margin-right: 311px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -279,8 +281,28 @@ header {
     margin: 0px;
     width: 432px;
     height: 35px;
+}
+
+.ellas {
+ display: flex;
+   flex-direction: row;
+   overflow: hidden;
 
 }
+
+.planta-izquierda {
+ margin-top: 177px;
+ margin-right: 0px;
+ 
+}
+
+.planta-derecha {
+  margin-top: 180px;
+
+
+}
+
+
 
 
 
@@ -790,7 +812,8 @@ header {
 
 .logo-o {
     position: absolute;
-  right: -250px; /* Ajusta el valor según sea necesario para alinear a la derecha */
+    right: -250px;
+    /* Ajusta el valor según sea necesario para alinear a la derecha */
     grid-area: logo;
     height: 148px;
 }
@@ -866,9 +889,9 @@ ul {
 
 /* Imagen de la planta " */
 .planta {
-transform: rotate(-11.32deg);
-margin-left: -50px;
-margin-top: -10px;
+    transform: rotate(-11.32deg);
+    margin-left: -50px;
+    margin-top: -10px;
 }
 
 
@@ -876,8 +899,10 @@ margin-top: -10px;
 .logo-o {
     grid-area: logo;
     height: 148px;
-    margin-top: 50px; /* Ajusta según sea necesario */
-    margin-right: 50px; /* Ajusta según sea necesario */
+    margin-top: 50px;
+    /* Ajusta según sea necesario */
+    margin-right: 50px;
+    /* Ajusta según sea necesario */
     position: relative;
     width: 309px;
     height: 47px;
@@ -912,7 +937,7 @@ margin-top: -10px;
     color: #585858;
     padding-left: 46px;
     white-space: nowrap;
-    margin-top: 70px; 
+    margin-top: 70px;
 }
 
 /* texto "Botón de arrepentimiento" */
