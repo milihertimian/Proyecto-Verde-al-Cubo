@@ -284,20 +284,20 @@ header {
 }
 
 .ellas {
- display: flex;
-   flex-direction: row;
-   overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 
 }
 
 .planta-izquierda {
- margin-top: 177px;
- margin-right: 0px;
- 
+    margin-top: 177px;
+    margin-right: 0px;
+
 }
 
 .planta-derecha {
-  margin-top: 180px;
+    margin-top: 180px;
 
 
 }
@@ -591,7 +591,6 @@ header {
 /* título de cursos "cursos online" */
 
 .cards span h2 {
-    font-size: 40px;
     font-family: gascognemedium;
     color: #303030;
     margin: 0px;
@@ -699,14 +698,18 @@ header {
 
 
 
-/* Conocé a tu docente */
 
-.conocé {}
+
+
+
+
 
 
 
 
 /* SOBRE NOSOTROS */
+
+/* SECCIÓN SOBRE NOSOTROS */
 
 /* toda la sección */
 
@@ -758,18 +761,615 @@ header {
     color: #585858;
 }
 
-/* botón */
 
-.sobre-nosotros section a {
+
+
+
+
+/* SECCIÓN "NUESTRO EQUIPO"" */
+
+/* título "Nuestro equipo" */
+
+.nuestro-equipo div h2 {
+font-size: 40px;
+font-family: gascognemedium;
+font-weight: normal;
+color: #303030;
+margin-left: 574px;
+margin-bottom: 63px;
+margin-top: 79px;
+}
+
+/* botón "ver linkedin" */
+
+#boton-sobrenosotros {
     font-family: raleway;
     font-size: 20px;
-    color: #FDFDFD;
+    color: #266F39;
     font-weight: bold;
     border-radius: 100px;
+    padding: 20px 32px 20px 20px;
+}
+
+/* todas las cards */
+
+.todas-equipo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* cajas de cards */
+#caja-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 24px;
+}
+
+#primera-card-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 92px;
+}
+
+#última-card-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 24px;
+    margin-right: 108px;
+}
+
+/* imagenes de cards */
+#caja-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+#primera-card-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+#última-card-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+/* títulos de cards */
+
+#caja-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
+
+#última-card-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
+
+#primera-card-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+} 
+
+/* subtítulos de cards "docente en..."*/
+
+#caja-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1,5;
+    width: 252px;
+}
+
+#última-card-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1,5;
+    width: 252px;
+
+}
+
+#primera-card-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1,5;
+    width: 252px;
+}
+
+/* VIDEO - SOBRENOSOTROS */
+
+.caja-video {
+    width: 1440px;
+    height: 822px;
+    background-color: #CAD3B7;
+
+}
+
+.caja-hija-nueve {
+width: 1240px;
+height: 622px;
+margin: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+/*2 ¡¡¡PANTALLA DE CURSOS!!! */
+
+/*2 PORTADA */
+
+/* Toda la portada de cursos */
+
+.container-uno {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 700px;
+}
+
+
+/* titulo subtitulo y botón */
+
+.container-uno section {
+    width: 720px;
+    height: 700px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 210px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 84px;
+}
+
+
+/* título: Curso de frutos secos... */
+
+.container-uno section h2 {
+    font-family: GascogneSemibold;
+    font-size: 40px;
+    color: #303030;
+    width: 519px;
+    line-height: 78px;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    line-height: 49px;
+
+}
+
+
+/* Subtítulo: En cultivos con cosechas... */
+
+.container-uno section p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 64px;
+    margin-top: 0px;
+    width: 480px;
+    color: #585858;
+}
+
+
+/* botón "inscribirme ahora" */
+
+.container-uno section a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FDFDFD;
+    font-family: raleway;
+    padding: 24px 40px 24px 40px;
+    border-radius: 100px;
     background-color: #266F39;
+}
+
+
+/* Este curso incluye / requisito */
+
+/* fondo beige*/
+.incluye-uno {
+    background-color: #F2EFE3;
+    width: 1440px;
+    height: 480px;
+    margin-top: 171px;
+    margin-bottom: 171px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* títulos "este curso incluye"*/
+
+.curso {
+    font-family: gascognemedium;
+    font-size: 40px;
+    font-weight: 400;
+    color: #303030;
+    padding-top: 77px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 380px;
+    margin: 0px;
+    width: 340px;
+}
+
+
+/* títulos "requisitos"*/
+
+.requisitos {
+    font-family: gascognemedium;
+    font-size: 40px;
+    font-weight: 400;
+    color: #303030;
+    padding-top: 77px;
+    padding-bottom: 40px;
+    margin-left: 423px;
+    padding-right: 380px;
+    margin: 0px;
+    width: 197px;
+}
+
+
+/* subtítulos "6 meses"*/
+
+.meses {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+
+/* subtítulos "10 articulos"*/
+.articulos {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 114px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+
+/* los otros subtítulos */
+
+#check {
+    margin: 0px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 23.5;
+}
+
+
+/* subtitulo de requisito */
+.experiencia {
+    width: 520px;
+    height: 256px;
+    margin: 0px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.6;
+    padding-bottom: 78px;
+
+}
+
+
+/* conocé a tu docente */
+
+.conocé {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 822px;
+}
+
+
+/* título subtítulo y botón */
+.conocé section {
+    width: 1440px;
+    height: 822px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+/* título "Conocé a tu docente" */
+
+.conocé section h2 {
+
+    font-family: gascognemedium;
+    font-size: 40px;
+    color: #303030;
+    margin-bottom: 40px;
+}
+
+
+/* subtítulo "Yanina Guzmán..." */
+.conocé section p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    width: 520px;
+    height: 440px;
+    color: #585858;
+}
+
+
+/* botón "Ver linkedin" */
+.conocé section a {
+    width: 177px;
+    height: 58;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #266F39;
+    stroke: #266F39;
+    border-radius: 100%;
+    padding: 20px 32px 20px 32px;
+    border: solid;
+    border-radius: 100px;
+}
+
+/* Seccion de Testimonios de estudiantes  */
+
+
+/* caja blanca */
+
+.testimonios {
+    width: 1440px;
+    height: 822px;
+}
+
+
+/* caja beige */
+#grid {
+    width: 823px;
+    height: 480px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-left: 309px;
+    margin-right: 308px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 317px 508px;
+    grid-template-rows: 480px;
+}
+
+
+/* título "testimonios de estudiantes" */
+
+.testimonios {
+    font-size: 40px;
+    font-family: gascognemedium;
+    color: #303030;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 63px;
+    padding-left: 100px;
+    width: 504px;
+    height: 40px;
+
+}
+
+
+/* título "Juan Manuel Mazza" */
+.juan {
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+    width: 183px;
+    padding-top: 100px;
+    padding-left: 20px;
+
+
+}
+
+
+/* Imagen de "Juan Manuel Mazza" */
+
+.foto-juan {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 189px;
+}
+
+
+/* subtítulo "muy contento por lo aprendido..." */
+
+.testi {
+    width: 384px;
+    height: 144px;
+    padding-left: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.5;
+    margin-top: 32px;
+    margin-bottom: 34px;
+
+}
+
+
+/* botón "Ver linkedin" */
+.boton-ver {
+    color: #266F39;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #F2EFE3;
+    margin-left: 225px;
+    cursor: pointer;
+    width: 110px;
+    border: solid;
+    border-radius: 100px;
     padding: 20px 32px 20px 32px;
 
 }
+
+
+/* radio icono */
+
+.radio {
+    padding-top: 42px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*3 ¡¡¡PANTALLA DE SOBRE NOSOTROS!!! */
+
+/*3 PORTADA */
+
+/* Toda la portada de Sobre nosotros */
+
+.container-dos {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 700px;
+}
+
+
+/* titulo subtitulo y botón */
+
+.container-dos section {
+    width: 720px;
+    height: 700px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 221px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 94px;
+}
+
+
+/* título: Sobre nosotros */
+
+.container-dos section h2 {
+    font-family: GascogneSemibold;
+    font-size: 40px;
+    color: #303030;
+    width: 519px;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    line-height: 49px;
+
+}
+
+
+/* Subtítulo: Somos una comunidad... */
+
+.container-dos section p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 519px;
+    height: 316px;
+    color: #585858;
+
+}
+
+
+
+
+
+
 
 
 
@@ -1002,413 +1602,5 @@ ul {
     margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
-
-}
-
-
-
-
-
-
-/*2 ¡¡¡PANTALLA DE CURSOS!!! */
-
-/*2 PORTADA */
-
-/* Toda la portada de cursos */
-
-.container-uno {
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    height: 700px;
-}
-
-/* titulo subtitulo y botón */
-
-.container-uno section {
-    width: 720px;
-    height: 700px;
-    background-color: #CAD3B7;
-    box-sizing: border-box;
-    padding-top: 210px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 84px;
-}
-
-
-/* título: Curso de frutos secos... */
-
-.container-uno section h2 {
-    font-family: GascogneSemibold;
-    font-size: 40px;
-    color: #303030;
-    width: 519px;
-    line-height: 78px;
-    padding: 0px;
-    margin-bottom: 40px;
-    margin-top: 0px;
-    line-height: 49px;
-
-}
-
-
-
-/* Subtítulo: En cultivos con cosechas... */
-
-.container-uno section p {
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 64px;
-    margin-top: 0px;
-    width: 480px;
-    color: #585858;
-}
-
-
-/* botón "inscribirme ahora" */
-
-.container-uno section a {
-    font-size: 20px;
-    font-weight: bold;
-    color: #FDFDFD;
-    font-family: raleway;
-    padding: 24px 40px 24px 40px;
-    border-radius: 100px;
-    background-color: #266F39;
-}
-
-
-
-/* Este curso incluye / requisito */
-
-/* fondo beige*/
-.incluye-uno {
-    background-color: #F2EFE3;
-    width: 1440px;
-    height: 480px;
-    margin-top: 171px;
-    margin-bottom: 171px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-/* títulos "este curso incluye"*/
-
-.curso {
-    font-family: gascognemedium;
-    font-size: 40px;
-    font-weight: 400;
-    color: #303030;
-    padding-top: 77px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 380px;
-    margin: 0px;
-    width: 340px;
-}
-
-/* títulos "requisitos"*/
-
-.requisitos {
-    font-family: gascognemedium;
-    font-size: 40px;
-    font-weight: 400;
-    color: #303030;
-    padding-top: 77px;
-    padding-bottom: 40px;
-    margin-left: 423px;
-    padding-right: 380px;
-    margin: 0px;
-    width: 197px;
-}
-
-/* subtítulos "6 meses"*/
-
-.meses {
-    margin: 0px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    color: #585858;
-    line-height: 23.5;
-}
-
-/* subtítulos "10 articulos"*/
-.articulos {
-    margin: 0px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 114px;
-    padding-left: 100px;
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    color: #585858;
-    line-height: 23.5;
-}
-
-/* los otros subtítulos */
-
-#check {
-    margin: 0px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    color: #585858;
-    line-height: 23.5;
-}
-
-/* subtitulo de requisito */
-.experiencia {
-    width: 520px;
-    height: 256px;
-    margin: 0px;
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    color: #585858;
-    line-height: 1.6;
-    padding-bottom: 78px;
-
-}
-
-/* conocé a tu docente */
-
-.conocé {
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    height: 822px;
-}
-
-/* título subtítulo y botón */
-.conocé section {
-    width: 1440px;
-    height: 822px;
-    background-color: #CAD3B7;
-    box-sizing: border-box;
-    padding-top: 76px;
-    padding-bottom: 76px;
-    padding-right: 100px;
-    padding-left: 100px;
-}
-
-/* título "Conocé a tu docente" */
-
-.conocé section h2 {
-
-    font-family: gascognemedium;
-    font-size: 40px;
-    color: #303030;
-    margin-bottom: 40px;
-}
-
-/* subtítulo "Yanina Guzmán..." */
-.conocé section p {
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 1.8;
-    margin-bottom: 60px;
-    margin-top: 0px;
-    width: 520px;
-    height: 440px;
-    color: #585858;
-}
-
-/* botón "Ver linkedin" */
-.conocé section a {
-    width: 177px;
-    height: 58;
-    font-size: 20px;
-    font-family: Raleway;
-    font-weight: bold;
-    color: #266F39;
-    stroke: #266F39;
-    border-radius: 100%;
-    padding: 20px 32px 20px 32px;
-    border: solid;
-    border-radius: 100px;
-}
-
-/* Seccion de Testimonios de estudiantes  */
-
-
-/* caja blanca */
-
-.testimonios {
-    width: 1440px;
-    height: 822px;
-}
-
-/* caja beige */
-#grid {
-    width: 823px;
-    height: 480px;
-    background-color: #F2EFE3;
-    border-radius: 12px;
-    margin-left: 309px;
-    margin-right: 308px;
-    margin-bottom: 150px;
-    display: grid;
-    grid-template-columns: 317px 508px;
-    grid-template-rows: 480px;
-}
-
-/* título "testimonios de estudiantes" */
-
-.testimonios {
-    font-size: 40px;
-    font-family: gascognemedium;
-    color: #303030;
-    font-weight: 400;
-    margin: 0px;
-    padding-top: 100px;
-    padding-bottom: 63px;
-    padding-left: 100px;
-    width: 504px;
-    height: 40px;
-
-}
-
-/* título "Juan Manuel Mazza" */
-.juan {
-    margin: 0px;
-    font-family: gascognemedium;
-    font-size: 20px;
-    color: #303030;
-    width: 183px;
-    padding-top: 100px;
-    padding-left: 20px;
-
-
-}
-
-/* Imagen de "Juan Manuel Mazza" */
-
-.foto-juan {
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 189px;
-}
-
-
-
-
-/* subtítulo "muy contento por lo aprendido..." */
-
-.testi {
-    width: 384px;
-    height: 144px;
-    padding-left: 20px;
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 20px;
-    color: #585858;
-    line-height: 1.5;
-    margin-top: 32px;
-    margin-bottom: 34px;
-
-}
-
-/* botón "Ver linkedin" */
-.boton-ver {
-    color: #266F39;
-    font-family: raleway;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #F2EFE3;
-    margin-left: 225px;
-    cursor: pointer;
-    width: 110px;
-    border: solid;
-    border-radius: 100px;
-    padding: 20px 32px 20px 32px;
-
-}
-
-/* radio icono */
-
-.radio {
-    padding-top: 42px;
-    margin-bottom: 0px;
-    padding-left: 50px;
-}
-
-
-
-/*3 ¡¡¡PANTALLA DE SOBRE NOSOTROS!!! */
-
-/*3 PORTADA */
-
-/* Toda la portada de Sobre nosotros */
-
-.container-dos {
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    height: 700px;
-}
-
-/* titulo subtitulo y botón */
-
-.container-dos section {
-    width: 720px;
-    height: 700px;
-    background-color: #CAD3B7;
-    box-sizing: border-box;
-    padding-top: 221px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 94px;
-}
-
-
-/* título: Sobre nosotros */
-
-.container-dos section h2 {
-    font-family: GascogneSemibold;
-    font-size: 40px;
-    color: #303030;
-    width: 519px;
-    padding: 0px;
-    margin-bottom: 40px;
-    margin-top: 0px;
-    line-height: 49px;
-
-}
-
-
-
-/* Subtítulo: Somos una comunidad... */
-
-.container-dos section p {
-    font-family: raleway;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    width: 519px;
-    height: 316px;
-    color: #585858;
 
 }
