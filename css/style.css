@@ -25,6 +25,12 @@ A {
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Cambiado de 'hidden' a 'auto' */
+}
 
 /*1 PANTALLA DE INICIO */
 
@@ -104,7 +110,7 @@ header {
 
 /* Toda la portada de inicio */
 
-.container {
+.verde-al-cubo {
     display: flex;
     flex-direction: row;
     width: 1440px;
@@ -114,7 +120,7 @@ header {
 
 /* titulo subtitulo y botón */
 
-.container section {
+.verde-al-cubo section {
     width: 720px;
     height: 700px;
     background-color: #CAD3B7;
@@ -128,7 +134,7 @@ header {
 
 /* título: Academia verde al cubo */
 
-.container section h1 {
+.verde-al-cubo section h1 {
     font-family: GascogneSemibold;
     font-size: 48px;
     color: #303030;
@@ -140,7 +146,7 @@ header {
 
 /* Subtítulo: Descubrí... */
 
-.container section p {
+.verde-al-cubo section p {
     font-family: raleway;
     font-weight: normal;
     font-size: 20px;
@@ -149,12 +155,13 @@ header {
     margin-top: 0px;
     width: 519px;
     height: 148px;
+    color: #585858;
 }
 
 
 /* botón */
 
-.container section a {
+.verde-al-cubo section a {
     font-size: 20px;
     font-weight: bold;
     color: #FDFDFD;
@@ -750,13 +757,12 @@ header {
 
 /* tamaño de fondo */
 
-
-
-
 .footer {
     width: 1440px;
     height: 421px;
     background-color: #f2efe3;
+    position: relative;
+    overflow: hidden;
 }
 
 /* lista de academia y comunidad + logo + planta + privacidad e iconos */
@@ -783,6 +789,8 @@ header {
 }
 
 .logo-o {
+    position: absolute;
+  right: -250px; /* Ajusta el valor según sea necesario para alinear a la derecha */
     grid-area: logo;
     height: 148px;
 }
@@ -858,16 +866,22 @@ ul {
 
 /* Imagen de la planta " */
 .planta {
-
-    rotate: -6.14°;
+transform: rotate(-11.32deg);
+margin-left: -50px;
+margin-top: -10px;
 }
 
 
 /* Logo " */
-.logo {
+.logo-o {
+    grid-area: logo;
+    height: 148px;
+    margin-top: 50px; /* Ajusta según sea necesario */
+    margin-right: 50px; /* Ajusta según sea necesario */
+    position: relative;
+    width: 309px;
+    height: 47px;
 
-    padding-top: 50px;
-    padding-right: 174px;
 }
 
 
@@ -876,6 +890,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 680px;
 }
 
 
@@ -885,8 +900,8 @@ ul {
     font-weight: normal;
     font-size: 16px;
     color: #585858;
-
-
+    white-space: nowrap;
+    margin-top: 70px;
 }
 
 /* texto "Términos y condiciones" */
@@ -895,9 +910,9 @@ ul {
     font-weight: normal;
     font-size: 16px;
     color: #585858;
-
     padding-left: 46px;
-
+    white-space: nowrap;
+    margin-top: 70px; 
 }
 
 /* texto "Botón de arrepentimiento" */
@@ -907,6 +922,14 @@ ul {
     font-size: 16px;
     color: #585858;
     padding-left: 46px;
+    white-space: nowrap;
+    margin-top: 70px;
+}
+
+/* todos los iconos */
+
+.iconos-s {
+    display: flex;
 }
 
 
@@ -915,7 +938,7 @@ ul {
 .iconofacebook {
     margin-left: 590px;
     margin-right: 16px;
-    margin-top: 32px;
+    margin-top: 100px;
     padding: 4px 4px 4px 4px;
     margin-bottom: 24px;
 }
@@ -924,7 +947,7 @@ ul {
 
 .iconoinstagram {
     margin-right: 16px;
-    margin-top: 32px;
+    margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
@@ -933,7 +956,7 @@ ul {
 
 .iconotwitter {
     margin-right: 16px;
-    margin-top: 32px;
+    margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
@@ -943,7 +966,7 @@ ul {
 
 .iconopinterest {
     margin-right: 16px;
-    margin-top: 32px;
+    margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 }
@@ -951,7 +974,7 @@ ul {
 /* Icono de linkedin */
 
 .iconolinkedin {
-    margin-top: 32px;
+    margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
 
