@@ -761,8 +761,18 @@ header {
     color: #585858;
 }
 
+/* boton "conocer más" */
 
+.boton-sobrenosotros-uno {
 
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FDFDFD;
+    padding: 20px 32px 20px 32px;
+    background-color: #266F39;
+    border-radius: 100px;
+}
 
 
 
