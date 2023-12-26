@@ -34,6 +34,9 @@ body {
     /* Cambiado de 'hidden' a 'auto' */
 }
 
+
+
+
 /*1 PANTALLA DE INICIO */
 
 /* HEADER */
@@ -103,10 +106,6 @@ header {
 .aulavirtual {
     color: #585858;
 }
-
-
-
-
 
 /* PORTADA */
 
@@ -771,13 +770,13 @@ header {
 /* título "Nuestro equipo" */
 
 .nuestro-equipo div h2 {
-font-size: 40px;
-font-family: gascognemedium;
-font-weight: normal;
-color: #303030;
-margin-left: 574px;
-margin-bottom: 63px;
-margin-top: 79px;
+    font-size: 40px;
+    font-family: gascognemedium;
+    font-weight: normal;
+    color: #303030;
+    margin-left: 574px;
+    margin-bottom: 63px;
+    margin-top: 79px;
 }
 
 /* botón "ver linkedin" */
@@ -873,7 +872,7 @@ margin-top: 79px;
     font-family: gascognemedium;
     font-size: 20px;
     color: #303030;
-} 
+}
 
 /* subtítulos de cards "docente en..."*/
 
@@ -886,7 +885,7 @@ margin-top: 79px;
     font-family: raleway;
     font-weight: normal;
     color: #585858;
-    line-height: 1,5;
+    line-height: 1, 5;
     width: 252px;
 }
 
@@ -899,7 +898,7 @@ margin-top: 79px;
     font-family: raleway;
     font-weight: normal;
     color: #585858;
-    line-height: 1,5;
+    line-height: 1, 5;
     width: 252px;
 
 }
@@ -913,7 +912,7 @@ margin-top: 79px;
     font-family: raleway;
     font-weight: normal;
     color: #585858;
-    line-height: 1,5;
+    line-height: 1, 5;
     width: 252px;
 }
 
@@ -927,16 +926,11 @@ margin-top: 79px;
 }
 
 .caja-hija-nueve {
-width: 1240px;
-height: 622px;
-margin: 100px;
+    width: 1240px;
+    height: 622px;
+    margin: 100px;
 
 }
-
-
-
-
-
 
 
 
@@ -1370,12 +1364,142 @@ margin: 100px;
 
 
 
+/*4 ¡¡¡PANTALLA DE ARTICULOS!!! */
+
+/* Caja de articulo de producción */
+
+.produccion-industrial {
+    display: flex;
+    width: 1240px;
+    height: 509px;
+    background-color: #F2EFE3;
+    margin-top: 64px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 12px;
+}
+
+/* título "artículos" */
+
+.articulos-titulo h2 {
+padding-top: 227px;
+padding-left: 100px;
+font-family: gascognesemibold;
+font-size: 40px;
+font-weight: normal;
+margin: 0px 0px 0px 0px;
+height: 40px;
+}
+
+/* título "Producción industrial de sales" */
+.produccion-industrial div h4 {
+font-family: gascognemedium;
+font-size: 32px;
+font-weight: normal;
+color: #303030;
+width: 598px;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 60px;
+padding-bottom: 42px;
+margin: 0px 0px 0px 0px;
+}
+
+/* subtítulo "las plantas utilizan luz..." */
+.produccion-industrial div p {
+font-family: raleway;
+font-weight: normal;
+font-size: 20px;
+margin: 0px 0px 0px 0px;
+width: 598px;
+height: 182px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 62px;
+line-height: 150%;
+
+}
+
+/* boton "leer más"*/
+#boton-leer-mas {
+font-family: raleway;
+font-size: 20px;
+font-weight: bold;
+color: #FDFDFD;
+padding: 20px 32px 20px 32px;
+background-color: #266F39;
+border-radius: 100px;
+margin-left: 64px;
+}
+
+
+
+
+/* Caja de hidroponia*/
+
+.hidroponia {
+    display: flex;
+    width: 1240px;
+    height: 509px;
+    background-color: #F2EFE3;
+    margin-top: 64px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 12px;
+    
+}
+
+
+/* título "¿hidroponia con o sin?" */
+.hidroponia div h4 {
+font-family: gascognemedium;
+font-size: 32px;
+font-weight: normal;
+color: #303030;
+width: 598px;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 60px;
+padding-bottom: 42px;
+margin: 0px 0px 0px 0px;
+}
+
+/* subtítulo "Muchas veces,cuando hablamos..." */
+.hidroponia div p {
+font-family: raleway;
+font-weight: normal;
+font-size: 20px;
+margin: 0px 0px 0px 0px;
+width: 598px;
+height: 182px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 62px;
+line-height: 150%;
+
+}
 
 
 
 
 
-/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*6 FOOTER */
 
 /* tamaño de fondo */
 
