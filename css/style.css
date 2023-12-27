@@ -1393,54 +1393,54 @@ header {
 /* título "artículos" */
 
 .articulos-titulo h2 {
-padding-top: 227px;
-padding-left: 100px;
-font-family: gascognesemibold;
-font-size: 40px;
-font-weight: normal;
-margin: 0px 0px 0px 0px;
-height: 40px;
+    padding-top: 227px;
+    padding-left: 100px;
+    font-family: gascognesemibold;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    height: 40px;
 }
 
 /* título "Producción industrial de sales" */
 .produccion-industrial div h4 {
-font-family: gascognemedium;
-font-size: 32px;
-font-weight: normal;
-color: #303030;
-width: 598px;
-padding-left: 60px;
-padding-right: 60px;
-padding-top: 60px;
-padding-bottom: 42px;
-margin: 0px 0px 0px 0px;
+    font-family: gascognemedium;
+    font-size: 32px;
+    font-weight: normal;
+    color: #303030;
+    width: 598px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 42px;
+    margin: 0px 0px 0px 0px;
 }
 
 /* subtítulo "las plantas utilizan luz..." */
 .produccion-industrial div p {
-font-family: raleway;
-font-weight: normal;
-font-size: 20px;
-margin: 0px 0px 0px 0px;
-width: 598px;
-height: 182px;
-padding-left: 60px;
-padding-right: 60px;
-padding-bottom: 62px;
-line-height: 150%;
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    width: 598px;
+    height: 182px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 62px;
+    line-height: 150%;
 
 }
 
 /* boton "leer más"*/
 #boton-leer-mas {
-font-family: raleway;
-font-size: 20px;
-font-weight: bold;
-color: #FDFDFD;
-padding: 20px 32px 20px 32px;
-background-color: #266F39;
-border-radius: 100px;
-margin-left: 64px;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FDFDFD;
+    padding: 20px 32px 20px 32px;
+    background-color: #266F39;
+    border-radius: 100px;
+    margin-left: 64px;
 }
 
 
@@ -1458,55 +1458,175 @@ margin-left: 64px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 12px;
-    
+
 }
 
 
 /* título "¿hidroponia con o sin?" */
 .hidroponia div h4 {
-font-family: gascognemedium;
-font-size: 32px;
-font-weight: normal;
-color: #303030;
-width: 598px;
-padding-left: 60px;
-padding-right: 60px;
-padding-top: 60px;
-padding-bottom: 42px;
-margin: 0px 0px 0px 0px;
+    font-family: gascognemedium;
+    font-size: 32px;
+    font-weight: normal;
+    color: #303030;
+    width: 598px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 42px;
+    margin: 0px 0px 0px 0px;
 }
 
 /* subtítulo "Muchas veces,cuando hablamos..." */
 .hidroponia div p {
-font-family: raleway;
-font-weight: normal;
-font-size: 20px;
-margin: 0px 0px 0px 0px;
-width: 598px;
-height: 182px;
-padding-left: 60px;
-padding-right: 60px;
-padding-bottom: 62px;
-line-height: 150%;
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    width: 598px;
+    height: 182px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 62px;
+    line-height: 150%;
 
 }
 
 
+/*6 CONTACTANOS */
+
+/* caja beige */
+
+.cuadrado-beige {
+
+    width: 818px;
+    height: 686px;
+    background-color: #F2EFE3;
+    margin-top: 251px;
+    margin-right: 311px;
+    margin-left: 311px;
+    margin-bottom: 124px;
+    border-radius: 12px;
+}
+
+/* título "contactanos" */
+
+.cuadrado-beige div h2 {
+    font-family: gascognemedium;
+    font-size: 40px;
+    font-weight: 400;
+    color: #303030;
+    width: 240px;
+    padding-top: 80px;
+    margin-left: 123px;
+    margin-bottom: 0px;
+}
+
+/* input entero de nombre completo, correo y tu mensaje */
+
+.input-completo {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-completo-uno {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-completo-dos {
+    display: flex;
+    flex-direction: column;
+}
 
 
+/* texto de nombre completo */
+
+.nombre-completo {
+    font-family: gascognemedium;
+    font-size: 20px;
+    margin-top: 64px;
+    margin-left: 127px;
+    margin-bottom: 16px;
+}
 
 
+/* texto de correo electronico */
+
+.correo-electronico {
+    font-family: gascognemedium;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
 
 
+/* texto de "tu mensaje" */
+
+.tu-mensaje {
+    font-family: gascognemedium;
+    font-size: 20px;
+    margin-left: 127px;
+    margin-bottom: 16px;
+    margin-top: 56px;
+}
+
+/* input de nombre completo */
+.input-solo {
+    width: 250px;
+    height: 24px;
+    margin-left: 127px;
+    background-color: #F2EFE3;
+    border-color: #656565;
+    border-width: 1px;
+    border-radius: 5px;
+}
 
 
+/* input de correo */
+.input-solo-uno {
+    width: 250px;
+    height: 24px;
+    margin-left: 127px;
+    background-color: #F2EFE3;
+    border-color: #656565;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+/* input de "tu mensaje" */
+
+.input-solo-dos {
+    width: 569px;
+    height: 159px;
+    margin-left: 127px;
+    background-color: #F2EFE3;
+    border-color: #656565;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 76px;
+}
+
+/* hacer dos filas, una para nombre y otra para correo */
+
+.row-fila {
+    display: flex;
+    flex-direction: row;
+}
 
 
+/* boton de "enviar consulta" */
 
-
-
-
-
+.boton-enviar-consulta {
+    color: #FDFDFD;
+    padding: 20px 32px 20px 32px;
+    background-color: #266F39;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-left: 127px;
+}
 
 
 
