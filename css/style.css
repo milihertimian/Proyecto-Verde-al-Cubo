@@ -114,8 +114,9 @@ header {
 .verde-al-cubo {
     display: flex;
     flex-direction: row;
-    width: 1440px;
+    overflow: hidden;
     height: 700px;
+    max-width: 100%; 
 }
 
 
@@ -188,8 +189,9 @@ header {
     padding-bottom: 106px;
     margin-top: 91px;
     margin-bottom: 91px;
-    margin-left: auto;
+    margin-left: -50px; 
     margin-right: auto;
+    
 }
 
 
@@ -286,24 +288,19 @@ header {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-
 }
 
-.planta-izquierda {
-    margin-top: 177px;
-    margin-right: 0px;
 
+.planta-izquierda {
+    margin-top: 180px;
+    margin-right: -15px;
 }
 
 .planta-derecha {
     margin-top: 180px;
-
-
+    margin-left: -85px;
+    z-index: -1;
 }
-
-
-
-
 
 
 
@@ -562,10 +559,6 @@ header {
 
 
 }
-
-
-
-
 
 
 /* CURSOS ONLINE */
@@ -957,6 +950,8 @@ header {
     flex-direction: row;
     width: 1440px;
     height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -1024,8 +1019,8 @@ header {
     background-color: #F2EFE3;
     width: 1440px;
     height: 480px;
-    margin-top: 171px;
-    margin-bottom: 171px;
+    margin-top: -150px;
+    margin-bottom: -80px;
     display: flex;
     flex-direction: row;
 
@@ -1130,6 +1125,15 @@ header {
     padding-bottom: 78px;
 
 }
+
+
+/* planta de arriba */
+.planta-arriba {
+margin-top: 0px;
+margin-left: 1050px;
+z-index: 1;
+}
+
 
 
 /* conocé a tu docente */
