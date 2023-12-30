@@ -35,8 +35,6 @@ body {
 }
 
 
-
-
 /*1 PANTALLA DE INICIO */
 
 /* HEADER */
@@ -45,15 +43,12 @@ body {
 /* cursos, sobre nosotros, artículos...*/
 
 header nav ul {
-    list-style-type: none;
-    background-color: #F2EFE3;
     display: flex;
     flex-direction: row;
     font-size: 16px;
     font-family: raleway;
     font-weight: 500;
     padding-left: 0px;
-
 }
 
 /* Logo y cursos, sobre nosotros, artículos...*/
@@ -63,7 +58,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #F2EFE3;
-    position: fixed;
     border-radius: 15px;
     height: 31px;
     width: 1240px;
@@ -114,19 +108,13 @@ header {
 .verde-al-cubo {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-    height: 700px;
-    max-width: 100%; 
 }
 
 
 /* titulo subtitulo y botón */
 
 .verde-al-cubo section {
-    width: 720px;
-    height: 700px;
     background-color: #CAD3B7;
-    box-sizing: border-box;
     padding-top: 248px;
     padding-left: 102px;
     padding-right: 64px;
@@ -189,9 +177,9 @@ header {
     padding-bottom: 106px;
     margin-top: 91px;
     margin-bottom: 91px;
-    margin-left: -50px; 
+    margin-left: -50px;
     margin-right: auto;
-    
+
 }
 
 
@@ -364,11 +352,6 @@ header {
 }
 
 
-
-
-
-
-
 /* VERDE AL CUBO TE GARANTIZA */
 
 /*  Caja o contenedor beige */
@@ -402,7 +385,7 @@ header {
 
 
 /* icono de pala*/
-.enfoque img {
+.imagen-enfoque-uno {
     padding-left: 209px;
     padding-right: 146px;
 }
@@ -1129,9 +1112,9 @@ header {
 
 /* planta de arriba */
 .planta-arriba {
-margin-top: 0px;
-margin-left: 1050px;
-z-index: 1;
+    margin-top: 0px;
+    margin-left: 1050px;
+    z-index: 1;
 }
 
 
@@ -1861,5 +1844,492 @@ ul {
     margin-top: 100px;
     margin-bottom: 24px;
     padding: 4px 4px 4px 4px;
+
+}
+
+
+
+
+
+/* RESOLUCIÓN MENOR A */
+@media screen and (max-width: 320px) {
+
+
+    /*1 PANTALLA DE INICIO */
+    /* HEADER */
+
+    /* cursos, sobre nosotros, artículos...*/
+
+    header nav ul {
+        display: none;
+        flex-direction: none;
+        font-size: none;
+        font-family: none;
+        font-weight: none;
+        padding-left: none;
+    }
+
+    /* Logo y cursos, sobre nosotros, artículos...*/
+
+    header {
+        display: flex;
+        justify-content: none;
+        align-items: none;
+        padding-left: 24px;
+        padding-right: 86px;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        margin: 27px 16px 0px 16px;
+        position: absolute;
+        width: 177px;
+        flex-wrap: wrap;
+    }
+
+    /* Icono de menú agregado*/
+    header::before {
+        content: '';
+        background-image: url(../img/iconomenú.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 230px;
+    }
+
+    /* Logo solo*/
+    .logo-portada {
+        width: 130px;
+        /* Establece el ancho deseado para el logo en dispositivos móviles */
+        height: 33px;
+        /* Mantiene la proporción de aspecto original */
+    }
+
+    /* PORTADA */
+
+
+    /* Toda la portada de inicio */
+
+    .verde-al-cubo {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* titulo subtitulo y botón */
+
+    .verde-al-cubo section {
+        padding-top: 50px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 65px;
+    }
+
+
+    /* título: Academia verde al cubo */
+
+    .verde-al-cubo section h1 {
+        width: 288px;
+        height: 10px;
+        font-size: 20px;
+        width: 288px;
+        line-height: 0px;
+        margin-bottom: 30px;
+    }
+
+    /* Subtítulo: Descubrí... */
+
+    .verde-al-cubo section p {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        width: 300px;
+        height: 157px;
+    }
+
+
+    /* botón */
+
+    .verde-al-cubo section a {
+        font-size: 14px;
+        padding: 15px 40px 15px 40px;
+        width: 150px;
+        height: 48px;
+    }
+
+
+    /* imagen de portada */
+    .imagen-a-ocultar {
+        display: none;
+        /* Esto ocultará la imagen en dispositivos móviles */
+        background-image: url(../img/imagenmobile.svg);
+        display: block;
+        /* Esto mostrará la imagen en dispositivos móviles */
+        background-position: top center;
+        width: 320px;
+        /* Establece el ancho deseado */
+        height: 352px;
+        /* Establece la altura deseada */
+    }
+
+    /* Estilo para la sección verde */
+    .verde-al-cubo section {
+        order: 1;
+        /* Cambia el orden del elemento */
+    }
+
+
+
+    /* CÓMO FUNCIONAN LOS CURSOS */
+
+
+    /* cuadrado beige */
+
+    .caja2 {
+        width: 288px;
+        height: 787px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 16px;
+        margin-right: auto;
+
+    }
+
+
+    /* título principal "¿Cómo funcionan nuestros cursos?" */
+
+    #función {
+        width: 245px;
+        text-align: center;
+    }
+
+    .caja2 h2 {
+        font-size: 20px;
+        padding: 40px 20px 4px 20px;
+    }
+
+
+    /* títulos "Aprendé, conectá, contá, participá" */
+
+    #aprendé {
+        color: #303030;
+        font-size: 16px;
+        width: 217px;
+        padding-right: 20px;
+        padding-left: 19px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #conectá {
+        font-size: 16px;
+        width: 217px;
+        padding-right: 20px;
+        padding-left: 19px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #contá {
+        font-size: 16px;
+        width: 217px;
+        padding-left: 19px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #participá {
+        font-size: 16px;
+        width: 217px;
+        padding-left: 19px;
+        padding-right: 20px;
+        padding-top: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    /* iconos de check y títulos */
+    .caja2 h3 img {
+        padding-right: 12px;
+    }
+
+    /* subtítulos en negrita */
+
+    .caja2 h3 {
+        font-size: 14px;
+        padding: 48px 0px 16px 171px;
+        line-height: 20px;
+    }
+
+
+    #intercambiá {
+        padding-bottom: 40px;
+        line-height: 20px;
+    }
+
+    /* subtítulos en regular */
+
+    .caja2 p {
+        font-size: 14px;
+        padding-left: 48px;
+        margin: 0px;
+        width: 217px;
+        height: 70px;
+    }
+
+    .ellas {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+
+    .planta-izquierda {
+        display: none;
+    }
+
+    .planta-derecha {
+        display: none;
+    }
+
+
+
+
+
+    /* A QUIENES ESTÁN DIRIGIDOS */
+
+    /* imagen sola */
+
+    .tractor-uno {
+        width: 320px;
+        height: 352px;
+        display: block;
+    }
+
+    /* toda la sección: título, subtitulo e imagen */
+
+    .dirigidos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        width: 320px;
+        height: 460px;
+
+    }
+
+    /* título y subtítulo */
+    .dirigidos section h2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        width: 288px;
+    }
+
+    /* contenedor de titulo y subtitulo */
+    .ellos {
+        background-color: #CAD3B7;
+        width: 320px;
+        height: 460px;
+    }
+
+    /*  título "a quienes estan dirigidos" */
+    .dirigidos h2 {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    /*  subtítulo "ingenireros, etc" */
+
+    .dirigidos section p {
+        font-size: 14px;
+        width: 288px;
+        height: 316px;
+        margin: 0px;
+        line-height: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 50px;
+
+    }
+
+    #negrita {
+        font-weight: 400;
+    }
+
+
+
+
+    /* VERDE AL CUBO TE GARANTIZA */
+
+    /*  Caja o contenedor beige */
+
+    .contener {
+        background-color: #F2EFE3;
+        width: 100%;
+    }
+
+    /*  título "Verde al Cubo te garantiza" */
+
+    .titulo h2 {
+        font-size: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 400px;
+        padding-bottom: 40px;
+        width: 250px;
+        margin: 0px;
+
+    }
+
+    /* toda la sección: títulos y subtitulos*/
+
+    .garantizar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    /* icono de pala*/
+    .imagen-enfoque-uno {
+        padding-left: 136px; 
+        padding-right: 136px; 
+    }
+
+    /* icono de aprendizaje*/
+
+    .aprendizaje img {
+        display: none;
+    }
+
+    /* icono de expertos*/
+
+    .expertos img {
+        display: none;
+    }
+
+
+    /* icono de certificado*/
+
+    .certificado img {
+        display: none;
+    }
+
+    /* título "enfoque práctico"*/
+    .enfoque h3 {
+        font-size: 16px;
+        padding-left: 97px;
+        padding-right: 97px;
+        padding-bottom: 16px;
+        padding-top: 12px;
+        margin: 0px;
+        width: 126px;
+    }
+
+    /* título "aprendizaje dinámico"*/
+
+    .aprendizaje h3 {
+        display: block;
+        display: none;
+
+    }
+
+
+    /* título "expertos en la industria"*/
+
+    .expertos h3 {
+        display: block;
+        display: none;
+
+    }
+
+
+    /* título "certificado"*/
+
+    .certificado h3 {
+        display: block;
+        display: none;
+
+    }
+
+    /* subtítulo "diseñamos modalidades"*/
+
+    .enfoque p {
+        font-size: 14px;
+        text-align: center;
+        width: 288px;
+        margin: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+
+    /* subtítulo "brindamos variedad"*/
+
+    .aprendizaje p {
+        display: block;
+        display: none;
+    }
+
+
+    /* subtítulo "contamos con"*/
+
+    .expertos p {
+        display: block;
+        display: none;
+    }
+
+
+
+    /* subtítulo "entregamos un"*/
+
+    .certificado p {
+        display: block;
+        display: none;
+    }
+
+/* Para ocultar el icono en pantallas más grandes */
+.icono-mobile {
+    display: none;
+}
+
+/* Para mostrar el icono en pantallas de max 320 y centrarlo */
+@media screen and (max-width: 320px) {
+    .icono-mobile {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px 50px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
 
 }
