@@ -2553,13 +2553,15 @@ ul {
         height: 352px;
     }
 
+
+
     /*6 Footer*/
 
     /* tamaño de fondo */
 
     .footer {
         width: 322px;
-        height: auto;
+        height: 121px;
         background-color: #f2efe3;
         position: relative;
         overflow: hidden;
@@ -2571,7 +2573,7 @@ ul {
         display: grid;
         grid-template-areas:
             "logo planta iconos";
-        grid-template-columns: 206px 114px;
+        grid-template-columns: 206px 114px auto;
         align-items: center;
         height: 121px;
     }
@@ -2606,7 +2608,7 @@ ul {
         /* Ajusta según sea necesario */
         height: auto;
         /* Mantiene la proporción */
-        margin-top: -100px;
+        margin-top: -120px;
         /* Ajusta según sea necesario */
         margin-right: 10px;
         grid-area: planta;
@@ -2619,7 +2621,7 @@ ul {
         height: auto;
         position: relative;
         margin-top: 100px;
-        margin-left: -200px;
+        margin-left: -204px;
         grid-area: logo;
         margin-bottom: 300px;
     }
@@ -2638,8 +2640,8 @@ ul {
 
     .iconofacebook {
         margin-left: 26px;
-        margin-right: 10px;
-        margin-top: 72px;
+        margin-right: 5px;
+        margin-top: -50px;
         padding: 2px 2px 2px 2px;
         margin-bottom: 29px;
     }
@@ -2647,8 +2649,8 @@ ul {
     /* Icono de instagram */
 
     .iconoinstagram {
-        margin-right: 10px;
-        margin-top: 72px;
+        margin-right: 5px;
+        margin-top: -50px;
         margin-bottom: 29px;
         padding: 2px 2px 2px 2px;
     }
@@ -2656,8 +2658,8 @@ ul {
     /* Icono de twitter */
 
     .iconotwitter {
-        margin-right: 10px;
-        margin-top: 72px;
+        margin-right: 5px;
+        margin-top: -50px;
         margin-bottom: 29px;
         padding: 2px 2px 2px 2px;
     }
@@ -2666,8 +2668,8 @@ ul {
     /* Icono de pinterest */
 
     .iconopinterest {
-        margin-right: 10px;
-        margin-top: 72px;
+        margin-right: 5px;
+        margin-top: -50px;
         margin-bottom: 29px;
         padding: 2px 2px 2px 2px;
     }
@@ -2675,7 +2677,7 @@ ul {
     /* Icono de linkedin */
 
     .iconolinkedin {
-        margin-top: 72px;
+        margin-top: -50px;
         margin-bottom: 29px;
         padding: 2px 2px 2px 2px;
 
