@@ -35,9 +35,13 @@ body {
 }
 
 
+
+/* -------------------- WEB -------------------- */
+
+
 /*1 PANTALLA DE INICIO */
 
-/* HEADER */
+/* Header */
 
 
 /* cursos, sobre nosotros, artículos...*/
@@ -101,7 +105,7 @@ header {
     color: #585858;
 }
 
-/* PORTADA */
+/* Portada */
 
 /* Toda la portada de inicio */
 
@@ -164,7 +168,7 @@ header {
 }
 
 
-/* CÓMO FUNCIONAN LOS CURSOS */
+/* Cómo funcionan los cursos */
 
 
 /* cuadrado beige */
@@ -292,7 +296,7 @@ header {
 
 
 
-/* A QUIENES ESTÁN DIRIGIDOS */
+/* A quiénes estan dirigidos */
 
 /* toda la sección: título, subtitulo e imagen */
 
@@ -352,7 +356,7 @@ header {
 }
 
 
-/* VERDE AL CUBO TE GARANTIZA */
+/* Verde al Cubo te garantiza */
 
 /*  Caja o contenedor beige */
 
@@ -544,7 +548,7 @@ header {
 }
 
 
-/* CURSOS ONLINE */
+/* Cursos online */
 
 
 /* fondo de cursos */
@@ -673,19 +677,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* SOBRE NOSOTROS */
-
-/* SECCIÓN SOBRE NOSOTROS */
+/* Sobre nosotros */
 
 /* toda la sección */
 
@@ -752,179 +744,10 @@ header {
 
 
 
-/* SECCIÓN "NUESTRO EQUIPO"" */
 
-/* título "Nuestro equipo" */
+/*2 PANTALLA DE CURSOS */
 
-.nuestro-equipo div h2 {
-    font-size: 40px;
-    font-family: gascognemedium;
-    font-weight: normal;
-    color: #303030;
-    margin-left: 574px;
-    margin-bottom: 63px;
-    margin-top: 79px;
-}
-
-/* botón "ver linkedin" */
-
-#boton-sobrenosotros {
-    font-family: raleway;
-    font-size: 20px;
-    color: #266F39;
-    font-weight: bold;
-    border-radius: 100px;
-    padding: 20px 32px 20px 20px;
-}
-
-/* todas las cards */
-
-.todas-equipo {
-    display: flex;
-    flex-direction: row;
-}
-
-/* cajas de cards */
-#caja-cinco {
-    width: 292px;
-    height: 488px;
-    background-color: #F2EFE3;
-    border-radius: 12px;
-    margin-bottom: 79px;
-    margin-left: 24px;
-}
-
-#primera-card-cinco {
-    width: 292px;
-    height: 488px;
-    background-color: #F2EFE3;
-    border-radius: 12px;
-    margin-bottom: 79px;
-    margin-left: 92px;
-}
-
-#última-card-cinco {
-    width: 292px;
-    height: 488px;
-    background-color: #F2EFE3;
-    border-radius: 12px;
-    margin-bottom: 79px;
-    margin-left: 24px;
-    margin-right: 108px;
-}
-
-/* imagenes de cards */
-#caja-cinco img {
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 24px;
-}
-
-#primera-card-cinco img {
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 24px;
-}
-
-#última-card-cinco img {
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 24px;
-}
-
-/* títulos de cards */
-
-#caja-cinco h3 {
-    padding-top: 24px;
-    padding-left: 18px;
-    margin: 0px;
-    font-family: gascognemedium;
-    font-size: 20px;
-    color: #303030;
-}
-
-#última-card-cinco h3 {
-    padding-top: 24px;
-    padding-left: 18px;
-    margin: 0px;
-    font-family: gascognemedium;
-    font-size: 20px;
-    color: #303030;
-}
-
-#primera-card-cinco h3 {
-    padding-top: 24px;
-    padding-left: 18px;
-    margin: 0px;
-    font-family: gascognemedium;
-    font-size: 20px;
-    color: #303030;
-}
-
-/* subtítulos de cards "docente en..."*/
-
-#caja-cinco p {
-    padding-left: 18px;
-    padding-bottom: 52px;
-    padding-top: 24px;
-    margin: 0px;
-    font-size: 20px;
-    font-family: raleway;
-    font-weight: normal;
-    color: #585858;
-    line-height: 1, 5;
-    width: 252px;
-}
-
-#última-card-cinco p {
-    padding-left: 18px;
-    padding-bottom: 52px;
-    padding-top: 24px;
-    margin: 0px;
-    font-size: 20px;
-    font-family: raleway;
-    font-weight: normal;
-    color: #585858;
-    line-height: 1, 5;
-    width: 252px;
-
-}
-
-#primera-card-cinco p {
-    padding-left: 18px;
-    padding-bottom: 52px;
-    padding-top: 24px;
-    margin: 0px;
-    font-size: 20px;
-    font-family: raleway;
-    font-weight: normal;
-    color: #585858;
-    line-height: 1, 5;
-    width: 252px;
-}
-
-/* VIDEO - SOBRENOSOTROS */
-
-.caja-video {
-    width: 1440px;
-    height: 822px;
-    background-color: #CAD3B7;
-
-}
-
-.caja-hija-nueve {
-    width: 1240px;
-    height: 622px;
-    margin: 100px;
-
-}
-
-
-
-
-/*2 ¡¡¡PANTALLA DE CURSOS!!! */
-
-/*2 PORTADA */
+/* Portada */
 
 /* Toda la portada de cursos */
 
@@ -1182,8 +1005,8 @@ header {
     border-radius: 100px;
 }
 
-/* Seccion de Testimonios de estudiantes  */
 
+/* Seccion de Testimonios de estudiantes  */
 
 /* caja blanca */
 
@@ -1299,9 +1122,9 @@ header {
 
 
 
-/*3 ¡¡¡PANTALLA DE SOBRE NOSOTROS!!! */
+/*3 PANTALLA DE SOBRE NOSOTROS */
 
-/*3 PORTADA */
+/* Portada */
 
 /* Toda la portada de Sobre nosotros */
 
@@ -1358,11 +1181,178 @@ header {
 }
 
 
+/* Nuestro equipo */
+
+/* título "Nuestro equipo" */
+
+.nuestro-equipo div h2 {
+    font-size: 40px;
+    font-family: gascognemedium;
+    font-weight: normal;
+    color: #303030;
+    margin-left: 574px;
+    margin-bottom: 63px;
+    margin-top: 79px;
+}
+
+/* botón "ver linkedin" */
+
+#boton-sobrenosotros {
+    font-family: raleway;
+    font-size: 20px;
+    color: #266F39;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 20px 32px 20px 20px;
+}
+
+/* todas las cards */
+
+.todas-equipo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* cajas de cards */
+#caja-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 24px;
+}
+
+#primera-card-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 92px;
+}
+
+#última-card-cinco {
+    width: 292px;
+    height: 488px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: 79px;
+    margin-left: 24px;
+    margin-right: 108px;
+}
+
+/* imagenes de cards */
+#caja-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+#primera-card-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+#última-card-cinco img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
+/* títulos de cards */
+
+#caja-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
+
+#última-card-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
+
+#primera-card-cinco h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
+
+/* subtítulos de cards "docente en..."*/
+
+#caja-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1, 5;
+    width: 252px;
+}
+
+#última-card-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1, 5;
+    width: 252px;
+
+}
+
+#primera-card-cinco p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1, 5;
+    width: 252px;
+}
+
+/* Video - sobre nosotros */
+
+.caja-video {
+    width: 1440px;
+    height: 822px;
+    background-color: #CAD3B7;
+
+}
+
+.caja-hija-nueve {
+    width: 1240px;
+    height: 622px;
+    margin: 100px;
+
+}
 
 
 
 
-/*4 ¡¡¡PANTALLA DE ARTICULOS!!! */
+
+/*4 PANTALLA DE ARTICULOS */
 
 /* Caja de articulo de producción */
 
@@ -1431,8 +1421,6 @@ header {
 }
 
 
-
-
 /* Caja de hidroponia*/
 
 .hidroponia {
@@ -1479,7 +1467,7 @@ header {
 }
 
 
-/*6 CONTACTANOS */
+/*5 PANTALLA DE CONTACTO */
 
 /* caja beige */
 
@@ -1658,12 +1646,17 @@ header {
     /* Ajusta el valor según sea necesario para alinear a la derecha */
     grid-area: logo;
     height: 148px;
+    width: 309px;
+    height: 47px;
 }
 
 .planta {
     height: 421px;
     grid-area: planta;
+    width: 570.42px;
+    height: 536.08px;
 }
+
 
 
 /* Títulos "Academia y Comunidad */
@@ -1851,12 +1844,40 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- MOBILE -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESOLUCIÓN MENOR A */
 @media screen and (max-width: 320px) {
 
 
     /*1 PANTALLA DE INICIO */
-    /* HEADER */
+
+    /* Header */
 
     /* cursos, sobre nosotros, artículos...*/
 
@@ -1908,7 +1929,7 @@ ul {
         /* Mantiene la proporción de aspecto original */
     }
 
-    /* PORTADA */
+    /* Portada */
 
 
     /* Toda la portada de inicio */
@@ -1983,7 +2004,7 @@ ul {
 
 
 
-    /* CÓMO FUNCIONAN LOS CURSOS */
+    /* Cómo funcionan los cursos */
 
 
     /* cuadrado beige */
@@ -2109,7 +2130,7 @@ ul {
 
 
 
-    /* A QUIENES ESTÁN DIRIGIDOS */
+    /* A quienes estan dirigidos */
 
     /* imagen sola */
 
@@ -2177,7 +2198,7 @@ ul {
 
 
 
-    /* VERDE AL CUBO TE GARANTIZA */
+    /* Verde al cubo te garantiza */
 
     /*  Caja o contenedor beige */
 
@@ -2209,8 +2230,8 @@ ul {
 
     /* icono de pala*/
     .imagen-enfoque-uno {
-        padding-left: 136px; 
-        padding-right: 136px; 
+        padding-left: 139px;
+        padding-right: 139px;
     }
 
     /* icono de aprendizaje*/
@@ -2274,12 +2295,13 @@ ul {
     .enfoque p {
         font-size: 14px;
         text-align: center;
-        width: 288px;
+        width: 260px;
         margin: 0px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-bottom: 40px;
         text-align: center;
+        line-height: 20px;
     }
 
 
@@ -2307,29 +2329,430 @@ ul {
         display: none;
     }
 
-/* Para ocultar el icono en pantallas más grandes */
-.icono-mobile {
-    display: none;
-}
-
-/* Para mostrar el icono en pantallas de max 320 y centrarlo */
-@media screen and (max-width: 320px) {
+    /* Para ocultar el icono en pantallas más grandes */
     .icono-mobile {
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0 20px 50px;
+        display: none;
+    }
+
+    /* Para mostrar el icono en pantallas de max 320 y centrarlo */
+    @media screen and (max-width: 320px) {
+        .icono-mobile {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0 20px 50px;
+
+        }
+    }
+
+
+    /* Cursos online */
+
+
+    /* fondo de cursos */
+
+    .cards {
+
+        width: 320px;
+        height: 634px;
+    }
+
+    /* todas las cards */
+
+    .todas {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+
+
+    /* título de cursos "cursos online" */
+
+    .cards div h2 {
+        margin: 0px;
+        font-size: 20px;
+        padding-left: 97px;
+        padding-right: 97px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        width: 126px;
+    }
+
+    /* Cards de cursos */
+
+
+    .card-uno {
+        width: 260px;
+        height: 408px;
+        margin: 0px;
+        margin-left: 16px;
+    }
+
+    .card-dos {
+        width: 275px;
+        height: 408px;
+        margin: 0px;
+        margin-left: 16px;
+        margin-right: 0px;
 
     }
-}
+
+    .card-tres {
+        display: none;
+    }
 
 
 
+    .card-cuatro {
+        display: none;
+    }
+
+
+    /* Títulos de cards */
+    .todas h3 {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 0px;
+        margin: 0px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 2%;
+        width: 228px;
+        height: 40px;
+
+
+    }
+
+    /* Subtítulos de cards */
+
+    .todas p {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        margin: 0px;
+        font-size: 14px;
+        width: 228px;
+        height: 90px;
+        text-align: left;
+    }
+
+
+    #obtené {
+        display: none;
+    }
+
+    #otros {
+        line-height: 19px;
+        letter-spacing: 5%;
+        width: 225px;
+        letter-spacing: 5%;
+    }
+
+    /* Imágenes de cursos */
+
+    .cards div img {
+        padding-top: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 228px;
+        height: 204px;
+        display: block;
+
+    }
 
 
 
+    /* boton solo para mobile */
+    @media (max-width: 767px) {
+        .boton-mobile-class {
+            text-align: right;
+            margin-top: 42px;
+            margin-left: 196px;
+            margin-bottom: 50px;
+        }
+
+        .boton-mobile-solo {
+            display: block;
+            color: #FDFDFD;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            background-color: #266F39;
+            width: 64px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-family: raleway;
+            font-weight: bold;
+        }
+    }
 
 
+    /* Sobre nosotros */
+
+
+    /* toda la sección */
+
+    .sobre-nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 920px;
+    }
+
+    /* título subtítulo y botón */
+
+    .sobre-nosotros section {
+        width: 320px;
+        height: 568px;
+        background-color: #CAD3B7;
+        box-sizing: border-box;
+        padding-top: 50px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 65px;
+    }
+
+    /* título "Sobre Nosotros" */
+
+    .sobre-nosotros section h2 {
+        font-size: 20px;
+        width: 137px;
+        height: 14px;
+        line-height: 0px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+
+    }
+
+    /* subtítulo "Somos una comunidad" */
+
+    .sobre-nosotros section p {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        margin-top: 0px;
+        width: 290px;
+        height: 346px;
+    }
+
+    /* boton "conocer más" */
+
+    .boton-sobrenosotros-uno {
+        font-size: 14px;
+        padding: 15px 32px 15px 32px;
+    }
+
+    /* imagen de sobre nosotros */
+
+    .sobre-nosotros div img {
+        width: 320px;
+        height: 352px;
+    }
+
+    /*6 Footer*/
+
+    /* tamaño de fondo */
+
+    .footer {
+        width: 322px;
+        height: auto;
+        background-color: #f2efe3;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    /* lista de academia y comunidad + logo + planta + privacidad e iconos */
+    .academia-comunidad {
+        display: grid;
+        grid-template-areas:
+            "logo planta iconos";
+        grid-template-columns: 206px 114px;
+        align-items: center;
+        height: 121px;
+    }
+
+    /* logo */
+
+    .logo-o img {
+        position: relative;
+        right: 2px;
+        margin-top: 0px;
+       margin-left: -10px;
+        width: 144px;
+        height: 22px;
+        grid-area: logo;
+    }
+
+
+    /* planta */
+
+    .planta img {
+        grid-area: planta;
+        width: 160px;
+        height: auto;
+        margin-left: 50px;
+    }
+
+
+    /* Imagen de la planta " */
+    .planta {
+        transform: rotate(-11.32deg);
+        width: 50px;
+        /* Ajusta según sea necesario */
+        height: auto;
+        /* Mantiene la proporción */
+        margin-top: -100px;
+        /* Ajusta según sea necesario */
+        margin-right: 10px;
+        grid-area: planta;
+    }
+
+
+    /* Logo " */
+    .logo-o {
+        width: 10px;
+        height: auto;
+        position: relative;
+        margin-top: 100px;
+        margin-left: -200px;
+        grid-area: logo;
+        margin-bottom: 300px;
+    }
+
+
+    /* todos los iconos */
+
+    .iconos-s {
+        grid-area: iconos;
+        display: flex;
+        width: 20px;
+    }
+
+
+    /* Icono de facebook */
+
+    .iconofacebook {
+        margin-left: 26px;
+        margin-right: 10px;
+        margin-top: 72px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: 29px;
+    }
+
+    /* Icono de instagram */
+
+    .iconoinstagram {
+        margin-right: 10px;
+        margin-top: 72px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de twitter */
+
+    .iconotwitter {
+        margin-right: 10px;
+        margin-top: 72px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+
+    /* Icono de pinterest */
+
+    .iconopinterest {
+        margin-right: 10px;
+        margin-top: 72px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de linkedin */
+
+    .iconolinkedin {
+        margin-top: 72px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+
+    }
+
+    /* Los tres botones de privacidad " */
+    .seguridad {
+        display: none;
+    }
+
+
+    /* texto "Politica de privacidad" */
+    .privacidad {
+        display: none;
+    }
+
+    /* texto "Términos y condiciones" */
+    .términos {
+        display: none;
+    }
+
+    /* texto "Botón de arrepentimiento" */
+    .arrepentimiento {
+        display: none;
+    }
+
+    /* Títulos "Academia y Comunidad */
+    .academia-comunidad div h3 {
+        display: none;
+    }
+
+    /* Título "Academia" */
+    .academia {
+        display: none;
+    }
+
+    /* Título "Comunidad" */
+    .comunidad {
+        display: none;
+    }
+
+    /* Subítulos de academia y comunidad */
+
+    .academia-comunidad div ul li {
+        display: none;
+    }
+
+    footer ul a {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    /* Subítulos de academia */
+
+    .academia-uno {
+        display: none;
+    }
+
+
+    /* Subítulos de comunidad */
+
+    .comunidad-uno {
+        display: none;
+    }
+
+    .academia-a {
+        display: none;
+    }
+
+    .comunidad-a {
+        display: none;
+
+    }
 
 
 }
