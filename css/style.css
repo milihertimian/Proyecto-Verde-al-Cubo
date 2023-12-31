@@ -21,7 +21,7 @@
 
 /* ESTILOS GLOBALES */
 
-A {
+a {
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ header nav ul {
     display: flex;
     flex-direction: row;
     font-size: 16px;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     padding-left: 0px;
 }
@@ -72,6 +72,8 @@ header {
     margin: 27px 32px 0px 32px;
     position: absolute;
 }
+
+
 
 /* Cursos solo*/
 
@@ -141,7 +143,7 @@ header {
 /* Subtítulo: Descubrí... */
 
 .verde-al-cubo section p {
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
@@ -1879,23 +1881,49 @@ ul {
 
     /* Header */
 
-    /* cursos, sobre nosotros, artículos...*/
 
-    header nav ul {
-        display: none;
-        flex-direction: none;
-        font-size: none;
-        font-family: none;
-        font-weight: none;
-        padding-left: none;
+    /* Cursos solo*/
+
+    .cursos-cursos {
+        padding-right: 0px;
+        color: #585858;
+        padding-top: 10px;
+    
     }
+
+    /* Sobrenosotros solo*/
+
+    .sobrenosotros {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Artículos solo*/
+
+    .artículos {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Contacto solo*/
+
+    .contacto {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    .aulavirtual {
+        color: #585858;
+
+    }
+
 
     /* Logo y cursos, sobre nosotros, artículos...*/
 
     header {
         display: flex;
-        justify-content: none;
-        align-items: none;
+        justify-content:space-between;
+        align-items: center;
         padding-left: 24px;
         padding-right: 86px;
         padding-top: 31px;
@@ -1903,7 +1931,7 @@ ul {
         margin: 27px 16px 0px 16px;
         position: absolute;
         width: 177px;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
 
     /* Icono de menú agregado*/
@@ -1919,6 +1947,39 @@ ul {
         top: 50%;
         transform: translateY(-50%);
         left: 230px;
+
+    }
+
+    /* contenedor de menú beige */
+    .nav-contenedor-uno {
+        width: 297px;
+        height: 290px;
+        background-color: #F2EFE3;
+        margin-right: 0px;
+        margin-left: -24px;
+        margin-top: 0px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        overflow: hidden;
+        min-width: 287px;
+    }
+
+    /* cursos, sobre nosotros, artículos...*/
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        padding-left: 24px;
+    
+
+    }
+
+    /* Separación entre las palabras en el menú */
+    header nav ul li {
+        margin-bottom: 40px;
     }
 
     /* Logo solo*/
@@ -1928,6 +1989,7 @@ ul {
         height: 33px;
         /* Mantiene la proporción de aspecto original */
     }
+
 
     /* Portada */
 
@@ -2584,7 +2646,7 @@ ul {
         position: relative;
         right: 2px;
         margin-top: 0px;
-       margin-left: -10px;
+        margin-left: -10px;
         width: 144px;
         height: 22px;
         grid-area: logo;
