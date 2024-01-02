@@ -1446,6 +1446,19 @@ header {
     margin-left: 64px;
 }
 
+/* boton "leer más" */
+
+.boton-repetido {
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FDFDFD;
+    padding: 20px 32px 20px 32px;
+    background-color: #266F39;
+    border-radius: 100px;
+    margin-left: 64px;
+}
+
 
 /* Caja de hidroponia*/
 
@@ -2527,208 +2540,7 @@ ul {
 
 
 
-    /*6 Footer*/
-
-    /* tamaño de fondo */
-
-    .footer {
-        width: 322px;
-        height: 121px;
-        background-color: #f2efe3;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-    /* lista de academia y comunidad + logo + planta + privacidad e iconos */
-    .academia-comunidad {
-        display: grid;
-        grid-template-areas:
-            "logo planta iconos";
-        grid-template-columns: 206px 114px auto;
-        align-items: center;
-        height: 121px;
-    }
-
-    /* logo */
-
-    .logo-o img {
-        position: relative;
-        right: 2px;
-        margin-top: 0px;
-        margin-left: -10px;
-        width: 144px;
-        height: 22px;
-        grid-area: logo;
-    }
-
-
-    /* planta */
-
-    .planta img {
-        grid-area: planta;
-        width: 160px;
-        height: auto;
-        margin-left: 50px;
-    }
-
-
-    /* Imagen de la planta " */
-    .planta {
-        transform: rotate(-11.32deg);
-        width: 50px;
-        /* Ajusta según sea necesario */
-        height: auto;
-        /* Mantiene la proporción */
-        margin-top: -120px;
-        /* Ajusta según sea necesario */
-        margin-right: 10px;
-        grid-area: planta;
-    }
-
-
-    /* Logo " */
-    .logo-o {
-        width: 10px;
-        height: auto;
-        position: relative;
-        margin-top: 100px;
-        margin-left: -204px;
-        grid-area: logo;
-        margin-bottom: 300px;
-    }
-
-
-    /* todos los iconos */
-
-    .iconos-s {
-        grid-area: iconos;
-        display: flex;
-        width: 20px;
-    }
-
-
-    /* Icono de facebook */
-
-    .iconofacebook {
-        margin-left: 26px;
-        margin-right: 5px;
-        margin-top: -50px;
-        padding: 2px 2px 2px 2px;
-        margin-bottom: 29px;
-    }
-
-    /* Icono de instagram */
-
-    .iconoinstagram {
-        margin-right: 5px;
-        margin-top: -50px;
-        margin-bottom: 29px;
-        padding: 2px 2px 2px 2px;
-    }
-
-    /* Icono de twitter */
-
-    .iconotwitter {
-        margin-right: 5px;
-        margin-top: -50px;
-        margin-bottom: 29px;
-        padding: 2px 2px 2px 2px;
-    }
-
-
-    /* Icono de pinterest */
-
-    .iconopinterest {
-        margin-right: 5px;
-        margin-top: -50px;
-        margin-bottom: 29px;
-        padding: 2px 2px 2px 2px;
-    }
-
-    /* Icono de linkedin */
-
-    .iconolinkedin {
-        margin-top: -50px;
-        margin-bottom: 29px;
-        padding: 2px 2px 2px 2px;
-
-    }
-
-    /* Los tres botones de privacidad " */
-    .seguridad {
-        display: none;
-    }
-
-
-    /* texto "Politica de privacidad" */
-    .privacidad {
-        display: none;
-    }
-
-    /* texto "Términos y condiciones" */
-    .términos {
-        display: none;
-    }
-
-    /* texto "Botón de arrepentimiento" */
-    .arrepentimiento {
-        display: none;
-    }
-
-    /* Títulos "Academia y Comunidad */
-    .academia-comunidad div h3 {
-        display: none;
-    }
-
-    /* Título "Academia" */
-    .academia {
-        display: none;
-    }
-
-    /* Título "Comunidad" */
-    .comunidad {
-        display: none;
-    }
-
-    /* Subítulos de academia y comunidad */
-
-    .academia-comunidad div ul li {
-        display: none;
-    }
-
-    footer ul a {
-        display: none;
-    }
-
-    ul {
-        display: none;
-    }
-
-
-    /* Subítulos de academia */
-
-    .academia-uno {
-        display: none;
-    }
-
-
-    /* Subítulos de comunidad */
-
-    .comunidad-uno {
-        display: none;
-    }
-
-    .academia-a {
-        display: none;
-    }
-
-    .comunidad-a {
-        display: none;
-
-    }
-
-
+    
 
     /*2 PANTALLA DE CURSOS */
 
@@ -2796,11 +2608,6 @@ ul {
         height: 352px;
 
     }
-
-
-
-
-
 
 
     /* Este curso incluye / requisito */
@@ -3330,66 +3137,77 @@ ul {
 
 .produccion-industrial {
     display: flex;
-    width: 1240px;
-    height: 509px;
-    background-color: #F2EFE3;
-    margin-top: 64px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 12px;
+    flex-direction: column;
+    width: 288px;
+    height: 561px;
+    background-color: #CAD3B7;
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 /* título "artículos" */
 
 .articulos-titulo h2 {
-    padding-top: 227px;
-    padding-left: 100px;
-    font-family: gascognesemibold;
-    font-size: 40px;
-    font-weight: normal;
+    padding-top: 171px;
+    padding-bottom: 30px;
+    padding-left: 16px;
+    font-size: 20px;
     margin: 0px 0px 0px 0px;
-    height: 40px;
+    height: 14px;
 }
 
 /* título "Producción industrial de sales" */
 .produccion-industrial div h4 {
-    font-family: gascognemedium;
-    font-size: 32px;
-    font-weight: normal;
-    color: #303030;
-    width: 598px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 60px;
-    padding-bottom: 42px;
+    font-size: 20px;
+    width: 256px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0px 0px 0px 0px;
 }
 
 /* subtítulo "las plantas utilizan luz..." */
 .produccion-industrial div p {
-    font-family: raleway;
-    font-weight: normal;
-    font-size: 20px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px;
-    width: 598px;
-    height: 182px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 62px;
-    line-height: 150%;
+    width: 256px;
+    height: 272px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 45px;
+    line-height: 28px; /* VER */
+    color: #585858;
 
 }
 
 /* boton "leer más"*/
 #boton-leer-mas {
-    font-family: raleway;
-    font-size: 20px;
-    font-weight: bold;
-    color: #FDFDFD;
-    padding: 20px 32px 20px 32px;
+    font-size: 14px;
+    padding: 15px 32px 15px 32px;
     background-color: #266F39;
     border-radius: 100px;
-    margin-left: 64px;
+    margin-left: 16px;
+}
+
+/* boton "leer más"*/
+.boton-repetido {
+    font-size: 14px;
+    padding: 15px 32px 15px 32px;
+    background-color: #266F39;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+
+
+/* imagen */
+
+.imagen-produccion-industrial {
+width: 288px;
+margin-top: 45px;
 }
 
 
@@ -3397,46 +3215,57 @@ ul {
 
 .hidroponia {
     display: flex;
-    width: 1240px;
-    height: 509px;
+    flex-direction: column;
+    width: 288px;
+    height: 537px;
     background-color: #F2EFE3;
-    margin-top: 64px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 12px;
-
+    margin-top: 280px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 
 /* título "¿hidroponia con o sin?" */
 .hidroponia div h4 {
-    font-family: gascognemedium;
-    font-size: 32px;
-    font-weight: normal;
-    color: #303030;
-    width: 598px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 60px;
-    padding-bottom: 42px;
+    font-size: 20px;
+    width: 256px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0px 0px 0px 0px;
+    font-family: gascognemedium;
 }
 
 /* subtítulo "Muchas veces,cuando hablamos..." */
 .hidroponia div p {
-    font-family: raleway;
-    font-weight: normal;
-    font-size: 20px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px;
-    width: 598px;
-    height: 182px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 62px;
-    line-height: 150%;
+    width: 256px;
+    height: 256px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 45px;
+    line-height: 26px;
+    color: #585858;
 
 }
+
+/* imagen */
+.imagen-hidroponia-uno {
+    width: 288px;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
 
 
 /*5 PANTALLA DE CONTACTO */
@@ -3614,6 +3443,206 @@ ul {
 
 
 
+/*6 Footer*/
+
+    /* tamaño de fondo */
+
+    .footer {
+        width: 322px;
+        height: 121px;
+        background-color: #f2efe3;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    /* lista de academia y comunidad + logo + planta + privacidad e iconos */
+    .academia-comunidad {
+        display: grid;
+        grid-template-areas:
+            "logo planta ";
+        grid-template-columns: 206px 114px ;
+        align-items: center;
+        height: 121px;
+    }
+
+    /* logo */
+
+    .logo-o img {
+        position: relative;
+        right: 2px;
+        margin-top: 0px;
+        margin-left: -10px;
+        width: 144px;
+        height: 22px;
+        grid-area: logo;
+    }
+
+
+    /* planta */
+
+    .planta img {
+        grid-area: planta;
+        width: 160px;
+        height: auto;
+        margin-left: 50px;
+    }
+
+
+    /* Imagen de la planta " */
+    .planta {
+        transform: rotate(-11.32deg);
+        width: 50px;
+        /* Ajusta según sea necesario */
+        height: auto;
+        /* Mantiene la proporción */
+        margin-top: -120px;
+        /* Ajusta según sea necesario */
+        margin-right: 10px;
+        grid-area: planta;
+    }
+
+
+    /* Logo " */
+    .logo-o {
+        width: 10px;
+        height: auto;
+        position: relative;
+        margin-top: 100px;
+        margin-left: -204px;
+        grid-area: logo;
+        margin-bottom: 300px;
+    }
+
+
+    /* todos los iconos */
+
+    .iconos-s {
+        grid-area: iconos;
+        display: flex;
+        width: 20px;
+    }
+
+
+    /* Icono de facebook */
+
+    .iconofacebook {
+        margin-left: 26px;
+        margin-right: 5px;
+        margin-top: -50px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: 29px;
+    }
+
+    /* Icono de instagram */
+
+    .iconoinstagram {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de twitter */
+
+    .iconotwitter {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+
+    /* Icono de pinterest */
+
+    .iconopinterest {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de linkedin */
+
+    .iconolinkedin {
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+
+    }
+
+    /* Los tres botones de privacidad " */
+    .seguridad {
+        display: none;
+    }
+
+
+    /* texto "Politica de privacidad" */
+    .privacidad {
+        display: none;
+    }
+
+    /* texto "Términos y condiciones" */
+    .términos {
+        display: none;
+    }
+
+    /* texto "Botón de arrepentimiento" */
+    .arrepentimiento {
+        display: none;
+    }
+
+    /* Títulos "Academia y Comunidad */
+    .academia-comunidad div h3 {
+        display: none;
+    }
+
+    /* Título "Academia" */
+    .academia {
+        display: none;
+    }
+
+    /* Título "Comunidad" */
+    .comunidad {
+        display: none;
+    }
+
+    /* Subítulos de academia y comunidad */
+
+    .academia-comunidad div ul li {
+        display: none;
+    }
+
+    footer ul a {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    /* Subítulos de academia */
+
+    .academia-uno {
+        display: none;
+    }
+
+
+    /* Subítulos de comunidad */
+
+    .comunidad-uno {
+        display: none;
+    }
+
+    .academia-a {
+        display: none;
+    }
+
+    .comunidad-a {
+        display: none;
+
+    }
 
 
 
