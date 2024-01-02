@@ -36,10 +36,10 @@ body {
 
 
 
-/* -------------------- WEB -------------------- */
+/*  ------- WEB  ------- */
 
 
-/*1 PANTALLA DE INICIO */
+/*1 ------------------------ PANTALLA DE INICIO ------------------------ */
 
 /* Header */
 
@@ -747,7 +747,7 @@ header {
 
 
 
-/*2 PANTALLA DE CURSOS */
+/*2 ------------------------ PANTALLA DE CURSOS ------------------------ */
 
 /* Portada */
 
@@ -1131,15 +1131,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-/*3 PANTALLA DE SOBRE NOSOTROS */
+/*3 ------------------------ PANTALLA DE SOBRE NOSOTROS ------------------------ */
 
 /* Portada */
 
@@ -1376,9 +1368,7 @@ header {
 
 
 
-
-
-/*4 PANTALLA DE ARTICULOS */
+/*4 ------------------------ PANTALLA DE ARTICULOS ------------------------ */
 
 /* Caja de articulo de producción */
 
@@ -1506,7 +1496,7 @@ header {
 }
 
 
-/*5 PANTALLA DE CONTACTO */
+/*5 ------------------------ PANTALLA DE CONTACTO ------------------------*/
 
 /* caja beige */
 
@@ -1644,7 +1634,7 @@ header {
 
 
 
-/*6 FOOTER */
+/*6------------------------ FOOTER ------------------------ */
 
 /* tamaño de fondo */
 
@@ -1897,7 +1887,7 @@ ul {
 
 
 
-/* -------------------- MOBILE -------------------- */
+/*  -------  MOBILE ------- */
 
 
 
@@ -1914,8 +1904,122 @@ ul {
 @media screen and (max-width: 320px) {
 
 
-    /* Portada */
+    /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
 
+
+    /* Header */
+
+    /* Cursos solo*/
+
+    .cursos-cursos {
+        padding-right: 0px;
+        color: #585858;
+        padding-top: 10px;
+
+    }
+
+    /* Sobrenosotros solo*/
+
+    .sobrenosotros {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Artículos solo*/
+
+    .artículos {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Contacto solo*/
+
+    .contacto {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    .aulavirtual {
+        color: #585858;
+
+    }
+
+    /* Logo y cursos, sobre nosotros, artículos...*/
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 86px;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        margin: 27px 16px 0px 16px;
+        position: absolute;
+        width: 177px;
+        flex-wrap: wrap;
+    }
+
+    /* Icono de menú agregado ESTO*/
+    header::before {
+        content: '';
+        background-image: url(../img/cruz-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 230px;
+
+    }
+
+    /* contenedor de menú beige ESTO */
+    .nav-contenedor-uno {
+        width: 297px;
+        height: 290px;
+        background-color: #F2EFE3;
+        margin-right: 0px;
+        margin-left: -24px;
+        margin-top: 0px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        overflow: hidden;
+        min-width: 287px;
+    }
+
+    /* cursos, sobre nosotros, artículos...*/
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        padding-left: 24px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+
+
+    }
+
+    /* Separación entre las palabras en el menú */
+    header nav ul li {
+        margin-bottom: 40px;
+    }
+
+    /* Logo solo ESTO*/
+    .logo-portada {
+        width: 130px;
+        /* Establece el ancho deseado para el logo en dispositivos móviles */
+        height: 33px;
+        /* Mantiene la proporción de aspecto original */
+    }
+
+
+    /* Portada */
 
     /* Toda la portada de inicio */
 
@@ -1986,8 +2090,6 @@ ul {
         order: 1;
         /* Cambia el orden del elemento */
     }
-
-
 
     /* Cómo funcionan los cursos */
 
@@ -2111,10 +2213,6 @@ ul {
         display: none;
     }
 
-
-
-
-
     /* A quienes estan dirigidos */
 
     /* imagen sola */
@@ -2179,9 +2277,6 @@ ul {
     #negrita {
         font-weight: 400;
     }
-
-
-
 
     /* Verde al cubo te garantiza */
 
@@ -2539,10 +2634,7 @@ ul {
     }
 
 
-
-    
-
-    /*2 PANTALLA DE CURSOS */
+    /*2 ------------------------ PANTALLA DE CURSOS ------------------------*/
 
     /* Portada */
 
@@ -2901,549 +2993,498 @@ ul {
 
 
 
+    /*3 ------------------------ PANTALLA DE SOBRE NOSOTROS ------------------------ */
 
+    /* Portada */
 
+    /* Toda la portada de Sobre nosotros */
 
-
-
-/*3 PANTALLA DE SOBRE NOSOTROS */
-
-/* Portada */
-
-/* Toda la portada de Sobre nosotros */
-
-.container-dos {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    height: 100%;
-}
-
-
-/* titulo subtitulo y botón */
-
-.container-dos section {
-    width: 320px;
-    height: 550px;
-    box-sizing: border-box; /* VER */
-    padding-top: 47px;
-    padding-left: 16px;
-    padding-right: 15px;
-}
-
-
-/* título: Sobre nosotros */
-
-.container-dos section h2 {
-    font-size: 20px;
-    width: 144px;
-    padding: 0px; /* ver */
-    margin-bottom: 30px;
-    margin-top: 0px;  /* ver */
-    line-height: 49px;
-
-}
-
-
-/* Subtítulo: Somos una comunidad... */
-
-.container-dos section p {
-    font-size: 14px;
-    line-height: 30px;
-    margin-bottom: 0px;  /* ver */
-    margin-top: 0px;  /* ver */
-    width: 288px;
-    height: 380px;
-}
-
-
-/* imagen portada */
-.imagen-sobre-nos {
-    width: 320px;
-    height: 352px;
-    display: block;
-}
-
-    /* Estilo para la sección portada */
-    .container-dos section {
-        order: 1; /* Cambia el orden del elemento */
-    
+    .container-dos {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 100%;
     }
 
 
-/* Nuestro equipo */
+    /* titulo subtitulo y botón */
 
-/* título "Nuestro equipo" */
+    .container-dos section {
+        width: 320px;
+        height: 550px;
+        box-sizing: border-box;
+        /* VER */
+        padding-top: 47px;
+        padding-left: 16px;
+        padding-right: 15px;
+    }
 
-.nuestro-equipo div h2 {
-    font-size: 20px;
-    margin-left: 87px;
-    margin-bottom: 40px;
-    margin-top: 50px;
-}
 
-/* botón "ver linkedin" */
+    /* título: Sobre nosotros */
 
-#boton-sobrenosotros {
+    .container-dos section h2 {
+        font-size: 20px;
+        width: 144px;
+        padding: 0px;
+        /* ver */
+        margin-bottom: 30px;
+        margin-top: 0px;
+        /* ver */
+        line-height: 49px;
+
+    }
+
+
+    /* Subtítulo: Somos una comunidad... */
+
+    .container-dos section p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        /* ver */
+        margin-top: 0px;
+        /* ver */
+        width: 288px;
+        height: 380px;
+    }
+
+
+    /* imagen portada */
+    .imagen-sobre-nos {
+        width: 320px;
+        height: 352px;
+        display: block;
+    }
+
+    /* Estilo para la sección portada */
+    .container-dos section {
+        order: 1;
+        /* Cambia el orden del elemento */
+
+    }
+
+
+    /* Nuestro equipo */
+
+    /* título "Nuestro equipo" */
+
+    .nuestro-equipo div h2 {
+        font-size: 20px;
+        margin-left: 87px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    /* botón "ver linkedin" */
+
+    #boton-sobrenosotros {
+        font-size: 14px;
+        padding: 0px 0px 0px 16px;
+
+    }
+
+    /* todas las cards */
+
+    .todas-equipo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* cajas de cards */
+    #caja-cinco {
+        width: 260px;
+        height: 391px;
+        margin-bottom: 79px;
+        margin-left: 24px;
+        overflow: hidden;
+    }
+
+    #primera-card-cinco {
+        width: 260px;
+        height: 391px;
+        margin-bottom: 42px;
+        margin-left: 16px;
+    }
+
+    .caja-tercera {
+        display: none;
+    }
+
+    #última-card-cinco {
+        display: none;
+    }
+
+    /* imagenes de cards */
+
+
+    #caja-cinco img {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        width: 228px;
+        height: 204px;
+    }
+
+    #primera-card-cinco img {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        width: 228px;
+        height: 204px;
+    }
+
+    #última-card-cinco img {
+        display: none;
+    }
+
+    /* títulos de cards */
+
+    #caja-cinco h3 {
+        padding-top: 16px;
+        padding-left: 16px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    #última-card-cinco h3 {
+        display: none;
+    }
+
+    #primera-card-cinco h3 {
+        padding-top: 16px;
+        padding-left: 16px;
+        margin: 0px;
+        font-size: 16px;
+
+    }
+
+    /* subtítulos de cards "docente en..."*/
+
+    #caja-cinco p {
+        padding-left: 16px;
+        padding-bottom: 0px;
+        padding-top: 16px;
+        margin: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+        height: 78px;
+    }
+
+    #última-card-cinco p {
+        display: none;
+
+    }
+
+    #primera-card-cinco p {
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        margin: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+
+    /* Video - sobre nosotros */
+
+    .caja-video {
+        width: 320px;
+        height: 320px;
+        background-color: #CAD3B7;
+
+    }
+
+    .caja-hija-nueve {
+        width: 320px;
+        height: 320px;
+        margin: 0px;
+
+    }
+
+
+    /*4 ------------------------ PANTALLA DE ARTICULOS ------------------------ */
+
+    /* Caja de articulo de producción */
+
+    .produccion-industrial {
+        display: flex;
+        flex-direction: column;
+        width: 288px;
+        height: 561px;
+        background-color: #CAD3B7;
+        margin-top: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    /* título "artículos" */
+
+    .articulos-titulo h2 {
+        padding-top: 171px;
+        padding-bottom: 30px;
+        padding-left: 16px;
+        font-size: 20px;
+        margin: 0px 0px 0px 0px;
+        height: 14px;
+    }
+
+    /* título "Producción industrial de sales" */
+    .produccion-industrial div h4 {
+        font-size: 20px;
+        width: 256px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* subtítulo "las plantas utilizan luz..." */
+    .produccion-industrial div p {
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        width: 256px;
+        height: 272px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 45px;
+        line-height: 28px;
+        /* VER */
+        color: #585858;
+
+    }
+
+    /* boton "leer más"*/
+    #boton-leer-mas {
+        font-size: 14px;
+        padding: 15px 32px 15px 32px;
+        background-color: #266F39;
+        border-radius: 100px;
+        margin-left: 16px;
+    }
+
+    /* boton "leer más"*/
+    .boton-repetido {
+        font-size: 14px;
+        padding: 15px 32px 15px 32px;
+        background-color: #266F39;
+        border-radius: 100px;
+        margin-left: 16px;
+    }
+
+
+    /* imagen */
+
+    .imagen-produccion-industrial {
+        width: 288px;
+        height: 218px;
+        max-width: 100%;
+        object-fit: cover;
+        margin-top: 45px;
+        border-bottom-left-radius: 12px ;
+        border-bottom-right-radius: 12px ;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+
+    /* Caja de hidroponia*/
+
+    .hidroponia {
+        display: flex;
+        flex-direction: column;
+        width: 288px;
+        height: 537px;
+        background-color: #F2EFE3;
+        margin-top: 250px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+
+    /* título "¿hidroponia con o sin?" */
+    .hidroponia div h4 {
+        font-size: 20px;
+        width: 256px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0px 0px 0px 0px;
+        font-family: gascognemedium;
+    }
+
+    /* subtítulo "Muchas veces,cuando hablamos..." */
+    .hidroponia div p {
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        width: 256px;
+        height: 256px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 45px;
+        line-height: 26px;
+        color: #585858;
+
+    }
+
+    /* imagen */
+    .imagen-hidroponia-uno {
+        width: 288px;
+        height: 218px;
+        max-width: 100%;
+        margin-top: 45px;
+        border-bottom-left-radius: 12px ;
+        border-bottom-right-radius: 12px ;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+       object-fit: cover; 
+   
+
+    }
+
+    /* fondo blanco de toda la pantalla */
+    .main-articulos {
+        height: 1793px;
+    }
+
+
+    /*5------------------------ PANTALLA DE CONTACTO ------------------------ */
+
+    /* caja beige */
+
+    .cuadrado-beige {
+
+        width: 288px;
+        height: 611px;
+        background-color: #CAD3B7;
+        margin-top: 161px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 50px;
+        border-radius: 12px;
+    }
+
+    /* título "contactanos" */
+
+    .cuadrado-beige div h2 {
+        font-size: 20px;
+        width: 120px;
+        padding-top: 50px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+
+    /* input entero de nombre completo, correo y tu mensaje */
+
+    .input-completo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-completo-uno {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-completo-dos {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+   
+ /* texto de nombre completo */
+
+ .nombre-completo {
     font-size: 14px;
-    padding: 0px 0px 0px 16px;
-
-}
-
-/* todas las cards */
-
-.todas-equipo {
-    display: flex;
-    flex-direction: row;
-}
-
-/* cajas de cards */
-#caja-cinco {
-    width: 260px;
-    height: 391px;
-    margin-bottom: 79px;
-    margin-left: 24px;
-    overflow: hidden;
-}
-
-#primera-card-cinco {
-    width: 260px;
-    height: 391px;
-    margin-bottom: 42px; 
+    margin-top: 30px;
     margin-left: 16px;
+    margin-bottom: 16px;
 }
 
-.caja-tercera{
-    display: none;
-}
+    /* texto de correo electronico */
 
-#última-card-cinco {
-    display: none;
-}
+    .correo-electronico {
+        font-size: 14px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
 
-/* imagenes de cards */
+
+    /* texto de "tu mensaje" */
+
+    .tu-mensaje {
+        font-size: 14px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+
+    /* input de nombre completo */
+    .input-solo {
+        width: 250px;
+        height: 44px;
+        margin-left: 16px;
+        background-color: #CAD3B7;
+        border-color: #656565;
+        border-width: 1px;
+        border-radius: 5px;
+    }
 
 
-#caja-cinco img {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    width: 228px;
-    height: 204px;
-}
+    /* input de correo */
+    .input-solo-uno {
+        width: 250px;
+        height: 44px;
+        margin-left: 16px;
+        background-color: #CAD3B7;
+        border-color: #656565;
+        border-width: 1px;
+        border-radius: 5px;
+    }
 
-#primera-card-cinco img {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    width: 228px;
-    height: 204px;
-}
+    /* input de "tu mensaje" */
 
-#última-card-cinco img {
-   display: none;
-}
+    .input-solo-dos {
+        width: 250px;
+        height: 44px;
+        margin-left: 16px;
+        background-color: #CAD3B7;
+        border-color: #656565;
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: 45px;
+    }
 
-/* títulos de cards */
 
-#caja-cinco h3 {
-    padding-top: 16px;
-    padding-left: 16px;
-    margin: 0px;
-    font-size: 16px;
-}
+    /* boton de "enviar consulta" */
 
-#última-card-cinco h3 {
-   display: none;
-}
+    .boton-enviar-consulta {
+        padding: 15px 32px 15px 32px;
+        font-size: 14px;
+        margin-left: 16px;
+    }
 
-#primera-card-cinco h3 {
-    padding-top: 16px;
-    padding-left: 16px;
-    margin: 0px;
-    font-size: 16px;
     
-}
+    /* hacer dos filas, una para nombre y otra para correo */
 
-/* subtítulos de cards "docente en..."*/
+    .row-fila {
+        display: flex;
+        /* ver */
+        flex-direction: column;
+        /* ver */
+    }
 
-#caja-cinco p {
-    padding-left: 16px;
-    padding-bottom: 0px;
-    padding-top: 16px;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 20px;
-    width: 200px;
-    height:78px;
-}
 
-#última-card-cinco p {
-    display: none;
 
-}
-
-#primera-card-cinco p {
-    padding-left: 16px;
-    padding-bottom: 16px;
-    padding-top: 16px;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 20px;
-    width: 200px;
-}
-
-/* Video - sobre nosotros */
-
-.caja-video {
-    width: 320px;
-    height: 320px;
-    background-color: #CAD3B7;
-
-}
-
-.caja-hija-nueve {
-    width: 320px;
-    height: 320px;
-    margin: 0px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*4 PANTALLA DE ARTICULOS - ¡¡¡¡¡COMPLETAR!!!!!! */
-
-/* Caja de articulo de producción */
-
-.produccion-industrial {
-    display: flex;
-    flex-direction: column;
-    width: 288px;
-    height: 561px;
-    background-color: #CAD3B7;
-    margin-top: 0px;
-    margin-left: 16px;
-    margin-right: 16px;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
-}
-
-/* título "artículos" */
-
-.articulos-titulo h2 {
-    padding-top: 171px;
-    padding-bottom: 30px;
-    padding-left: 16px;
-    font-size: 20px;
-    margin: 0px 0px 0px 0px;
-    height: 14px;
-}
-
-/* título "Producción industrial de sales" */
-.produccion-industrial div h4 {
-    font-size: 20px;
-    width: 256px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0px 0px 0px 0px;
-}
-
-/* subtítulo "las plantas utilizan luz..." */
-.produccion-industrial div p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
-    width: 256px;
-    height: 272px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 45px;
-    line-height: 28px; /* VER */
-    color: #585858;
-
-}
-
-/* boton "leer más"*/
-#boton-leer-mas {
-    font-size: 14px;
-    padding: 15px 32px 15px 32px;
-    background-color: #266F39;
-    border-radius: 100px;
-    margin-left: 16px;
-}
-
-/* boton "leer más"*/
-.boton-repetido {
-    font-size: 14px;
-    padding: 15px 32px 15px 32px;
-    background-color: #266F39;
-    border-radius: 100px;
-    margin-left: 16px;
-}
-
-
-/* imagen */
-
-.imagen-produccion-industrial {
-width: 288px;
-margin-top: 45px;
-}
-
-
-/* Caja de hidroponia*/
-
-.hidroponia {
-    display: flex;
-    flex-direction: column;
-    width: 288px;
-    height: 537px;
-    background-color: #F2EFE3;
-    margin-top: 280px;
-    margin-left: 16px;
-    margin-right: 16px;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
-}
-
-
-/* título "¿hidroponia con o sin?" */
-.hidroponia div h4 {
-    font-size: 20px;
-    width: 256px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0px 0px 0px 0px;
-    font-family: gascognemedium;
-}
-
-/* subtítulo "Muchas veces,cuando hablamos..." */
-.hidroponia div p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
-    width: 256px;
-    height: 256px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 45px;
-    line-height: 26px;
-    color: #585858;
-
-}
-
-/* imagen */
-.imagen-hidroponia-uno {
-    width: 288px;
-    margin-top: 45px;
-}
-
-
-
-
-
-
-
-
-
-
-/*5 PANTALLA DE CONTACTO */
-
-/* caja beige */
-
-.cuadrado-beige {
-
-    width: 818px;
-    height: 686px;
-    background-color: #F2EFE3;
-    margin-top: 251px;
-    margin-right: 311px;
-    margin-left: 311px;
-    margin-bottom: 124px;
-    border-radius: 12px;
-}
-
-/* título "contactanos" */
-
-.cuadrado-beige div h2 {
-    font-family: gascognemedium;
-    font-size: 40px;
-    font-weight: 400;
-    color: #303030;
-    width: 240px;
-    padding-top: 80px;
-    margin-left: 123px;
-    margin-bottom: 0px;
-}
-
-/* input entero de nombre completo, correo y tu mensaje */
-
-.input-completo {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-completo-uno {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-completo-dos {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* texto de nombre completo */
-
-.nombre-completo {
-    font-family: gascognemedium;
-    font-size: 20px;
-    margin-top: 64px;
-    margin-left: 127px;
-    margin-bottom: 16px;
-}
-
-
-/* texto de correo electronico */
-
-.correo-electronico {
-    font-family: gascognemedium;
-    font-size: 20px;
-    margin-left: 127px;
-    margin-bottom: 16px;
-    margin-top: 64px;
-}
-
-
-/* texto de "tu mensaje" */
-
-.tu-mensaje {
-    font-family: gascognemedium;
-    font-size: 20px;
-    margin-left: 127px;
-    margin-bottom: 16px;
-    margin-top: 56px;
-}
-
-/* input de nombre completo */
-.input-solo {
-    width: 250px;
-    height: 24px;
-    margin-left: 127px;
-    background-color: #F2EFE3;
-    border-color: #656565;
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-
-/* input de correo */
-.input-solo-uno {
-    width: 250px;
-    height: 24px;
-    margin-left: 127px;
-    background-color: #F2EFE3;
-    border-color: #656565;
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-/* input de "tu mensaje" */
-
-.input-solo-dos {
-    width: 569px;
-    height: 159px;
-    margin-left: 127px;
-    background-color: #F2EFE3;
-    border-color: #656565;
-    border-width: 1px;
-    border-radius: 5px;
-    margin-bottom: 76px;
-}
-
-/* hacer dos filas, una para nombre y otra para correo */
-
-.row-fila {
-    display: flex;
-    flex-direction: row;
-}
-
-
-/* boton de "enviar consulta" */
-
-.boton-enviar-consulta {
-    color: #FDFDFD;
-    padding: 20px 32px 20px 32px;
-    background-color: #266F39;
-    font-family: raleway;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 100px;
-    margin-left: 127px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*6 Footer*/
+    /*6 ------------------------ FOOTER ------------------------ */
 
     /* tamaño de fondo */
 
@@ -3453,15 +3494,18 @@ margin-top: 45px;
         background-color: #f2efe3;
         position: relative;
         overflow: hidden;
+        
     }
 
 
+    
     /* lista de academia y comunidad + logo + planta + privacidad e iconos */
     .academia-comunidad {
         display: grid;
         grid-template-areas:
             "logo planta ";
-        grid-template-columns: 206px 114px ;
+        grid-template-columns: 206px 114px;
+
         align-items: center;
         height: 121px;
     }
@@ -3643,20 +3687,6 @@ margin-top: 45px;
         display: none;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
