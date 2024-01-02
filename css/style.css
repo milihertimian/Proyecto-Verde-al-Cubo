@@ -550,6 +550,12 @@ header {
 }
 
 
+/* Para ocultar el icono en pantallas más grandes (web) */
+.icono-mobile-cuatro {
+    display: none;
+}
+
+
 /* Cursos online */
 
 
@@ -577,10 +583,11 @@ header {
     margin: 0px;
     font-size: 40px;
     padding-left: 595px;
-    padding-right: 594px;
+    padding-right: 330px;
     padding-bottom: 63px;
     padding-top: 96px;
     width: 251px;
+    height: 49px;
 }
 
 /* Cards de cursos */
@@ -677,6 +684,36 @@ header {
     padding-right: 18px;
 
 }
+
+
+/* boton de "ver todos" que va en mobile y no en web*/
+
+.boton-mobile-solo {
+    display: none;
+}
+
+/* boton de "ver todos" que va en web y no en mobile con flex en titulo y boton*/
+
+.flex-boton-titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* boton de "ver todos" que va en web y no en mobile */
+
+.boton-web-todos {
+    padding: 15px 24px 15px 24px;
+    background-color: #266F39;
+    color: #FDFDFD;
+    border-radius: 100px;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: bold;
+}
+
+
+
 
 
 /* Sobre nosotros */
@@ -1223,6 +1260,8 @@ header {
 }
 
 /* cajas de cards */
+
+/* caja 2 */
 #caja-cinco {
     width: 292px;
     height: 488px;
@@ -1232,15 +1271,17 @@ header {
     margin-left: 24px;
 }
 
+/* caja 3 */
 .caja-tercera {
-    width: 260px;
-    height: 391px;
+    width: 292px;
+    height: 488px;
     background-color: #F2EFE3;
     border-radius: 12px;
     margin-bottom: 79px;
     margin-left: 24px;
 }
 
+/* caja 1 */
 #primera-card-cinco {
     width: 292px;
     height: 488px;
@@ -1250,6 +1291,7 @@ header {
     margin-left: 92px;
 }
 
+/* caja 4 */
 #última-card-cinco {
     width: 292px;
     height: 488px;
@@ -1261,6 +1303,13 @@ header {
 }
 
 /* imagenes de cards */
+
+.caja-tercera img {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+}
+
 #caja-cinco img {
     padding-left: 18px;
     padding-right: 18px;
@@ -1280,6 +1329,15 @@ header {
 }
 
 /* títulos de cards */
+
+.caja-tercera h3 {
+    padding-top: 24px;
+    padding-left: 18px;
+    margin: 0px;
+    font-family: gascognemedium;
+    font-size: 20px;
+    color: #303030;
+}
 
 #caja-cinco h3 {
     padding-top: 24px;
@@ -1309,6 +1367,20 @@ header {
 }
 
 /* subtítulos de cards "docente en..."*/
+
+.caja-tercera p {
+    padding-left: 18px;
+    padding-bottom: 52px;
+    padding-top: 24px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: normal;
+    color: #585858;
+    line-height: 1, 5;
+    width: 252px;
+
+}
 
 #caja-cinco p {
     padding-left: 18px;
@@ -1559,7 +1631,7 @@ header {
 .correo-electronico {
     font-family: gascognemedium;
     font-size: 20px;
-    margin-left: 127px;
+    margin-left: 65px;
     margin-bottom: 16px;
     margin-top: 64px;
 }
@@ -1591,7 +1663,7 @@ header {
 .input-solo-uno {
     width: 250px;
     height: 24px;
-    margin-left: 127px;
+    margin-left: 65px;
     background-color: #F2EFE3;
     border-color: #656565;
     border-width: 1px;
@@ -2410,13 +2482,14 @@ ul {
     }
 
     /* Para ocultar el icono en pantallas más grandes */
-    .icono-mobile {
-        display: none;
+    .icono-mobile-cuatro {
+        display: none !important;
+        display: block !important;
     }
 
     /* Para mostrar el icono en pantallas de max 320 y centrarlo */
     @media screen and (max-width: 320px) {
-        .icono-mobile {
+        .icono-mobile-cuatro {
             display: block;
             text-align: center;
             margin: 0 auto;
@@ -2569,6 +2642,12 @@ ul {
             font-weight: bold;
         }
     }
+
+    /* boton solo para web */
+    .boton-web-ver-todos {
+        display: none;
+    }
+
 
 
     /* Sobre nosotros */
@@ -3284,8 +3363,8 @@ ul {
         max-width: 100%;
         object-fit: cover;
         margin-top: 45px;
-        border-bottom-left-radius: 12px ;
-        border-bottom-right-radius: 12px ;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
         border-top-right-radius: 0px;
         border-top-left-radius: 0px;
     }
@@ -3339,12 +3418,12 @@ ul {
         height: 218px;
         max-width: 100%;
         margin-top: 45px;
-        border-bottom-left-radius: 12px ;
-        border-bottom-right-radius: 12px ;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
         border-top-right-radius: 0px;
         border-top-left-radius: 0px;
-       object-fit: cover; 
-   
+        object-fit: cover;
+
 
     }
 
@@ -3398,15 +3477,15 @@ ul {
     }
 
 
-   
- /* texto de nombre completo */
 
- .nombre-completo {
-    font-size: 14px;
-    margin-top: 30px;
-    margin-left: 16px;
-    margin-bottom: 16px;
-}
+    /* texto de nombre completo */
+
+    .nombre-completo {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
 
     /* texto de correo electronico */
 
@@ -3472,7 +3551,7 @@ ul {
         margin-left: 16px;
     }
 
-    
+
     /* hacer dos filas, una para nombre y otra para correo */
 
     .row-fila {
@@ -3494,11 +3573,11 @@ ul {
         background-color: #f2efe3;
         position: relative;
         overflow: hidden;
-        
+
     }
 
 
-    
+
     /* lista de academia y comunidad + logo + planta + privacidad e iconos */
     .academia-comunidad {
         display: grid;
