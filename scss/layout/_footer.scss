@@ -1,0 +1,193 @@
+/* --FOOTER -- */
+
+
+.footer {
+    width: 1440px;
+    height: 421px;
+    background-color: #f2efe3;
+    position: relative;
+    overflow: hidden;
+
+    ul {
+        list-style-type: none;
+
+        a {
+            color: #585858;
+        }
+    }
+
+    .academia-comunidad {
+        display: grid;
+        grid-template-areas:
+            "academia comunidad logo planta"
+            "privado privado privado privado";
+        grid-template-columns: 316px 364px 400px 360px;
+        grid-template-rows: 300px 300px 300px 300px;
+        height: 200px;
+
+        div {
+            ul {
+                li {
+                    font-family: Raleway;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding-bottom: 24px;
+                }
+            }
+        }
+
+        .academia-a {
+            grid-area: academia;
+            height: 310px;
+
+            .academia {
+                padding-left: 154px;
+                padding-bottom: 24px;
+                padding-top: 50px;
+                margin: 0px;
+
+                .academia-uno {
+                    padding-left: 154px;
+                    margin: 0px;
+                    width: 114px;
+                }
+            }
+        }
+
+        .comunidad-a {
+
+            .comunidad {
+                padding-left: 100px;
+                padding-bottom: 24px;
+                padding-top: 50px;
+                margin: 0px;
+
+                .comunidad-uno {
+                    padding-left: 100px;
+                    margin: 0px;
+                    width: 210px;
+                }
+            }
+        }
+
+        div {
+            h3 {
+                font-family: gascognemedium;
+                font-size: 20px;
+                font-weight: normal;
+                color: #303030;
+            }
+        }
+    }
+
+    div {
+        .logo-o {
+            position: absolute;
+            right: -250px;
+            /* Ajusta el valor según sea necesario para alinear a la derecha */
+            grid-area: logo;
+            height: 148px;
+            width: 309px;
+            height: 47px;
+            grid-area: logo;
+            height: 148px;
+            margin-top: 50px;
+            /* Ajusta según sea necesario */
+            margin-right: 50px;
+            /* Ajusta según sea necesario */
+            position: relative;
+            width: 309px;
+        }
+    }
+
+    div {
+        .planta {
+            height: 421px;
+            grid-area: planta;
+            width: 570.42px;
+            height: 536.08px;
+            transform: rotate(-11.32deg);
+            margin-left: -50px;
+            margin-top: -10px;
+        }
+    }
+
+    div {
+        .seguridad {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 680px;
+
+            .privacidad {
+                font-family: Raleway;
+                font-weight: normal;
+                font-size: 16px;
+                color: #585858;
+                white-space: nowrap;
+                margin-top: 70px;
+            }
+
+            .términos {
+                font-family: Raleway;
+                font-weight: normal;
+                font-size: 16px;
+                color: #585858;
+                padding-left: 46px;
+                white-space: nowrap;
+                margin-top: 70px;
+            }
+
+            .arrepentimiento {
+                font-family: Raleway;
+                font-weight: normal;
+                font-size: 16px;
+                color: #585858;
+                padding-left: 46px;
+                white-space: nowrap;
+                margin-top: 70px;
+            }
+        }
+
+        div {
+            .iconos-s {
+                display: flex;
+
+                .iconofacebook {
+                    margin-left: 590px;
+                    margin-right: 16px;
+                    margin-top: 100px;
+                    padding: 4px 4px 4px 4px;
+                    margin-bottom: 24px;
+                }
+
+                .iconoinstagram {
+                    margin-right: 16px;
+                    margin-top: 100px;
+                    margin-bottom: 24px;
+                    padding: 4px 4px 4px 4px;
+                }
+
+                .iconotwitter {
+                    margin-right: 16px;
+                    margin-top: 100px;
+                    margin-bottom: 24px;
+                    padding: 4px 4px 4px 4px;
+                }
+
+                .iconopinterest {
+                    margin-right: 16px;
+                    margin-top: 100px;
+                    margin-bottom: 24px;
+                    padding: 4px 4px 4px 4px;
+                }
+
+                .iconolinkedin {
+                    margin-top: 100px;
+                    margin-bottom: 24px;
+                    padding: 4px 4px 4px 4px;
+                }
+            }
+        }
+    }
+}

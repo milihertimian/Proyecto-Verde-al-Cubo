@@ -1,0 +1,57 @@
+/* cajas de cards */
+
+@mixin card-box-styling($width: 292px, $height: 488px, $margin-left: 0, $margin-right: 0, $margin-bottom: 79px) {
+    width: $width;
+    height: $height;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+#caja-cinco {
+    @include card-box-styling($margin-left: 24px);
+}
+
+.caja-tercera {
+    @include card-box-styling($margin-left: 24px);
+}
+
+#primera-card-cinco {
+    @include card-box-styling($margin-left: 92px);
+}
+
+#última-card-cinco {
+    @include card-box-styling($margin-left: 24px, $margin-right: 108px);
+}
+
+
+
+/* Cards de cursos */
+
+@mixin card-styling($margin-left: 0, $margin-right: 0) {
+    width: 292px;
+    height: 439px;
+    background-color: #F2EFE3;
+    border-radius: 12px;
+    margin: 0;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+.card-uno {
+    @include card-styling(100px);
+}
+
+.card-dos {
+    @include card-styling(24px, 24px);
+}
+
+.card-tres {
+    @include card-styling(0, 24px);
+}
+
+.card-cuatro {
+    @include card-styling(0, 100px);
+}

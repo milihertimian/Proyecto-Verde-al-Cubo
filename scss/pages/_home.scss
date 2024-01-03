@@ -1,0 +1,61 @@
+/* PORTADA DE INICIO WEB*/
+
+.verde-al-cubo {
+    display: flex;
+    flex-direction: row;
+
+    section {
+        background-color: #CAD3B7;
+        padding-top: 248px;
+        padding-left: 102px;
+        padding-right: 64px;
+        padding-bottom: 123px;
+
+        h1 {
+            font-family: GascogneSemibold;
+            font-size: 48px;
+            color: #303030;
+            width: 554px;
+            line-height: 35px;
+            margin-bottom: 40px;
+            margin-top: 0px;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 64px;
+            margin-top: 0px;
+            width: 519px;
+            height: 148px;
+            color: #585858;
+        }
+
+        a {
+            font-size: 20px;
+            font-weight: bold;
+            color: #FDFDFD;
+            font-family: raleway;
+            padding: 24px 40px 24px 40px;
+            border-radius: 100px;
+            width: 180px;
+            height: 66px;
+            background-color: #266F39;
+        }
+
+        a:hover {
+            background-color: #184924;
+        }
+
+    }
+}
+
+/* PORTADA DE INICIO MOBILE*/
+
+@media screen and (max-width: 320px) {
+
+
+
+}
