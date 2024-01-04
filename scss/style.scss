@@ -2571,7 +2571,7 @@ ul {
     }
 
 
-    /* Cursos online SEGUIR POR ACÁ */
+    /* Cursos online */
 
 
     /* fondo de cursos */
@@ -2597,8 +2597,8 @@ ul {
     .cards div h2 {
         margin: 0px;
         font-size: 20px;
-        padding-left: 97px;
-        padding-right: 97px;
+        padding-left: 152px;
+        padding-right: 152px;
         padding-bottom: 40px;
         padding-top: 40px;
         width: 126px;
@@ -2609,14 +2609,14 @@ ul {
 
     .card-uno {
         width: 260px;
-        height: 408px;
+        height: 432px;
         margin: 0px;
         margin-left: 16px;
     }
 
     .card-dos {
-        width: 275px;
-        height: 408px;
+        width: 260px;
+        height: 432px;
         margin: 0px;
         margin-left: 16px;
         margin-right: 0px;
@@ -2642,10 +2642,10 @@ ul {
         padding-bottom: 0px;
         margin: 0px;
         font-size: 16px;
-        line-height: 22px;
+        line-height: 28px;
         letter-spacing: 2%;
         width: 228px;
-        height: 40px;
+        height: 46px;
 
 
     }
@@ -2658,10 +2658,12 @@ ul {
         padding-top: 16px;
         padding-bottom: 24px;
         margin: 0px;
-        font-size: 14px;
+        font-size: 16px;
         width: 228px;
         height: 90px;
         text-align: left;
+        line-height: 20px;
+        letter-spacing: 5%;
     }
 
 
@@ -2694,9 +2696,9 @@ ul {
     @media (max-width: 767px) {
         .boton-mobile-class {
             text-align: right;
-            margin-top: 42px;
-            margin-left: 196px;
-            margin-bottom: 50px;
+            margin-top: 40px;
+            margin-left: 296px;
+            margin-bottom: 40px;
         }
 
         .boton-mobile-solo {
@@ -2730,21 +2732,21 @@ ul {
     .sobre-nosotros {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        width: 435px;
         height: 920px;
     }
 
     /* título subtítulo y botón */
 
     .sobre-nosotros section {
-        width: 320px;
+        width: 430px;
         height: 568px;
         background-color: #CAD3B7;
         box-sizing: border-box;
-        padding-top: 50px;
+        padding-top: 92px;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 65px;
+        padding-bottom: 91px;
     }
 
     /* título "Sobre Nosotros" */
@@ -2762,27 +2764,236 @@ ul {
     /* subtítulo "Somos una comunidad" */
 
     .sobre-nosotros section p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 28px;
         margin-bottom: 45px;
         margin-top: 0px;
-        width: 290px;
-        height: 346px;
+        width: 400px;
+        height: 270px;
     }
 
     /* boton "conocer más" */
 
     .boton-sobrenosotros-uno {
-        font-size: 14px;
+        font-size: 16px;
         padding: 15px 32px 15px 32px;
     }
 
     /* imagen de sobre nosotros */
 
     .sobre-nosotros div img {
-        width: 320px;
+        width: 435px;
         height: 352px;
+        display: block;
     }
+
+
+
+    /*6 ------------------------ FOOTER ------------------------ */
+
+    /* tamaño de fondo */
+
+    .footer {
+        width: 435px;
+        height: 121px;
+        background-color: #f2efe3;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+
+
+    /* lista de academia y comunidad + logo + planta + privacidad e iconos */
+    .academia-comunidad {
+        display: grid;
+        grid-template-areas:
+            "logo planta ";
+        grid-template-columns: 206px 114px;
+
+        align-items: center;
+        height: 121px;
+    }
+
+    /* logo */
+
+    .logo-o img {
+        position: relative;
+        right: 2px;
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 144px;
+        height: 22px;
+        grid-area: logo;
+    }
+
+
+    /* planta */
+
+    .planta img {
+        grid-area: planta;
+        width: 160px;
+        height: auto;
+        margin-left: 160px;
+        margin-top: 50px;
+    }
+
+
+    /* Imagen de la planta " */
+    .planta {
+        transform: rotate(-11.32deg);
+        width: 50px;
+        /* Ajusta según sea necesario */
+        height: auto;
+        /* Mantiene la proporción */
+        margin-top: -120px;
+        /* Ajusta según sea necesario */
+        margin-right: 10px;
+        grid-area: planta;
+    }
+
+
+    /* Logo " */
+    .logo-o {
+        width: 10px;
+        height: auto;
+        position: relative;
+        margin-top: 100px;
+        margin-left: -204px;
+        grid-area: logo;
+        margin-bottom: 300px;
+    }
+
+
+    /* todos los iconos */
+
+    .iconos-s {
+        grid-area: iconos;
+        display: flex;
+        width: 20px;
+    }
+
+
+    /* Icono de facebook */
+
+    .iconofacebook {
+        margin-left: 84px;
+        margin-right: 5px;
+        margin-top: -50px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: 29px;
+    }
+
+    /* Icono de instagram */
+
+    .iconoinstagram {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de twitter */
+
+    .iconotwitter {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+
+    /* Icono de pinterest */
+
+    .iconopinterest {
+        margin-right: 10px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de linkedin */
+
+    .iconolinkedin {
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+
+    }
+
+    /* Los tres botones de privacidad " */
+    .seguridad {
+        display: none;
+    }
+
+
+    /* texto "Politica de privacidad" */
+    .privacidad {
+        display: none;
+    }
+
+    /* texto "Términos y condiciones" */
+    .términos {
+        display: none;
+    }
+
+    /* texto "Botón de arrepentimiento" */
+    .arrepentimiento {
+        display: none;
+    }
+
+    /* Títulos "Academia y Comunidad */
+    .academia-comunidad div h3 {
+        display: none;
+    }
+
+    /* Título "Academia" */
+    .academia {
+        display: none;
+    }
+
+    /* Título "Comunidad" */
+    .comunidad {
+        display: none;
+    }
+
+    /* Subítulos de academia y comunidad */
+
+    .academia-comunidad div ul li {
+        display: none;
+    }
+
+    footer ul a {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    /* Subítulos de academia */
+
+    .academia-uno {
+        display: none;
+    }
+
+
+    /* Subítulos de comunidad */
+
+    .comunidad-uno {
+        display: none;
+    }
+
+    .academia-a {
+        display: none;
+    }
+
+    .comunidad-a {
+        display: none;
+
+    }
+
 
 }
 
@@ -3122,6 +3333,7 @@ ul {
         width: 320px;
         height: 352px;
         display: block;
+
     }
 
     /* toda la sección: título, subtitulo e imagen */
