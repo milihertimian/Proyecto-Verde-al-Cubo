@@ -1804,7 +1804,7 @@ ul {
     padding-top: 31px;
     padding-bottom: 31px;
     margin: 27px 16px 0px 16px;
-    position: absolute;
+    position: relative;
     width: 278px;
     flex-wrap: wrap;
   }
@@ -1909,6 +1909,7 @@ ul {
     /* Establece el ancho deseado */
     height: 352px;
     /* Establece la altura deseada */
+    margin-top: -120px; /* saqué el fondo blanco que se generaba */
   }
   /* Estilo para la sección verde */
   .verde-al-cubo section {
@@ -2526,7 +2527,7 @@ ul {
     padding-top: 31px;
     padding-bottom: 31px;
     margin: 27px 16px 0px 16px;
-    position: absolute;
+    position: relative;
     width: 177px;
     flex-wrap: wrap;
   }
@@ -2631,7 +2632,7 @@ ul {
     width: 320px;
     /* Establece el ancho deseado */
     height: 352px;
-    /* Establece la altura deseada */
+    margin-top: -120px; /* saqué el fondo blanco que se generaba */
   }
   /* Estilo para la sección verde */
   .verde-al-cubo section {
@@ -3426,6 +3427,7 @@ ul {
     width: 320px;
     height: 352px;
     display: block;
+    margin-top: -120px;
   }
   .container-dos section {
     order: 1;
@@ -3534,7 +3536,7 @@ ul {
     width: 288px;
     height: 561px;
     background-color: #CAD3B7;
-    margin-top: 0px;
+    margin-top: -120px;
     margin-left: 16px;
     margin-right: 16px;
     border-top-right-radius: 12px;
@@ -3639,13 +3641,13 @@ ul {
     object-fit: cover;
   }
   .main-articulos {
-    height: 1793px;
+    height: 1655px;
   }
   .cuadrado-beige {
     width: 288px;
-    height: 611px;
+    height: 650px;
     background-color: #CAD3B7;
-    margin-top: 161px;
+    margin-top: -1px;
     margin-right: 16px;
     margin-left: 16px;
     margin-bottom: 50px;
@@ -3708,7 +3710,7 @@ ul {
   }
   .input-solo-dos {
     width: 250px;
-    height: 44px;
+    height: 159px;
     margin-left: 16px;
     background-color: #CAD3B7;
     border-color: #656565;

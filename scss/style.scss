@@ -2091,7 +2091,7 @@ ul {
         padding-top: 31px;
         padding-bottom: 31px;
         margin: 27px 16px 0px 16px;
-        position: absolute;
+        position: relative;
         width: 278px;
         flex-wrap: wrap;
     }
@@ -2222,6 +2222,7 @@ ul {
         /* Establece el ancho deseado */
         height: 352px;
         /* Establece la altura deseada */
+        margin-top: -120px; /* saqué el fondo blanco que se generaba */
     }
 
     /* Estilo para la sección verde */
@@ -3058,7 +3059,7 @@ ul {
         padding-top: 31px;
         padding-bottom: 31px;
         margin: 27px 16px 0px 16px;
-        position: absolute;
+        position: relative;
         width: 177px;
         flex-wrap: wrap;
     }
@@ -3188,7 +3189,7 @@ ul {
         width: 320px;
         /* Establece el ancho deseado */
         height: 352px;
-        /* Establece la altura deseada */
+        margin-top: -120px; /* saqué el fondo blanco que se generaba */
     }
 
     /* Estilo para la sección verde */
@@ -3239,10 +3240,10 @@ ul {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        white-space: normal; 
+        white-space: normal;
     }
 
-  
+
 
     #conectá {
         font-size: 16px;
@@ -3253,7 +3254,7 @@ ul {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        white-space: normal; 
+        white-space: normal;
     }
 
     #contá {
@@ -3265,7 +3266,7 @@ ul {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        white-space: normal; 
+        white-space: normal;
     }
 
     #participá {
@@ -3278,7 +3279,7 @@ ul {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        white-space: normal; 
+        white-space: normal;
     }
 
     /* iconos de check y títulos */
@@ -3758,6 +3759,7 @@ ul {
 
     /* Portada */
 
+   
     /* Toda la portada de cursos */
 
     .container-uno {
@@ -3767,6 +3769,7 @@ ul {
         height: 752px;
         margin-top: 0px;
         margin-bottom: 0px;
+        
     }
 
 
@@ -3818,7 +3821,6 @@ ul {
     .imagen-nogal {
         width: 320px;
         height: 352px;
-
     }
 
 
@@ -4174,6 +4176,7 @@ ul {
         width: 320px;
         height: 352px;
         display: block;
+        margin-top: -120px;
     }
 
     /* Estilo para la sección portada */
@@ -4333,7 +4336,7 @@ ul {
         width: 288px;
         height: 561px;
         background-color: #CAD3B7;
-        margin-top: 0px;
+        margin-top: -120px;
         margin-left: 16px;
         margin-right: 16px;
         border-top-right-radius: 12px;
@@ -4470,7 +4473,7 @@ ul {
 
     /* fondo blanco de toda la pantalla */
     .main-articulos {
-        height: 1793px;
+        height: 1655px;
     }
 
 
@@ -4481,9 +4484,9 @@ ul {
     .cuadrado-beige {
 
         width: 288px;
-        height: 611px;
+        height: 650px;
         background-color: #CAD3B7;
-        margin-top: 161px;
+        margin-top: -1px;
         margin-right: 16px;
         margin-left: 16px;
         margin-bottom: 50px;
@@ -4574,7 +4577,7 @@ ul {
 
     .input-solo-dos {
         width: 250px;
-        height: 44px;
+        height: 159px;
         margin-left: 16px;
         background-color: #CAD3B7;
         border-color: #656565;
