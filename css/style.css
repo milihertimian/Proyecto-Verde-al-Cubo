@@ -521,10 +521,12 @@ header {
   /* Agrega una transición suave */
 }
 .card-uno:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 .card-uno:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 .card-dos {
@@ -539,10 +541,12 @@ header {
   /* Agrega una transición suave */
 }
 .card-dos:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 .card-dos:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 .card-tres {
@@ -557,10 +561,12 @@ header {
   /* Agrega una transición suave */
 }
 .card-tres:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 .card-tres:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 .card-cuatro {
@@ -575,10 +581,12 @@ header {
   /* Agrega una transición suave */
 }
 .card-cuatro:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 .card-cuatro:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 /* Títulos de cards */
@@ -1123,13 +1131,16 @@ header {
   margin-bottom: 79px;
   margin-left: 24px;
   margin-right: 0;
-  transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Agrega una transición suave */
 }
 #caja-cinco:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 #caja-cinco:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 .caja-tercera {
@@ -1140,13 +1151,16 @@ header {
   margin-bottom: 79px;
   margin-left: 24px;
   margin-right: 0;
-  transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Agrega una transición suave */
 }
 .caja-tercera:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 .caja-tercera:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 #primera-card-cinco {
@@ -1157,13 +1171,16 @@ header {
   margin-bottom: 79px;
   margin-left: 92px;
   margin-right: 0;
-  transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Agrega una transición suave */
 }
 #primera-card-cinco:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 #primera-card-cinco:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 #última-card-cinco {
@@ -1174,13 +1191,16 @@ header {
   margin-bottom: 79px;
   margin-left: 24px;
   margin-right: 108px;
-  transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Agrega una transición suave */
 }
 #última-card-cinco:hover {
-  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
+  box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
+  /* Sombra en hover con 20 de blur y color #988B61 */
 }
 #última-card-cinco:active {
-  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+  box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
+  /* Sombra al hacer clic con 20 de blur y color #988B61 */
 }
 
 /* imagenes de cards */
@@ -1745,6 +1765,576 @@ ul {
 }
 
 /*  -------  MOBILE ------- */
+/*  -------  MOBILE ------- */
+/* RESOLUCIÓN MENOR A */
+@media screen and (max-width: 430px) {
+  /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
+  /* Header */
+  /* Cursos solo*/
+  .cursos-cursos {
+    padding-right: 0px;
+    color: #585858;
+    padding-top: 10px;
+  }
+  /* Sobrenosotros solo*/
+  .sobrenosotros {
+    padding-right: 0px;
+    color: #585858;
+  }
+  /* Artículos solo*/
+  .artículos {
+    padding-right: 0px;
+    color: #585858;
+  }
+  /* Contacto solo*/
+  .contacto {
+    padding-right: 0px;
+    color: #585858;
+  }
+  .aulavirtual {
+    color: #585858;
+  }
+  /* Logo y cursos, sobre nosotros, artículos...*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 86px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin: 27px 16px 0px 16px;
+    position: absolute;
+    width: 278px;
+    flex-wrap: wrap;
+  }
+  /* Icono de menú agregado ESTO*/
+  header::before {
+    content: "";
+    background-image: url(../img/cruz-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 230px;
+    margin-left: 110px;
+  }
+  /* contenedor de menú beige ESTO */
+  .nav-contenedor-uno {
+    width: 400px;
+    background-color: #F2EFE3;
+    margin-right: 0px;
+    margin-left: -24px;
+    margin-top: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    min-width: 388px;
+  }
+  /* cursos, sobre nosotros, artículos...*/
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    padding-left: 24px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  /* Separación entre las palabras en el menú */
+  header nav ul li {
+    margin-bottom: 40px;
+  }
+  /* Logo solo ESTO*/
+  .logo-portada {
+    width: 130px;
+    /* Establece el ancho deseado para el logo en dispositivos móviles */
+    height: 33px;
+    /* Mantiene la proporción de aspecto original */
+  }
+  /* Portada */
+  /* Toda la portada de inicio */
+  .verde-al-cubo {
+    display: flex;
+    flex-direction: column;
+  }
+  /* titulo subtitulo y botón */
+  .verde-al-cubo section {
+    padding-top: 63px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 64px;
+  }
+  /* título: Academia verde al cubo */
+  .verde-al-cubo section h1 {
+    width: 288px;
+    height: 10px;
+    font-size: 20px;
+    width: 288px;
+    line-height: 0px;
+    margin-bottom: 30px;
+  }
+  /* Subtítulo: Descubrí... */
+  .verde-al-cubo section p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    width: 397px;
+    height: 157px;
+  }
+  /* botón */
+  .verde-al-cubo section a {
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
+    width: 150px;
+    height: 48px;
+  }
+  .verde-al-cubo section a:active {
+    background-color: #184924;
+  }
+  /* imagen de portada */
+  .imagen-a-ocultar {
+    display: none;
+    /* Esto ocultará la imagen en dispositivos móviles */
+    background-image: url(../img/imagenmobile.svg);
+    display: block;
+    /* Esto mostrará la imagen en dispositivos móviles */
+    background-position: top center;
+    width: 430px;
+    /* Establece el ancho deseado */
+    height: 352px;
+    /* Establece la altura deseada */
+  }
+  /* Estilo para la sección verde */
+  .verde-al-cubo section {
+    order: 1;
+    /* Cambia el orden del elemento */
+  }
+  /* Cómo funcionan los cursos */
+  /* cuadrado beige */
+  .caja2 {
+    width: 398px;
+    height: 620px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    margin-right: auto;
+  }
+  /* título principal "¿Cómo funcionan nuestros cursos?" */
+  #función {
+    width: 358px;
+    text-align: center;
+  }
+  .caja2 h2 {
+    font-size: 20px;
+    padding: 40px 20px 0px 20px;
+  }
+  /* títulos "Aprendé, conectá, contá, participá" */
+  #aprendé {
+    color: #303030;
+    font-size: 16px;
+    width: 260px;
+    padding-right: 20px;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
+  #conectá {
+    font-size: 16px;
+    width: 308px;
+    padding-right: 20px;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
+  #contá {
+    font-size: 16px;
+    width: 228px;
+    padding-left: 19px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
+  #participá {
+    font-size: 16px;
+    width: 267px;
+    padding-left: 19px;
+    padding-right: 20px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
+  /* iconos de check y títulos */
+  .caja2 h3 img {
+    padding-right: 12px;
+  }
+  /* subtítulos en negrita */
+  .caja2 h3 {
+    font-size: 16px;
+    padding: 48px 0px 16px 20px;
+    line-height: 20px;
+  }
+  #intercambiá {
+    padding-bottom: 40px;
+    line-height: 20px;
+  }
+  /* subtítulos en regular */
+  .caja2 p {
+    font-size: 16px;
+    padding-left: 52px;
+    margin: 0px;
+    width: 326px;
+    height: 51px;
+  }
+  .ellas {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .planta-izquierda {
+    display: none;
+  }
+  .planta-derecha {
+    display: none;
+  }
+  /* A quienes estan dirigidos */
+  /* imagen sola */
+  .tractor-uno {
+    width: 429px;
+    height: 352px;
+    display: block;
+  }
+  /* toda la sección: título, subtitulo e imagen */
+  .dirigidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    width: 429px;
+    height: 460px;
+  }
+  /* título y subtítulo */
+  .dirigidos section h2 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50px;
+    padding-bottom: 49px;
+    width: 397px;
+  }
+  /* contenedor de titulo y subtitulo */
+  .ellos {
+    background-color: #CAD3B7;
+    width: 429px;
+    height: 460px;
+  }
+  /*  título "a quienes estan dirigidos" */
+  .dirigidos h2 {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  /*  subtítulo "ingenireros, etc" */
+  .dirigidos section p {
+    font-size: 16px;
+    width: 400px;
+    height: 230px;
+    margin: 0px;
+    line-height: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 49px;
+  }
+  #negrita {
+    font-weight: 400;
+  }
+  /* Verde al cubo te garantiza */
+  /*  Caja o contenedor beige */
+  .contener {
+    background-color: #F2EFE3;
+    width: 429px;
+  }
+  /*  título "Verde al Cubo te garantiza" */
+  .titulo h2 {
+    font-size: 20px;
+    padding-left: 89px;
+    padding-right: 90px;
+    padding-top: 350px;
+    padding-bottom: 40px;
+    width: 250px;
+    margin: 0px;
+  }
+  /* toda la sección: títulos y subtitulos*/
+  .garantizar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* icono de pala*/
+  .imagen-enfoque-uno {
+    padding-left: 190px;
+    padding-right: 191px;
+  }
+  /* icono de aprendizaje*/
+  .aprendizaje img {
+    display: none;
+  }
+  /* icono de expertos*/
+  .expertos img {
+    display: none;
+  }
+  /* icono de certificado*/
+  .certificado img {
+    display: none;
+  }
+  /* título "enfoque práctico"*/
+  .enfoque h3 {
+    font-size: 16px;
+    padding-left: 151px;
+    padding-right: 152px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin: 0px;
+    width: 126px;
+  }
+  /* título "aprendizaje dinámico"*/
+  .aprendizaje h3 {
+    display: block;
+    display: none;
+  }
+  /* título "expertos en la industria"*/
+  .expertos h3 {
+    display: block;
+    display: none;
+  }
+  /* título "certificado"*/
+  .certificado h3 {
+    display: block;
+    display: none;
+  }
+  /* subtítulo "diseñamos modalidades"*/
+  .enfoque p {
+    font-size: 16px;
+    text-align: center;
+    width: 288px;
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 71px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 20px;
+  }
+  /* subtítulo "brindamos variedad"*/
+  .aprendizaje p {
+    display: block;
+    display: none;
+  }
+  /* subtítulo "contamos con"*/
+  .expertos p {
+    display: block;
+    display: none;
+  }
+  /* subtítulo "entregamos un"*/
+  .certificado p {
+    display: block;
+    display: none;
+  }
+  /* Para ocultar el icono en pantallas más grandes */
+  .icono-mobile-cuatro {
+    display: none !important;
+    display: block !important;
+  }
+  /* Para mostrar el icono en pantallas de max 320 y centrarlo */
+  /* Cursos online SEGUIR POR ACÁ */
+  /* fondo de cursos */
+  /* todas las cards */
+  /* título de cursos "cursos online" */
+  /* Cards de cursos */
+  /* Títulos de cards */
+  /* Subtítulos de cards */
+  /* Imágenes de cursos */
+  /* boton solo para mobile */
+  /* boton solo para web */
+  /* Sobre nosotros */
+  /* toda la sección */
+  /* título subtítulo y botón */
+  /* título "Sobre Nosotros" */
+  /* subtítulo "Somos una comunidad" */
+  /* boton "conocer más" */
+  /* imagen de sobre nosotros */
+}
+@media screen and (max-width: 430px) and (max-width: 320px) {
+  .icono-mobile-cuatro {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 39px 50px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .cards {
+    width: 430px;
+    height: 647px;
+  }
+  .todas {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .cards div h2 {
+    margin: 0px;
+    font-size: 20px;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 126px;
+  }
+  .card-uno {
+    width: 260px;
+    height: 408px;
+    margin: 0px;
+    margin-left: 16px;
+  }
+  .card-dos {
+    width: 275px;
+    height: 408px;
+    margin: 0px;
+    margin-left: 16px;
+    margin-right: 0px;
+  }
+  .card-tres {
+    display: none;
+  }
+  .card-cuatro {
+    display: none;
+  }
+  .todas h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2%;
+    width: 228px;
+    height: 40px;
+  }
+  .todas p {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin: 0px;
+    font-size: 14px;
+    width: 228px;
+    height: 90px;
+    text-align: left;
+  }
+  #obtené {
+    display: none;
+  }
+  #otros {
+    line-height: 19px;
+    letter-spacing: 5%;
+    width: 225px;
+    letter-spacing: 5%;
+  }
+  .cards div img {
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 228px;
+    height: 204px;
+    display: block;
+  }
+}
+@media screen and (max-width: 430px) and (max-width: 767px) {
+  .boton-mobile-class {
+    text-align: right;
+    margin-top: 42px;
+    margin-left: 196px;
+    margin-bottom: 50px;
+  }
+  .boton-mobile-solo {
+    display: block;
+    color: #FDFDFD;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #266F39;
+    width: 64px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: raleway;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 430px) {
+  .boton-web-ver-todos {
+    display: none;
+  }
+  .sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 920px;
+  }
+  .sobre-nosotros section {
+    width: 320px;
+    height: 568px;
+    background-color: #CAD3B7;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 65px;
+  }
+  .sobre-nosotros section h2 {
+    font-size: 20px;
+    width: 137px;
+    height: 14px;
+    line-height: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .sobre-nosotros section p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    margin-top: 0px;
+    width: 290px;
+    height: 346px;
+  }
+  .boton-sobrenosotros-uno, .verde-al-cubo section a, .boton-web-todos, .container-uno section a, #boton-leer-mas, .boton-repetido, .boton-enviar-consulta {
+    font-size: 14px;
+    padding: 15px 32px 15px 32px;
+  }
+  .sobre-nosotros div img {
+    width: 320px;
+    height: 352px;
+  }
+}
 /* RESOLUCIÓN MENOR A */
 @media screen and (max-width: 320px) {
   /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
@@ -1800,6 +2390,7 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     left: 230px;
+    margin-left: 0px;
   }
   /* contenedor de menú beige ESTO */
   .nav-contenedor-uno {
@@ -1925,6 +2516,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    white-space: normal;
   }
   #conectá {
     font-size: 16px;
@@ -1935,6 +2527,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    white-space: normal;
   }
   #contá {
     font-size: 16px;
@@ -1945,6 +2538,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    white-space: normal;
   }
   #participá {
     font-size: 16px;
@@ -1956,6 +2550,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    white-space: normal;
   }
   /* iconos de check y títulos */
   .caja2 h3 img {
