@@ -1308,22 +1308,22 @@ header {
     #caja-cinco {
         @include card-box-styling($margin-left: 24px);
         &:hover {
-            box-shadow: 0 4px 8px rgba(152, 139, 97, 0.3); /* Sombra en hover con 20 de blur y color #988B61 */
+            box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
         }
     
         &:active {
-            box-shadow: 0 8px 16px rgba(152, 139, 97, 0.5); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+            box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
         }
     }
 
     .caja-tercera {
         @include card-box-styling($margin-left: 24px);
         &:hover {
-            box-shadow: 0 4px 8px rgba(152, 139, 97, 0.3); /* Sombra en hover con 20 de blur y color #988B61 */
+            box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2); /* Sombra en hover con 20 de blur y color #988B61 */
         }
     
         &:active {
-            box-shadow: 0 8px 16px rgba(152, 139, 97, 0.5); /* Sombra al hacer clic con 20 de blur y color #988B61 */
+            box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4); /* Sombra al hacer clic con 20 de blur y color #988B61 */
         }
     }
 
