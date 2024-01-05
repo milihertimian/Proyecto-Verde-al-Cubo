@@ -404,7 +404,8 @@ header {
 
 .garantizar {
     display: grid;
-    grid-template-columns: 403px 316px 316px 403px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
 }
 
 
@@ -2013,25 +2014,1019 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  -------  MOBILE ------- */
 
 
 
-/*  -------  MOBILE ------- */
+
+/* RESOLUCIÓN MENOR A */
+@media screen and (max-width: 744px) {
+
+    /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
+
+    /* Header */
+
+    /* Cursos solo*/
+
+    .cursos-cursos {
+        padding-right: 0px;
+        color: #585858;
+        padding-top: 10px;
+    }
+
+    /* Sobrenosotros solo*/
+
+    .sobrenosotros {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Artículos solo*/
+
+    .artículos {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    /* Contacto solo*/
+
+    .contacto {
+        padding-right: 0px;
+        color: #585858;
+    }
+
+    .aulavirtual {
+        color: #585858;
+
+    }
+
+    /* Logo y cursos, sobre nosotros, artículos...*/
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 86px;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        margin: 27px 16px 0px 16px;
+        position: relative;
+        width: 600px;
+        flex-wrap: wrap;
+    }
+
+    /* Icono de menú agregado ESTO*/
+    header::before {
+        content: '';
+        background-image: url(../img/cruz-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 230px;
+        margin-left: 420px;
+    }
+
+    /* contenedor de menú beige ESTO */
+    .nav-contenedor-uno {
+        width: 800px;
+        background-color: #F2EFE3;
+        margin-right: 0px;
+        margin-left: -24px;
+        margin-top: 0px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        overflow: hidden;
+        min-width: 710px;
+    }
+
+    /* cursos, sobre nosotros, artículos...*/
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        padding-left: 24px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+
+
+    }
+
+    /* Separación entre las palabras en el menú */
+    header nav ul li {
+        margin-bottom: 40px;
+    }
+
+    /* Logo solo ESTO*/
+    .logo-portada {
+        width: 130px;
+        /* Establece el ancho deseado para el logo en dispositivos móviles */
+        height: 33px;
+        /* Mantiene la proporción de aspecto original */
+    }
+
+
+
+    /* Portada */
+
+    /* Toda la portada de inicio */
+
+    .verde-al-cubo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    /* titulo subtitulo y botón */
+
+    .verde-al-cubo section {
+        padding-top: 185px;
+        padding-left: 95px;
+        padding-right: 95px;
+        padding-bottom: 186px;
+    }
+
+
+    /* título: Academia verde al cubo */
+
+    .verde-al-cubo section h1 {
+        height: 10px;
+        font-size: 48px;
+        width: 554px;
+        line-height: 0px;
+        margin-bottom: 0px;
+    }
+
+    /* Subtítulo: Descubrí... */
+
+    .verde-al-cubo section p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        margin-top: 40px;
+        width: 519px;
+        height: 157px;
+    }
+
+
+    /* botón */
+
+    .verde-al-cubo section a {
+        font-size: 20px;
+        padding: 15px 40px 15px 40px;
+        width: 150px;
+        height: 48px;
+    }
+
+    .verde-al-cubo section a:active {
+        background-color: #184924;
+    }
+
+    /* imagen de portada */
+    .imagen-a-ocultar {
+        display: none;
+        /* Esto ocultará la imagen en dispositivos móviles */
+        background-image: url(../img/imagenmobile.svg);
+        display: block;
+        /* Esto mostrará la imagen en dispositivos móviles */
+        background-position: top center;
+        width: 744px;
+        /* Establece el ancho deseado */
+        height: 700px;
+        /* Establece la altura deseada */
+        margin-top: -120px;
+        /* saqué el fondo blanco que se generaba */
+    }
+
+    /* Estilo para la sección verde */
+    .verde-al-cubo section {
+        order: 1;
+        /* Cambia el orden del elemento */
+    }
+
+    .verde-todo {
+        width: 555px;
+        height: 300px;
+    }
+
+
+    /* Cómo funcionan los cursos */
+
+
+    /* cuadrado beige */
+
+    .caja2 {
+        width: 680px;
+        height: 678px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 32px;
+        margin-right: auto;
+
+    }
+
+
+    /* título principal "¿Cómo funcionan nuestros cursos?" */
+
+    #función {
+        width: 502px;
+        text-align: center;
+    }
+
+    .caja2 h2 {
+        font-size: 40px;
+        padding: 40px 89px 0px 89px;
+    }
+
+
+    /* títulos "Aprendé, conectá, contá, participá" */
+
+    #aprendé {
+        color: #303030;
+        font-size: 20px;
+        width: 260px;
+        padding-right: 20px;
+        padding-left: 104px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        white-space: nowrap;
+    }
+
+    #conectá {
+        font-size: 20px;
+        width: 308px;
+        padding-right: 20px;
+        padding-left: 104px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        white-space: nowrap;
+    }
+
+    #contá {
+        font-size: 20px;
+        width: 228px;
+        padding-left: 104px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        white-space: nowrap;
+    }
+
+    #participá {
+        font-size: 20px;
+        width: 267px;
+        padding-left: 104px;
+        padding-right: 20px;
+        padding-top: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        white-space: nowrap;
+    }
+
+    /* iconos de check y títulos */
+    .caja2 h3 img {
+        padding-right: 12px;
+    }
+
+    /* subtítulos en negrita */
+
+    .caja2 h3 {
+        font-size: 16px;
+        padding: 48px 0px 16px 20px;
+        line-height: 20px;
+    }
+
+
+    #intercambiá {
+        padding-bottom: 40px;
+        line-height: 20px;
+    }
+
+    /* subtítulos en regular */
+
+    .caja2 p {
+        font-size: 16px;
+        padding-left: 144px;
+        margin: 0px;
+        width: 432px;
+        height: 51px;
+    }
+
+    .ellas {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+
+    .planta-izquierda {
+        display: none;
+    }
+
+    .planta-derecha {
+        display: none;
+    }
+
+
+    /* A quienes estan dirigidos */
+
+    /* imagen sola */
+
+    .tractor-uno {
+        width: 744px;
+        height: 700px;
+        display: block;
+
+    }
+
+    /* toda la sección: título, subtitulo e imagen */
+
+    .dirigidos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        width: 744px;
+        height: 800px;
+
+
+    }
+
+    /* título y subtítulo */
+    .dirigidos section h2 {
+        padding-left: 160px;
+        padding-right: 112px;
+        padding-top: 138px;
+        padding-bottom: 40px;
+        width: 497px;
+    }
+
+    /* contenedor de titulo y subtitulo */
+    .ellos {
+        background-color: #CAD3B7;
+        width: 744px;
+        height: 700px;
+    }
+
+    /*  título "a quienes estan dirigidos" */
+    .dirigidos h2 {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        font-size: 40px;
+    }
+
+    /*  subtítulo "ingenireros, etc" */
+
+    .dirigidos section p {
+        font-size: 16px;
+        width: 400px;
+        height: 230px;
+        margin: 0px;
+        line-height: 28px;
+        padding-left: 160px;
+        padding-right: 112px;
+        padding-bottom: 138px;
+
+    }
+
+    #negrita {
+        font-weight: 400;
+    }
+
+
+    /* Verde al cubo te garantiza */
+
+    /*  Caja o contenedor beige */
+
+    .contener {
+        background-color: #F2EFE3;
+        width: 744px;
+
+    }
+
+    /*  título "Verde al Cubo te garantiza" */
+
+    .titulo h2 {
+        font-size: 40px;
+        padding-left: 123px;
+        padding-right: 122px;
+        padding-top: 550px;
+        /*  VER */
+        padding-bottom: 40px;
+        width: 499px;
+        margin: 0px;
+
+    }
+
+    /* toda la sección: títulos y subtitulos*/
+
+    .garantizar {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        grid-template-rows: repeat(2, 0fr);
+    }
+
+
+    /* icono de pala*/
+    .imagen-enfoque-uno {
+        padding-left: 190px;
+        padding-right: 191px;
+    }
+
+    /* icono de aprendizaje*/
+
+    .aprendizaje img {
+        padding-right: 135px;
+        padding-left: 133px;
+    }
+
+    /* icono de expertos*/
+
+    .expertos img {
+        display: none;
+    }
+
+
+    /* icono de certificado*/
+
+    .certificado img {
+        display: none;
+    }
+
+    /* título "enfoque práctico"*/
+    .enfoque h3 {
+        font-size: 20px;
+        padding-left: 151px;
+        padding-right: 152px;
+        padding-bottom: 16px;
+        padding-top: 12px;
+        margin: 0px;
+        width: 158px;
+    }
+
+    /* título "aprendizaje dinámico"*/
+
+    .aprendizaje h3 {
+        font-family: gascognemedium;
+        font-size: 20px;
+        color: #303030;
+        padding-left: 57px;
+        padding-right: 59px;
+        padding-bottom: 16px;
+        padding-top: 12px;
+        margin: 0px;
+        width: 200px;
+
+    }
+
+
+    /* título "expertos en la industria"*/
+
+    .expertos h3 {
+        display: block;
+        display: none;
+
+    }
+
+
+    /* título "certificado"*/
+
+    .certificado h3 {
+        display: block;
+        display: none;
+
+    }
+
+    /* subtítulo "diseñamos modalidades"*/
+
+    .enfoque p {
+        font-size: 16px;
+        text-align: center;
+        width: 288px;
+        margin: 0px;
+        padding-left: 70px;
+        padding-right: 71px;
+        padding-bottom: 40px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+
+    /* subtítulo "brindamos variedad"*/
+
+    .aprendizaje p {
+        font-family: raleway;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        color: #585858;
+        width: 265px;
+        margin: 0px;
+        padding-left: 24px;
+        padding-right: 27px;
+        padding-bottom: 123px;
+        text-align: center;
+    }
+
+
+    /* subtítulo "contamos con"*/
+
+    .expertos p {
+        display: block;
+        display: none;
+    }
+
+
+    /* subtítulo "entregamos un"*/
+
+    .certificado p {
+        display: block;
+        display: none;
+    }
+
+    /* Para ocultar el icono en pantallas más grandes */
+    .icono-mobile-cuatro {
+        display: none !important;
+        display: block !important;
+    }
+
+    /* Para mostrar el icono en pantallas de max 320 y centrarlo */
+    @media screen and (max-width: 320px) {
+        .icono-mobile-cuatro {
+            display: block;
+            text-align: center;
+            margin: 0px auto;
+            padding: 0px 39px 50px;
+            
+        }
+    }
+
+
+    /* Cursos online */
+
+
+    /* fondo de cursos */
+
+    .cards {
+
+        width: 430px;
+        height: 647px;
+    }
+
+    /* todas las cards */
+
+    .todas {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+
+
+    /* título de cursos "cursos online" */
+
+    .cards div h2 {
+        margin: 0px;
+        font-size: 20px;
+        padding-left: 152px;
+        padding-right: 152px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        width: 126px;
+    }
+
+    /* Cards de cursos */
+
+
+    .card-uno {
+        width: 260px;
+        height: 432px;
+        margin: 0px;
+        margin-left: 16px;
+    }
+
+    .card-dos {
+        width: 260px;
+        height: 432px;
+        margin: 0px;
+        margin-left: 16px;
+        margin-right: 0px;
+
+    }
+
+    .card-tres {
+        display: none;
+    }
+
+
+
+    .card-cuatro {
+        display: none;
+    }
+
+
+    /* Títulos de cards */
+    .todas h3 {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 0px;
+        margin: 0px;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 2%;
+        width: 228px;
+        height: 46px;
+
+
+    }
+
+    /* Subtítulos de cards */
+
+    .todas p {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        margin: 0px;
+        font-size: 16px;
+        width: 228px;
+        height: 90px;
+        text-align: left;
+        line-height: 20px;
+        letter-spacing: 5%;
+    }
+
+
+    #obtené {
+        display: none;
+    }
+
+    #otros {
+        line-height: 19px;
+        letter-spacing: 5%;
+        width: 225px;
+        letter-spacing: 5%;
+    }
+
+    /* Imágenes de cursos */
+
+    .cards div img {
+        padding-top: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 228px;
+        height: 204px;
+        display: block;
+
+    }
+
+
+
+    /* boton solo para mobile */
+    @media (max-width: 767px) {
+        .boton-mobile-class {
+            text-align: right;
+            margin-top: 40px;
+            margin-left: 296px;
+            margin-bottom: 40px;
+        }
+
+        .boton-mobile-solo {
+            display: block;
+            color: #FDFDFD;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            background-color: #266F39;
+            width: 64px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-family: raleway;
+            font-weight: bold;
+        }
+    }
+
+    /* boton solo para web */
+    .boton-web-ver-todos {
+        display: none;
+    }
+
+
+
+    /* Sobre nosotros */
+
+
+    /* toda la sección */
+
+    .sobre-nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 435px;
+        height: 920px;
+    }
+
+    /* título subtítulo y botón */
+
+    .sobre-nosotros section {
+        width: 430px;
+        height: 568px;
+        background-color: #CAD3B7;
+        box-sizing: border-box;
+        padding-top: 92px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 91px;
+    }
+
+    /* título "Sobre Nosotros" */
+
+    .sobre-nosotros section h2 {
+        font-size: 20px;
+        width: 137px;
+        height: 14px;
+        line-height: 0px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+
+    }
+
+    /* subtítulo "Somos una comunidad" */
+
+    .sobre-nosotros section p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        margin-top: 0px;
+        width: 400px;
+        height: 270px;
+    }
+
+    /* boton "conocer más" */
+
+    .boton-sobrenosotros-uno {
+        font-size: 16px;
+        padding: 15px 32px 15px 32px;
+    }
+
+    /* imagen de sobre nosotros */
+
+    .sobre-nosotros div img {
+        width: 435px;
+        height: 352px;
+        display: block;
+    }
+
+
+
+    /*6 ------------------------ FOOTER ------------------------ */
+
+    /* tamaño de fondo */
+
+    .footer {
+        width: 435px;
+        height: 121px;
+        background-color: #f2efe3;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+
+
+    /* lista de academia y comunidad + logo + planta + privacidad e iconos */
+    .academia-comunidad {
+        display: grid;
+        grid-template-areas:
+            "logo planta ";
+        grid-template-columns: 206px 114px;
+
+        align-items: center;
+        height: 121px;
+    }
+
+    /* logo */
+
+    .logo-o img {
+        position: relative;
+        right: 2px;
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 144px;
+        height: 22px;
+        grid-area: logo;
+    }
+
+
+    /* planta */
+
+    .planta img {
+        grid-area: planta;
+        width: 160px;
+        height: auto;
+        margin-left: 160px;
+        margin-top: 50px;
+    }
+
+
+    /* Imagen de la planta " */
+    .planta {
+        transform: rotate(-11.32deg);
+        width: 50px;
+        /* Ajusta según sea necesario */
+        height: auto;
+        /* Mantiene la proporción */
+        margin-top: -120px;
+        /* Ajusta según sea necesario */
+        margin-right: 10px;
+        grid-area: planta;
+    }
+
+
+    /* Logo " */
+    .logo-o {
+        width: 10px;
+        height: auto;
+        position: relative;
+        margin-top: 100px;
+        margin-left: -204px;
+        grid-area: logo;
+        margin-bottom: 300px;
+    }
+
+
+    /* todos los iconos */
+
+    .iconos-s {
+        grid-area: iconos;
+        display: flex;
+        width: 20px;
+    }
+
+
+    /* Icono de facebook */
+
+    .iconofacebook {
+        margin-left: 84px;
+        margin-right: 5px;
+        margin-top: -50px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: 29px;
+    }
+
+    /* Icono de instagram */
+
+    .iconoinstagram {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de twitter */
+
+    .iconotwitter {
+        margin-right: 5px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+
+    /* Icono de pinterest */
+
+    .iconopinterest {
+        margin-right: 10px;
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    /* Icono de linkedin */
+
+    .iconolinkedin {
+        margin-top: -50px;
+        margin-bottom: 29px;
+        padding: 2px 2px 2px 2px;
+
+    }
+
+    /* Los tres botones de privacidad " */
+    .seguridad {
+        display: none;
+    }
+
+
+    /* texto "Politica de privacidad" */
+    .privacidad {
+        display: none;
+    }
+
+    /* texto "Términos y condiciones" */
+    .términos {
+        display: none;
+    }
+
+    /* texto "Botón de arrepentimiento" */
+    .arrepentimiento {
+        display: none;
+    }
+
+    /* Títulos "Academia y Comunidad */
+    .academia-comunidad div h3 {
+        display: none;
+    }
+
+    /* Título "Academia" */
+    .academia {
+        display: none;
+    }
+
+    /* Título "Comunidad" */
+    .comunidad {
+        display: none;
+    }
+
+    /* Subítulos de academia y comunidad */
+
+    .academia-comunidad div ul li {
+        display: none;
+    }
+
+    footer ul a {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    /* Subítulos de academia */
+
+    .academia-uno {
+        display: none;
+    }
+
+
+    /* Subítulos de comunidad */
+
+    .comunidad-uno {
+        display: none;
+    }
+
+    .academia-a {
+        display: none;
+    }
+
+    .comunidad-a {
+        display: none;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2222,7 +3217,8 @@ ul {
         /* Establece el ancho deseado */
         height: 352px;
         /* Establece la altura deseada */
-        margin-top: -120px; /* saqué el fondo blanco que se generaba */
+        margin-top: -120px;
+        /* saqué el fondo blanco que se generaba */
     }
 
     /* Estilo para la sección verde */
@@ -2451,7 +3447,8 @@ ul {
 
     .garantizar {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 0fr;
+        grid-template-rows: repeat(4, 0fr);
     }
 
 
@@ -3189,7 +4186,8 @@ ul {
         width: 320px;
         /* Establece el ancho deseado */
         height: 352px;
-        margin-top: -120px; /* saqué el fondo blanco que se generaba */
+        margin-top: -120px;
+        /* saqué el fondo blanco que se generaba */
     }
 
     /* Estilo para la sección verde */
@@ -3547,9 +4545,8 @@ ul {
     /* fondo de cursos */
 
     .cards {
-
         width: 320px;
-        height: 634px;
+        height: 635px;
     }
 
     /* todas las cards */
@@ -3559,7 +4556,6 @@ ul {
         flex-direction: row;
         overflow: hidden;
     }
-
 
 
     /* título de cursos "cursos online" */
@@ -3572,6 +4568,7 @@ ul {
         padding-bottom: 40px;
         padding-top: 40px;
         width: 126px;
+        height: 20px;
     }
 
     /* Cards de cursos */
@@ -3717,6 +4714,7 @@ ul {
         padding-bottom: 65px;
     }
 
+
     /* título "Sobre Nosotros" */
 
     .sobre-nosotros section h2 {
@@ -3759,17 +4757,22 @@ ul {
 
     /* Portada */
 
-   
+    /* Fonde verde */
+    .verde-portada {
+        margin-top: -4px;
+        order: 2;
+    }
+
+
     /* Toda la portada de cursos */
 
     .container-uno {
         display: flex;
         flex-direction: column;
         width: 320px;
-        height: 752px;
+        height: 695px;
         margin-top: 0px;
         margin-bottom: 0px;
-        
     }
 
 
@@ -3782,7 +4785,7 @@ ul {
         padding-top: 50px;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 65px;
+        padding-bottom: 50px;
     }
 
 
@@ -3821,6 +4824,8 @@ ul {
     .imagen-nogal {
         width: 320px;
         height: 352px;
+        order: 1;
+        margin-top: -120px;
     }
 
 
@@ -3830,10 +4835,8 @@ ul {
     .incluye-uno {
         width: 320px;
         height: 751px;
-        margin-top: 60px;
-        /* VER */
+        margin-top: -1px;
         margin-bottom: 0px;
-        /* VER */
         display: flex;
         flex-direction: column;
 
@@ -3956,6 +4959,7 @@ ul {
         display: flex;
         flex-direction: row;
         width: 320px;
+        height: 720px;
     }
 
 
