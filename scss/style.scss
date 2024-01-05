@@ -404,8 +404,7 @@ header {
 
 .garantizar {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 403px 316px 316px 403px;
 }
 
 
@@ -2213,12 +2212,7 @@ ul {
         /* Cambia el orden del elemento */
     }
 
-    .verde-todo {
-        width: 555px;
-        height: 300px;
-    }
-
-
+   
     /* Cómo funcionan los cursos */
 
 
@@ -2442,8 +2436,7 @@ ul {
 
     .garantizar {
         display: grid;
-        grid-template-columns: repeat(2, 0fr);
-        grid-template-rows: repeat(2, 0fr);
+        grid-template-columns: 403px 316px ;
     }
 
 
@@ -3149,7 +3142,6 @@ ul {
     }
 
 
-
     /* Portada */
 
     /* Toda la portada de inicio */
@@ -3230,7 +3222,7 @@ ul {
 
     /* Cómo funcionan los cursos */
 
-
+    
     /* cuadrado beige */
 
     .caja2 {
@@ -3447,8 +3439,7 @@ ul {
 
     .garantizar {
         display: grid;
-        grid-template-columns: 0fr;
-        grid-template-rows: repeat(4, 0fr);
+        grid-template-columns: 1fr;
     }
 
 
@@ -4009,6 +4000,7 @@ ul {
 
 
     /* Header */
+    
 
     /* Cursos solo*/
 
@@ -4195,6 +4187,7 @@ ul {
         order: 1;
         /* Cambia el orden del elemento */
     }
+
 
     /* Cómo funcionan los cursos */
 
@@ -4416,7 +4409,7 @@ ul {
 
     .garantizar {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 403px 316px;
     }
 
 

@@ -338,8 +338,7 @@ header {
 /* toda la sección: títulos y subtitulos*/
 .garantizar {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: 403px 316px 316px 403px;
 }
 
 /* icono de pala*/
@@ -1917,10 +1916,6 @@ ul {
     order: 1;
     /* Cambia el orden del elemento */
   }
-  .verde-todo {
-    width: 555px;
-    height: 300px;
-  }
   /* Cómo funcionan los cursos */
   /* cuadrado beige */
   .caja2 {
@@ -2093,8 +2088,7 @@ ul {
   /* toda la sección: títulos y subtitulos*/
   .garantizar {
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    grid-template-rows: repeat(2, 0fr);
+    grid-template-columns: 403px 316px;
   }
   /* icono de pala*/
   .imagen-enfoque-uno {
@@ -2835,8 +2829,7 @@ ul {
   /* toda la sección: títulos y subtitulos*/
   .garantizar {
     display: grid;
-    grid-template-columns: 0fr;
-    grid-template-rows: repeat(4, 0fr);
+    grid-template-columns: 1fr;
   }
   /* icono de pala*/
   .imagen-enfoque-uno {
@@ -3560,7 +3553,7 @@ ul {
   /* toda la sección: títulos y subtitulos*/
   .garantizar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 403px 316px;
   }
   /* icono de pala*/
   .imagen-enfoque-uno {
