@@ -847,7 +847,7 @@ header {
     flex-direction: row;
     width: 1440px;
     height: 700px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -1323,61 +1323,7 @@ header {
     /* Agrega una transición suave */
 }
 
-#caja-cinco {
-    @include card-box-styling($margin-left: 24px);
 
-    &:hover {
-        box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
-        /* Sombra en hover con 20 de blur y color #988B61 */
-    }
-
-    &:active {
-        box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
-        /* Sombra al hacer clic con 20 de blur y color #988B61 */
-    }
-}
-
-.caja-tercera {
-    @include card-box-styling($margin-left: 24px);
-
-    &:hover {
-        box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
-        /* Sombra en hover con 20 de blur y color #988B61 */
-    }
-
-    &:active {
-        box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
-        /* Sombra al hacer clic con 20 de blur y color #988B61 */
-    }
-}
-
-#primera-card-cinco {
-    @include card-box-styling($margin-left: 92px);
-
-    &:hover {
-        box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
-        /* Sombra en hover con 20 de blur y color #988B61 */
-    }
-
-    &:active {
-        box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
-        /* Sombra al hacer clic con 20 de blur y color #988B61 */
-    }
-}
-
-#última-card-cinco {
-    @include card-box-styling($margin-left: 24px, $margin-right: 108px);
-
-    &:hover {
-        box-shadow: 0 4px 8px rgba(152, 139, 97, 0.2);
-        /* Sombra en hover con 20 de blur y color #988B61 */
-    }
-
-    &:active {
-        box-shadow: 0 8px 16px rgba(152, 139, 97, 0.4);
-        /* Sombra al hacer clic con 20 de blur y color #988B61 */
-    }
-}
 
 
 /* imagenes de cards */
@@ -1448,7 +1394,7 @@ header {
 
 .caja-tercera p {
     padding-left: 18px;
-    padding-bottom: 52px;
+    padding-bottom: 40px;
     padding-top: 24px;
     margin: 0px;
     font-size: 20px;
@@ -1462,7 +1408,7 @@ header {
 
 #caja-cinco p {
     padding-left: 18px;
-    padding-bottom: 52px;
+    padding-bottom: 40px;
     padding-top: 24px;
     margin: 0px;
     font-size: 20px;
@@ -1475,7 +1421,7 @@ header {
 
 #última-card-cinco p {
     padding-left: 18px;
-    padding-bottom: 52px;
+    padding-bottom: 40px;
     padding-top: 24px;
     margin: 0px;
     font-size: 20px;
@@ -1489,7 +1435,7 @@ header {
 
 #primera-card-cinco p {
     padding-left: 18px;
-    padding-bottom: 52px;
+    padding-bottom: 40px;
     padding-top: 24px;
     margin: 0px;
     font-size: 20px;
@@ -1866,6 +1812,13 @@ header {
     padding-bottom: 24px;
 }
 
+/* Cambio de color al pasar el mouse por encima de los enlaces */
+.academia-comunidad div ul li a:hover {
+    color: #266F39;
+    /* Cambia el color al pasar el ratón por encima */
+}
+
+
 footer ul a {
     color: #585858;
 }
@@ -1930,28 +1883,30 @@ ul {
 /* texto "Politica de privacidad" */
 .privacidad {
     font-family: Raleway;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
     color: #585858;
     white-space: nowrap;
     margin-top: 70px;
 }
+
 
 /* texto "Términos y condiciones" */
 .términos {
     font-family: Raleway;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
     color: #585858;
     padding-left: 46px;
     white-space: nowrap;
     margin-top: 70px;
 }
+
 
 /* texto "Botón de arrepentimiento" */
 .arrepentimiento {
     font-family: Raleway;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
     color: #585858;
     padding-left: 46px;
@@ -1959,17 +1914,17 @@ ul {
     margin-top: 70px;
 }
 
+
 /* todos los iconos */
 
 .iconos-s {
-    display: flex;
+    height: 0px;
 }
-
 
 /* Icono de facebook */
 
 .iconofacebook {
-    margin-left: 590px;
+    margin-left: 552px;
     margin-right: 16px;
     margin-top: 100px;
     padding: 4px 4px 4px 4px;
@@ -2979,6 +2934,14 @@ ul {
         display: none;
     }
 
+    /* Cambio de color al pasar el mouse por encima de los enlaces */
+    .academia-comunidad div ul li a:hover {
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
+    }
+
+
+
     footer ul a {
         display: none;
     }
@@ -3082,7 +3045,8 @@ ul {
 
     /* Cambio de color al pasar el ratón por encima de los enlaces */
     .nav-contenedor-uno a:hover {
-        color: none; /* Cambia el color al pasar el ratón por encima */
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
     }
 
     /* Logo y cursos, sobre nosotros, artículos...*/
@@ -3445,7 +3409,7 @@ ul {
         font-size: 20px;
         padding-left: 89px;
         padding-right: 90px;
-        padding-top: 350px;
+        padding-top: 360px;
         padding-bottom: 40px;
         width: 250px;
         margin: 0px;
@@ -3969,6 +3933,13 @@ ul {
         display: none;
     }
 
+    /* Cambio de color al pasar el mouse por encima de los enlaces */
+    .academia-comunidad div ul li a:hover {
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
+    }
+
+
     footer ul a {
         display: none;
     }
@@ -3976,6 +3947,7 @@ ul {
     ul {
         display: none;
     }
+
 
 
     /* Subítulos de academia */
@@ -4056,7 +4028,8 @@ ul {
 
     /* Cambio de color al pasar el ratón por encima de los enlaces */
     .nav-contenedor-uno a:hover {
-        color: none; /* Cambia el color al pasar el ratón por encima */
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
     }
 
     /* Logo y cursos, sobre nosotros, artículos...*/
@@ -4150,7 +4123,7 @@ ul {
         padding-top: 50px;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 65px;
+        padding-bottom: 50px;
     }
 
 
@@ -4171,6 +4144,7 @@ ul {
         font-size: 14px;
         line-height: 28px;
         margin-bottom: 45px;
+        margin-top: 30px;
         width: 300px;
         height: 157px;
     }
@@ -4233,11 +4207,12 @@ ul {
     #función {
         width: 245px;
         text-align: center;
+        line-height: 37px;
     }
 
     .caja2 h2 {
         font-size: 20px;
-        padding: 40px 20px 4px 20px;
+        padding: 40px 20px 0px 20px;
     }
 
 
@@ -4375,7 +4350,7 @@ ul {
     .ellos {
         background-color: #CAD3B7;
         width: 320px;
-        height: 460px;
+        height: 420px;
     }
 
     /*  título "a quienes estan dirigidos" */
@@ -4392,12 +4367,12 @@ ul {
     .dirigidos section p {
         font-size: 14px;
         width: 288px;
-        height: 316px;
+        height: 270px;
         margin: 0px;
         line-height: 30px;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 50px;
+        padding-bottom: 45px;
 
     }
 
@@ -4420,7 +4395,6 @@ ul {
         font-size: 20px;
         padding-left: 35px;
         padding-right: 35px;
-        padding-top: 400px;
         padding-bottom: 40px;
         width: 250px;
         margin: 0px;
@@ -4547,8 +4521,9 @@ ul {
         .icono-mobile-cuatro {
             display: block;
             text-align: center;
-            margin: 0 auto;
+            margin: 0px 85px;
             padding: 0 20px 50px;
+            width: 100px;
 
         }
     }
@@ -5682,7 +5657,7 @@ ul {
         /* Ajusta según sea necesario */
         height: auto;
         /* Mantiene la proporción */
-        margin-top: -120px;
+        margin-top: -160px;
         /* Ajusta según sea necesario */
         margin-right: 10px;
         grid-area: planta;
@@ -5694,7 +5669,7 @@ ul {
         width: 10px;
         height: auto;
         position: relative;
-        margin-top: 100px;
+        margin-top: 90px;
         margin-left: -204px;
         grid-area: logo;
         margin-bottom: 300px;
@@ -5797,6 +5772,12 @@ ul {
 
     .academia-comunidad div ul li {
         display: none;
+    }
+
+    /* Cambio de color al pasar el mouse por encima de los enlaces */
+    .academia-comunidad div ul li a:hover {
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
     }
 
     footer ul a {
