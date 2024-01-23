@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: GascogneSemibold;
-    src: url(../fuente/gascogne-\ semibold.ttf);
+    src: url(../fuente/gascogne-semibold.ttf);
 }
 
 @font-face {
@@ -18,21 +18,20 @@
     src: url(../fuente/gascogne-regular.ttf);
 }
 
-//ABSTRACTS
-@import url(abstracts/_vars.scss);
-@import url(abstracts/_mixins.scss);
+// ABSTRACTS
+@import 'abstracts/_vars';
+@import 'abstracts/_mixins';
 
-//BASE
-@import url(base/_reset.scss);
-@import url(base/_typography.scss);
+// BASE
+@import 'base/_reset';
+@import 'base/_typography';
 
-//LAYOUT
-@import url(layout/_navbar.scss);
-@import url(layout/_footer.scss);
+// LAYOUT
+@import 'layout/_navbar';
+@import 'layout/_footer';
 
-//PAGES
-@import url(pages/_home.scss);
-
+// PAGES
+@import 'pages/_home';
 
 
 
@@ -92,13 +91,13 @@ header {
 }
 
 
-
 /* Cursos solo*/
 
 .cursos {
     padding-right: 80px;
     color: #585858;
 }
+
 
 /* Sobrenosotros solo*/
 
@@ -124,6 +123,13 @@ header {
 .aulavirtual {
     color: #585858;
 }
+
+/* Cambio de color al pasar el mouse por encima de los enlaces */
+.nav-contenedor-uno a:hover {
+    color: #266F39;
+    /* Cambia el color al pasar el ratón por encima */
+}
+
 
 /* Portada */
 
@@ -2026,11 +2032,12 @@ ul {
 
     /* Cursos solo*/
 
-    .cursos-cursos {
+    .cursos {
         padding-right: 0px;
         color: #585858;
         padding-top: 10px;
     }
+
 
     /* Sobrenosotros solo*/
 
@@ -2038,6 +2045,7 @@ ul {
         padding-right: 0px;
         color: #585858;
     }
+
 
     /* Artículos solo*/
 
@@ -2056,6 +2064,12 @@ ul {
     .aulavirtual {
         color: #585858;
 
+    }
+
+    /* Cambio de color al pasar el ratón por encima de los enlaces */
+    .nav-contenedor-uno a:hover {
+        color: none;
+        /* Cambia el color al pasar el ratón por encima */
     }
 
     /* Logo y cursos, sobre nosotros, artículos...*/
@@ -2210,7 +2224,7 @@ ul {
         /* Cambia el orden del elemento */
     }
 
-   
+
     /* Cómo funcionan los cursos */
 
 
@@ -2434,7 +2448,7 @@ ul {
 
     .garantizar {
         display: grid;
-        grid-template-columns: 403px 316px ;
+        grid-template-columns: 403px 316px;
     }
 
 
@@ -2568,7 +2582,7 @@ ul {
             text-align: center;
             margin: 0px auto;
             padding: 0px 39px 50px;
-            
+
         }
     }
 
@@ -3066,6 +3080,11 @@ ul {
 
     }
 
+    /* Cambio de color al pasar el ratón por encima de los enlaces */
+    .nav-contenedor-uno a:hover {
+        color: none; /* Cambia el color al pasar el ratón por encima */
+    }
+
     /* Logo y cursos, sobre nosotros, artículos...*/
 
     header {
@@ -3220,7 +3239,7 @@ ul {
 
     /* Cómo funcionan los cursos */
 
-    
+
     /* cuadrado beige */
 
     .caja2 {
@@ -3998,7 +4017,7 @@ ul {
 
 
     /* Header */
-    
+
 
     /* Cursos solo*/
 
@@ -4033,6 +4052,11 @@ ul {
     .aulavirtual {
         color: #585858;
 
+    }
+
+    /* Cambio de color al pasar el ratón por encima de los enlaces */
+    .nav-contenedor-uno a:hover {
+        color: none; /* Cambia el color al pasar el ratón por encima */
     }
 
     /* Logo y cursos, sobre nosotros, artículos...*/
