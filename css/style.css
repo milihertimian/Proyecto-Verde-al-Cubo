@@ -128,12 +128,6 @@ html body {
   src: url(../fuente/gascogne-regular.ttf);
 }
 /* NAVBAR - WEB */
-/* cursos, sobre nosotros, artículos...*/
-/* Logo y cursos, sobre nosotros, artículos...*/
-/* Cursos solo*/
-/* Sobrenosotros solo*/
-/* Artículos solo*/
-/* Contacto solo*/
 header {
   display: flex;
   justify-content: space-between;
@@ -175,6 +169,29 @@ header nav ul .cursos .contacto {
 }
 header nav ul .cursos .aulavirtual {
   color: #585858;
+}
+
+.hamburgesa {
+  display: none;
+}
+
+.cruz {
+  display: none;
+}
+
+.nav-checkbox {
+  display: none;
+}
+
+.nav-contenedor-uno a:hover {
+  color: #266F39;
+}
+
+.menu-hamburgesa {
+  color: #266F39;
+  background: none;
+  border: none;
+  display: none;
 }
 
 /* --FOOTER -- */

@@ -1,12 +1,6 @@
 /* NAVBAR - WEB */
 
 
-/* cursos, sobre nosotros, artículos...*/
-/* Logo y cursos, sobre nosotros, artículos...*/
-/* Cursos solo*/
-/* Sobrenosotros solo*/
-/* Artículos solo*/
-/* Contacto solo*/
 
 header {
     display: flex;
@@ -59,3 +53,31 @@ header {
         }
     }
 }
+
+
+
+.hamburgesa {
+    display: none;
+}
+
+.cruz {
+    display: none;
+}
+
+.nav-checkbox {
+    display: none;
+}
+
+
+.nav-contenedor-uno a:hover {
+    color: #266F39;
+}
+
+
+.menu-hamburgesa {
+    color: #266F39;
+    background: none;
+    border: none;
+    display: none;
+}
+
