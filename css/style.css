@@ -386,6 +386,19 @@ body {
 /*  ------- WEB  ------- */
 /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
 /* Header */
+/* borrar icono hamburgesa, cruz y checkbox */
+.hamburgesa {
+  display: none;
+}
+
+.cruz {
+  display: none;
+}
+
+.nav-checkbox {
+  display: none;
+}
+
 /* cursos, sobre nosotros, artículos...*/
 header nav ul {
   display: flex;
@@ -445,6 +458,14 @@ header {
 .nav-contenedor-uno a:hover {
   color: #266F39;
   /* Cambia el color al pasar el ratón por encima */
+}
+
+/* Menú hamburgesa en web para mobile */
+.menu-hamburgesa {
+  color: #266F39;
+  background: none;
+  border: none;
+  display: none;
 }
 
 /* Portada */
@@ -2050,11 +2071,79 @@ ul {
 @media screen and (max-width: 744px) {
   /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
   /* Header */
+  /* Logo y cursos, sobre nosotros, artículos...*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 86px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin: 27px 16px 0px 16px;
+    position: relative;
+    width: 600px;
+    flex-wrap: wrap;
+  }
+  /* Logo solo ESTO*/
+  .logo-portada {
+    width: 130px;
+    /* Establece el ancho deseado para el logo en dispositivos móviles */
+    height: 33px;
+    /* Mantiene la proporción de aspecto original */
+  }
+  /* Sacar la cruz */
+  .cruz {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 655px;
+    margin-left: 0px;
+  }
+  /* menu hamburgesa */
+  .hamburgesa {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 655px;
+    margin-left: 0px;
+    display: block;
+    /* Mostrar en dispositivos móviles */
+  }
+  /* ocultar el checkbox */
+  .nav-checkbox {
+    opacity: 0;
+    position: absolute;
+    top: -9999px;
+    /* Mueve el checkbox fuera del área visible */
+  }
+  /* interacción de menú hamburgesa y cruz con despliegue */
+  #check:checked ~ .nav-contenedor-uno {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .cruz {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .hamburgesa {
+    display: none;
+  }
+  /* lo que se ve cuando abro el menu */
   /* Cursos solo*/
   .cursos {
     padding-right: 0px;
     color: #585858;
     padding-top: 10px;
+    display: block;
   }
   /* Sobrenosotros solo*/
   .sobrenosotros {
@@ -2079,35 +2168,6 @@ ul {
     color: none;
     /* Cambia el color al pasar el ratón por encima */
   }
-  /* Logo y cursos, sobre nosotros, artículos...*/
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 86px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    margin: 27px 16px 0px 16px;
-    position: relative;
-    width: 600px;
-    flex-wrap: wrap;
-  }
-  /* Icono de menú agregado ESTO*/
-  header::before {
-    content: "";
-    background-image: url(../img/cruz-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 230px;
-    margin-left: 420px;
-  }
   /* contenedor de menú beige ESTO */
   .nav-contenedor-uno {
     width: 800px;
@@ -2119,6 +2179,7 @@ ul {
     border-bottom-left-radius: 15px;
     overflow: hidden;
     min-width: 710px;
+    display: none;
   }
   /* cursos, sobre nosotros, artículos...*/
   header nav ul {
@@ -2134,13 +2195,6 @@ ul {
   /* Separación entre las palabras en el menú */
   header nav ul li {
     margin-bottom: 40px;
-  }
-  /* Logo solo ESTO*/
-  .logo-portada {
-    width: 130px;
-    /* Establece el ancho deseado para el logo en dispositivos móviles */
-    height: 33px;
-    /* Mantiene la proporción de aspecto original */
   }
   /* Portada */
   /* Toda la portada de inicio */
@@ -2802,11 +2856,79 @@ ul {
 @media screen and (max-width: 430px) {
   /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
   /* Header */
+  /* Logo y cursos, sobre nosotros, artículos...*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 86px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin: 27px 16px 0px 16px;
+    position: relative;
+    width: 288px;
+    flex-wrap: wrap;
+  }
+  /* Logo solo ESTO*/
+  .logo-portada {
+    width: 130px;
+    /* Establece el ancho deseado para el logo en dispositivos móviles */
+    height: 33px;
+    /* Mantiene la proporción de aspecto original */
+  }
+  /* Sacar la cruz */
+  .cruz {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 346px;
+    margin-left: 0px;
+  }
+  /* menu hamburgesa */
+  .hamburgesa {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 345px;
+    margin-left: 0px;
+    display: block;
+    /* Mostrar en dispositivos móviles */
+  }
+  /* ocultar el checkbox */
+  .nav-checkbox {
+    opacity: 0;
+    position: absolute;
+    top: -9999px;
+    /* Mueve el checkbox fuera del área visible */
+  }
+  /* interacción de menú hamburgesa y cruz con despliegue */
+  #check:checked ~ .nav-contenedor-uno {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .cruz {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .hamburgesa {
+    display: none;
+  }
+  /* lo que se ve cuando abro el menu */
   /* Cursos solo*/
-  .cursos-cursos {
+  .cursos {
     padding-right: 0px;
     color: #585858;
     padding-top: 10px;
+    display: block;
   }
   /* Sobrenosotros solo*/
   .sobrenosotros {
@@ -2831,35 +2953,6 @@ ul {
     color: none;
     /* Cambia el color al pasar el ratón por encima */
   }
-  /* Logo y cursos, sobre nosotros, artículos...*/
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 86px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    margin: 27px 16px 0px 16px;
-    position: relative;
-    width: 278px;
-    flex-wrap: wrap;
-  }
-  /* Icono de menú agregado ESTO*/
-  header::before {
-    content: "";
-    background-image: url(../img/cruz-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 230px;
-    margin-left: 110px;
-  }
   /* contenedor de menú beige ESTO */
   .nav-contenedor-uno {
     width: 400px;
@@ -2871,6 +2964,7 @@ ul {
     border-bottom-left-radius: 15px;
     overflow: hidden;
     min-width: 388px;
+    display: none;
   }
   /* cursos, sobre nosotros, artículos...*/
   header nav ul {
@@ -2886,13 +2980,6 @@ ul {
   /* Separación entre las palabras en el menú */
   header nav ul li {
     margin-bottom: 40px;
-  }
-  /* Logo solo ESTO*/
-  .logo-portada {
-    width: 130px;
-    /* Establece el ancho deseado para el logo en dispositivos móviles */
-    height: 33px;
-    /* Mantiene la proporción de aspecto original */
   }
   /* Portada */
   /* Toda la portada de inicio */
@@ -3536,10 +3623,78 @@ ul {
 @media screen and (max-width: 320px) {
   /*1 ------------------------ PANTALLA DE INICIO ------------------------ */
   /* Header */
+  /* Logo y cursos, sobre nosotros, artículos...*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 86px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin: 27px 16px 0px 16px;
+    position: relative;
+    width: 177px;
+    flex-wrap: wrap;
+  }
+  /* Logo solo ESTO*/
+  .logo-portada {
+    width: 130px;
+    /* Establece el ancho deseado para el logo en dispositivos móviles */
+    height: 33px;
+    /* Mantiene la proporción de aspecto original */
+  }
+  /* Sacar la cruz */
+  .cruz {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 236px;
+    margin-left: 0px;
+  }
+  /* menu hamburgesa */
+  .hamburgesa {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 235px;
+    margin-left: 0px;
+    display: block;
+    /* Mostrar en dispositivos móviles */
+  }
+  /* ocultar el checkbox */
+  .nav-checkbox {
+    opacity: 0;
+    position: absolute;
+    top: -9999px;
+    /* Mueve el checkbox fuera del área visible */
+  }
+  /* interacción de menú hamburgesa y cruz con despliegue */
+  #check:checked ~ .nav-contenedor-uno {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .cruz {
+    display: block;
+  }
+  #check:checked ~ label.nav-toggle .hamburgesa {
+    display: none;
+  }
+  /* lo que se ve cuando abro el menu */
   /* Cursos solo*/
-  .cursos-cursos {
+  .cursos {
     padding-right: 0px;
     color: #585858;
+    display: block;
     padding-top: 10px;
   }
   /* Sobrenosotros solo*/
@@ -3565,35 +3720,6 @@ ul {
     color: none;
     /* Cambia el color al pasar el ratón por encima */
   }
-  /* Logo y cursos, sobre nosotros, artículos...*/
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 86px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    margin: 27px 16px 0px 16px;
-    position: relative;
-    width: 177px;
-    flex-wrap: wrap;
-  }
-  /* Icono de menú agregado ESTO*/
-  header::before {
-    content: "";
-    background-image: url(../img/cruz-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 230px;
-    margin-left: 0px;
-  }
   /* contenedor de menú beige ESTO */
   .nav-contenedor-uno {
     width: 297px;
@@ -3606,6 +3732,7 @@ ul {
     border-bottom-left-radius: 15px;
     overflow: hidden;
     min-width: 287px;
+    display: none;
   }
   /* cursos, sobre nosotros, artículos...*/
   header nav ul {
@@ -3615,19 +3742,12 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     padding-left: 24px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 0px;
   }
   /* Separación entre las palabras en el menú */
   header nav ul li {
     margin-bottom: 40px;
-  }
-  /* Logo solo ESTO*/
-  .logo-portada {
-    width: 130px;
-    /* Establece el ancho deseado para el logo en dispositivos móviles */
-    height: 33px;
-    /* Mantiene la proporción de aspecto original */
   }
   /* Portada */
   /* Toda la portada de inicio */
