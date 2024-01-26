@@ -2178,6 +2178,12 @@ ul {
 
 
 
+
+
+
+
+
+
 /*  -------  MOBILE ------- */
 
 
@@ -2359,6 +2365,9 @@ ul {
     }
 
 
+
+    
+
     /* Portada */
 
     /* Toda la portada de inicio */
@@ -2384,9 +2393,9 @@ ul {
     .verde-al-cubo section h1 {
         height: 10px;
         font-size: 48px;
-        width: 554px;
-        line-height: 0px;
-        margin-bottom: 0px;
+        width: 554%;
+        line-height: 0;
+        margin-bottom: 0;
     }
 
     /* Subtítulo: Descubrí... */
@@ -2406,8 +2415,8 @@ ul {
     .verde-al-cubo section a {
         font-size: 20px;
         padding: 15px 40px 15px 40px;
-        width: 150px;
-        height: 48px;
+        width: 150%;
+        height: 48%;
     }
 
     .verde-al-cubo section a:active {
@@ -2423,11 +2432,10 @@ ul {
         /* Esto mostrará la imagen en dispositivos móviles */
         background-position: top center;
         width: 100%;
+        max-width: 100%;
         /* Establece el ancho deseado */
         height: 200%;
         /* Establece la altura deseada */
-        margin-top: -38%;
-        /* saqué el fondo blanco que se generaba */
     }
 
     /* Estilo para la sección verde */
